@@ -1,0 +1,1193 @@
+# Italian translation for Airlinel Theme
+# Copyright (C) 2026 Airlinel
+# This file is distributed under the same license as the Airlinel Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Airlinel Theme 1.0\n"
+"Report-Msgid-Bugs-To: support@airlinel.com\n"
+"POT-Creation-Date: 2026-04-25 16:30+0000\n"
+"PO-Revision-Date: 2026-04-29 12:00+0000\n"
+"Last-Translator: Airlinel Team\n"
+"Language: it\n"
+"Language-Team: Airlinel <support@airlinel.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Book Now"
+msgstr "Prenota Ora"
+
+msgid "Instant Booking"
+msgstr "Prenotazione Istantanea"
+
+msgid "London Airport Transfer"
+msgstr "Transfer Aeroporto Londra"
+
+msgid "& Chauffeur Service"
+msgstr "& Servizio Autista"
+
+msgid "Pickup"
+msgstr "Punto di Partenza"
+
+msgid "Airport, hotel, or address"
+msgstr "Aeroporto, hotel o indirizzo"
+
+msgid "Destination"
+msgstr "Destinazione"
+
+msgid "Where are you going?"
+msgstr "Dove sta andando?"
+
+msgid "Pickup Date"
+msgstr "Data di Prelievo"
+
+msgid "Pickup Time"
+msgstr "Ora di Prelievo"
+
+msgid "Check Availability & Price"
+msgstr "Verifica Disponibilità e Prezzo"
+
+msgid "Distance"
+msgstr "Distanza"
+
+msgid "KM"
+msgstr "KM"
+
+msgid "Est. Time"
+msgstr "Tempo Stimato"
+
+msgid "No hidden fees. No surge pricing. Just precision travel."
+msgstr "Nessuna tariffa nascosta. Nessun sovrapprezzo. Solo un servizio preciso e affidabile."
+
+msgid "Book Your Airport"
+msgstr "Prenota il Suo"
+
+msgid "Transfer in Advance."
+msgstr "Transfer Aeroportuale in Anticipo."
+
+msgid "Travel Without"
+msgstr "Viaggi Senza"
+
+msgid "Friction."
+msgstr "Pensieri."
+
+msgid "Pickup Location"
+msgstr "Luogo di Prelievo"
+
+msgid "Select Your Vehicle"
+msgstr "Scelga il Suo Veicolo"
+
+msgid "Booking Details"
+msgstr "Dettagli della Prenotazione"
+
+msgid "Country"
+msgstr "Paese"
+
+msgid "Turkey"
+msgstr "Turchia"
+
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "GBP - British Pound"
+msgstr "GBP - Sterlina Britannica"
+
+msgid "EUR - Euro"
+msgstr "EUR - Euro"
+
+msgid "TRY - Turkish Lira"
+msgstr "TRY - Lira Turca"
+
+msgid "USD - US Dollar"
+msgstr "USD - Dollaro Americano"
+
+msgid "Exchange rate: 1 GBP ="
+msgstr "Tasso di cambio: 1 GBP ="
+
+msgid "Full Name"
+msgstr "Nome Completo"
+
+msgid "Email Address"
+msgstr "Indirizzo Email"
+
+msgid "Phone Number"
+msgstr "Numero di Telefono"
+
+msgid "Confirm Booking"
+msgstr "Conferma Prenotazione"
+
+msgid "Terms and Conditions"
+msgstr "Termini e Condizioni"
+
+msgid "I agree to the"
+msgstr "Accetto i"
+
+msgid "Cities"
+msgstr "Città"
+
+msgid "Airport Transfers"
+msgstr "Transfer Aeroportuali"
+
+msgid "Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+msgstr "Prenoti il suo transfer aeroportuale a Londra, Manchester, Istanbul e Antalya. Tariffe fisse, autisti professionisti, monitoraggio voli in tempo reale — disponibile 24 ore su 24."
+
+msgid "Available"
+msgstr "Disponibile"
+
+msgid "Rated"
+msgstr "Valutazione"
+
+msgid "Mercedes-Benz Fleet"
+msgstr "Flotta Mercedes-Benz"
+
+msgid "Meet & Greet"
+msgstr "Servizio di Accoglienza"
+
+msgid "Flight Tracking"
+msgstr "Monitoraggio Voli"
+
+msgid "Fixed Rates"
+msgstr "Tariffe Fisse"
+
+msgid "No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+msgstr "Nessuna città trovata. Aggiunga categorie tramite WordPress Admin → Post → Categorie."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Pronto a Prenotare il Suo Transfer?"
+
+msgid "Select your city above or book directly — any destination, any time."
+msgstr "Scelga la sua città sopra o prenoti direttamente — qualsiasi destinazione, in qualsiasi momento."
+
+msgid "Fleet"
+msgstr "La Nostra Flotta"
+
+msgid "Our Premium Vehicles"
+msgstr "I Nostri Veicoli Premium"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Available Now"
+msgstr "Disponibile Ora"
+
+msgid "No vehicles in fleet at this time."
+msgstr "Nessun veicolo disponibile al momento."
+
+msgid "Premium Selection"
+msgstr "Selezione Premium"
+
+msgid "Hand-curated vehicles maintained to the highest standards."
+msgstr "Veicoli selezionati con cura e mantenuti ai più alti standard."
+
+msgid "Fully Insured"
+msgstr "Completamente Assicurato"
+
+msgid "Complete coverage on all vehicles with comprehensive insurance."
+msgstr "Copertura completa su tutti i veicoli con assicurazione globale."
+
+msgid "Expert Chauffeurs"
+msgstr "Autisti Esperti"
+
+msgid "Professionally trained drivers with extensive experience."
+msgstr "Autisti formati professionalmente con vasta esperienza."
+
+msgid "Always On Time"
+msgstr "Sempre Puntuali"
+
+msgid "Punctuality guaranteed with real-time tracking."
+msgstr "Puntualità garantita con monitoraggio in tempo reale."
+
+msgid "Eco-Conscious"
+msgstr "Ecologicamente Consapevole"
+
+msgid "Modern vehicles with reduced emissions."
+msgstr "Veicoli moderni con emissioni ridotte."
+
+msgid "Connected Travel"
+msgstr "Viaggio Connesso"
+
+msgid "WiFi and premium amenities in every vehicle."
+msgstr "WiFi gratuito e comfort premium in ogni veicolo."
+
+msgid "Services"
+msgstr "I Nostri Servizi"
+
+msgid "Reliable airport transportation with professional drivers and real-time tracking."
+msgstr "Trasporto aeroportuale affidabile con autisti professionisti e monitoraggio in tempo reale."
+
+msgid "Partners"
+msgstr "Partner"
+
+msgid "Apply for Partnership"
+msgstr "Richiedi una Partnership"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Compili il modulo sottostante e valuteremo la sua candidatura"
+
+msgid "Full Name *"
+msgstr "Nome Completo *"
+
+msgid "Email Address *"
+msgstr "Indirizzo Email *"
+
+msgid "Phone Number *"
+msgstr "Numero di Telefono *"
+
+msgid "Current Job / Position *"
+msgstr "Lavoro / Posizione Attuale *"
+
+msgid "Select your position..."
+msgstr "Seleziona la sua posizione..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Proprietario / Direttore d'Hotel"
+
+msgid "Travel Agency"
+msgstr "Agenzia di Viaggi"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Agenzia di Viaggi Online (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Residenza Studentesca"
+
+msgid "Overseas Education Agency"
+msgstr "Agenzia di Studi all'Estero"
+
+msgid "Consulate / Embassy"
+msgstr "Consolato / Ambasciata"
+
+msgid "Other"
+msgstr "Altro"
+
+msgid "Company / Organization Name"
+msgstr "Nome dell'Azienda / Organizzazione"
+
+msgid "Questions About Partnership?"
+msgstr "Domande sulla Partnership?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Contatti il nostro team partnership e la guideremo passo dopo passo"
+
+msgid "Book Your Airport Transfer"
+msgstr "Prenoti il Suo Transfer Aeroportuale"
+
+msgid "Top Destinations"
+msgstr "Destinazioni più Richieste"
+
+msgid "Heathrow Transfers"
+msgstr "Transfer Aeroporto Heathrow"
+
+msgid "Gatwick Chauffeur"
+msgstr "Autista Gatwick"
+
+msgid "Stansted Airport Cars"
+msgstr "Transfer Aeroporto Stansted"
+
+msgid "Luton Transfers"
+msgstr "Transfer Aeroporto Luton"
+
+msgid "London City Airport"
+msgstr "Aeroporto London City"
+
+msgid "Manchester Airport"
+msgstr "Aeroporto di Manchester"
+
+msgid "Birmingham Transfers"
+msgstr "Transfer Birmingham"
+
+msgid "Edinburgh Airport"
+msgstr "Aeroporto di Edimburgo"
+
+msgid "Bristol Transfers"
+msgstr "Transfer Bristol"
+
+msgid "Glasgow Chauffeur"
+msgstr "Autista Glasgow"
+
+msgid "Istanbul Airport"
+msgstr "Aeroporto di Istanbul"
+
+msgid "Antalya Luxury Transfer"
+msgstr "Transfer di Lusso Antalya"
+
+msgid "Sabiha Gökçen Airport"
+msgstr "Aeroporto Sabiha Gökçen"
+
+msgid "Istanbul New Airport"
+msgstr "Nuovo Aeroporto di Istanbul"
+
+msgid "Bodrum Airport"
+msgstr "Aeroporto di Bodrum"
+
+msgid "Corporate Chauffeur"
+msgstr "Autista Aziendale"
+
+msgid "VIP Chauffeur London"
+msgstr "Autista VIP Londra"
+
+msgid "Executive Travel UK"
+msgstr "Viaggi Executive Regno Unito"
+
+msgid "Business Car Service"
+msgstr "Servizio Auto Business"
+
+msgid "Corporate Account"
+msgstr "Account Aziendale"
+
+msgid "All Services"
+msgstr "Tutti i Servizi"
+
+msgid "What Do We Do?"
+msgstr "Cosa Offriamo?"
+
+msgid "Wedding Transport"
+msgstr "Trasporto per Matrimoni"
+
+msgid "Cruise Port Transfers"
+msgstr "Transfer Porto Crociere"
+
+msgid "Company"
+msgstr "Azienda"
+
+msgid "About Us"
+msgstr "Chi Siamo"
+
+msgid "Contact Us"
+msgstr "Contattaci"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Careers"
+msgstr "Lavora con Noi"
+
+msgid "Legal"
+msgstr "Note Legali"
+
+msgid "Privacy Policy"
+msgstr "Informativa sulla Privacy"
+
+msgid "Terms of Service"
+msgstr "Termini di Servizio"
+
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+msgid "Transfer Services"
+msgstr "Servizi di Transfer"
+
+msgid "Guide"
+msgstr "Guida"
+
+msgid "Guides"
+msgstr "Guide"
+
+msgid "Travel Guides"
+msgstr "Guide di Viaggio"
+
+msgid "No guides published for"
+msgstr "Nessuna guida pubblicata per"
+
+msgid "yet."
+msgstr ""
+
+msgid "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+msgstr "Airlinel: AIRLINEL_MAIN_SITE_API_KEY non è configurato in wp-config.php"
+
+msgid "Trusted by travelers who don't compromise"
+msgstr "La scelta dei viaggiatori più esigenti"
+
+msgid "Why Choose Airlinel for London Airport Transfers"
+msgstr "Perché Scegliere Airlinel per i Transfer a Londra?"
+
+msgid "Real-Time Flight Tracking"
+msgstr "Monitoraggio Voli in Tempo Reale"
+
+msgid "We monitor your flight automatically and adjust pickup times accordingly."
+msgstr "Monitoriamo il suo volo automaticamente e adattiamo l'orario di prelievo di conseguenza."
+
+msgid "Executive-Level Chauffeurs"
+msgstr "Autisti di Livello Esecutivo"
+
+msgid "Professionally trained, impeccably presented, and multilingual."
+msgstr "Formati professionalmente, impeccabilmente presentati e multilingua."
+
+msgid "Fixed Transparent Pricing"
+msgstr "Prezzi Fissi e Trasparenti"
+
+msgid "No surge pricing. No hidden fees. The price you see is final."
+msgstr "Nessun sovrapprezzo. Nessun costo nascosto. Il prezzo visualizzato è quello finale."
+
+msgid "Meet & Greet Included"
+msgstr "Accoglienza Personalizzata Inclusa"
+
+msgid "Your chauffeur will meet you at arrivals with a name board."
+msgstr "Il suo autista la accoglierà agli arrivi con un cartello col suo nome."
+
+msgid "24/7 Global Support"
+msgstr "Supporto Globale 24/7"
+
+msgid "Round-the-clock assistance in multiple languages, wherever you are."
+msgstr "Assistenza continua in più lingue, ovunque si trovi."
+
+msgid "Luxury Fleet Guarantee"
+msgstr "Garanzia Flotta di Lusso"
+
+msgid "Immaculate vehicles maintained to showroom standards daily."
+msgstr "Veicoli impeccabili, mantenuti quotidianamente agli standard showroom."
+
+msgid "Instant Booking Confirmation"
+msgstr "Conferma di Prenotazione Immediata"
+
+msgid "Receive immediate confirmation with full journey details."
+msgstr "Riceva conferma immediata con tutti i dettagli del viaggio."
+
+msgid "Multilingual Drivers"
+msgstr "Autisti Multilingua"
+
+msgid "English, Turkish, and other languages spoken fluently."
+msgstr "Inglese, turco e altre lingue parlate correntemente."
+
+msgid "Corporate Billing Available"
+msgstr "Fatturazione Aziendale Disponibile"
+
+msgid "Streamlined invoicing and account management for businesses."
+msgstr "Fatturazione semplificata e gestione account per aziende."
+
+msgid "Airport Transfer Services Tailored for Every Journey"
+msgstr "Transfer Aeroportuali su Misura per Ogni Viaggio"
+
+msgid "Precision transport designed for how the world moves today."
+msgstr "Trasporto di precisione progettato per il ritmo del mondo moderno."
+
+msgid "Seamless arrivals and departures with precision timing."
+msgstr "Arrivi e partenze senza intoppi con una puntualità millimetrica."
+
+msgid "Airport Transfer Services in London"
+msgstr "Servizi di Transfer Aeroportuale a Londra"
+
+msgid "Corporate Travel"
+msgstr "Viaggi d'Affari"
+
+msgid "Executive transport for professionals who value punctuality."
+msgstr "Trasporto executive per professionisti che valorizzano la puntualità."
+
+msgid "Corporate Airport Travel Services"
+msgstr "Servizi di Transfer Aeroportuale per Aziende"
+
+msgid "Wedding Transport & Chauffeur Service"
+msgstr "Trasporto Matrimoni & Servizio Autista"
+
+msgid "Your special day deserves seamless, elegant transportation."
+msgstr "Il suo giorno speciale merita un trasporto elegante e impeccabile."
+
+msgid "VIP Chauffeur"
+msgstr "Autista VIP"
+
+msgid "Full-day dedicated chauffeur for discerning clients."
+msgstr "Autista dedicato per l'intera giornata per clienti esigenti."
+
+msgid "VIP Chauffeur Service Details"
+msgstr "Dettagli del Servizio Autista VIP"
+
+msgid "Event Transport"
+msgstr "Trasporto per Eventi"
+
+msgid "Coordinated group transport for conferences and galas."
+msgstr "Trasporto di gruppo coordinato per conferenze e serate di gala."
+
+msgid "Event & Conference Transport"
+msgstr "Trasporto per Eventi e Conferenze"
+
+msgid "Hotel Transfers"
+msgstr "Transfer Hotel"
+
+msgid "Direct transfer to your accommodation with luggage assistance."
+msgstr "Transfer diretto verso il suo alloggio con assistenza bagagli."
+
+msgid "Hotel Airport Transfer Service"
+msgstr "Servizio Transfer Hotel-Aeroporto"
+
+msgid "Seamless transfer from port to airport or accommodation."
+msgstr "Transfer senza intoppi dal porto all'aeroporto o all'hotel."
+
+msgid "Cruise Port Transfer Service"
+msgstr "Servizio Transfer Porto Crociere"
+
+msgid "Private City Tours"
+msgstr "Tour Privati della Città"
+
+msgid "Bespoke city tours with local insider knowledge."
+msgstr "Tour su misura con la conoscenza privilegiata di un locale."
+
+msgid "Private City Tour Packages"
+msgstr "Pacchetti Tour Privati della Città"
+
+msgid "Most Requested by Executives"
+msgstr "Il Più Richiesto dai Manager"
+
+msgid "Business Class Mobility"
+msgstr "Mobilità Business Class"
+
+msgid "Elite-tier service combining chauffeur, executive assistant, and mobile office."
+msgstr "Servizio d'élite che unisce autista, assistente esecutivo e ufficio mobile."
+
+msgid "Business Class Mobility Service"
+msgstr "Servizio di Mobilità Business Class"
+
+msgid "Travel Intelligence"
+msgstr "Guide di Viaggio"
+
+msgid "Strategies, insights, and destination expertise for travelers who move differently."
+msgstr "Strategie, approfondimenti e competenze sulle destinazioni per viaggiatori esigenti."
+
+msgid "View All Articles"
+msgstr "Visualizza Tutti gli Articoli"
+
+msgid "Stop booking taxis."
+msgstr "Smetta di prenotare taxi ordinari."
+
+msgid "Start traveling properly."
+msgstr "Inizi a viaggiare come si deve."
+
+msgid "Experience the difference when every detail is engineered, every arrival is anticipated, and every journey feels effortless."
+msgstr "Viva la differenza quando ogni dettaglio è curato, ogni arrivo anticipato e ogni viaggio diventa naturale."
+
+msgid "Book Your Ride"
+msgstr "Prenoti il Suo Viaggio"
+
+msgid "Instant Confirmation"
+msgstr "Conferma Immediata"
+
+msgid "24/7 Support"
+msgstr "Supporto 24/7"
+
+msgid "Free Cancellation"
+msgstr "Cancellazione Gratuita"
+
+msgid "Earn With"
+msgstr "Guadagna con"
+
+msgid "Join our global partner network and unlock preferred pricing, priority booking access, and immediate commission payouts."
+msgstr "Unisciti alla nostra rete globale di partner e accedi a tariffe preferenziali, prenotazioni prioritarie e commissioni pagate immediatamente."
+
+msgid "Average partners earn £100/week"
+msgstr "I partner guadagnano in media £100 a settimana"
+
+msgid "Discounted transfer rates for your guests"
+msgstr "Tariffe di transfer ridotte per i suoi ospiti"
+
+msgid "Earn commission on every booking"
+msgstr "Guadagna commissioni su ogni prenotazione"
+
+msgid "Instant payouts with zero delays"
+msgstr "Pagamenti istantanei senza ritardi"
+
+msgid "API access available"
+msgstr "Accesso API disponibile"
+
+msgid "Dedicated partner support team"
+msgstr "Team di supporto dedicato ai partner"
+
+msgid "Zero operational hassle"
+msgstr "Zero complessità operative"
+
+msgid "Become a Partner"
+msgstr "Diventa Partner"
+
+msgid "Trusted by hospitality professionals worldwide"
+msgstr "La fiducia dei professionisti dell'ospitalità di tutto il mondo"
+
+msgid "Drive With"
+msgstr "Guida con"
+
+msgid "Turn your vehicle into a premium earning asset. Work on your terms while accessing high-value clients."
+msgstr "Trasforma il suo veicolo in una fonte di reddito premium. Lavori alle sue condizioni accedendo a clienti di alto profilo."
+
+msgid "High earning potential with"
+msgstr "Alto potenziale di guadagno con"
+
+msgid "premium rates"
+msgstr "tariffe premium"
+
+msgid "Access to premium passenger base"
+msgstr "Accesso a una base di passeggeri premium"
+
+msgid "Flexible schedule—you decide when"
+msgstr "Orario flessibile — decide lei quando"
+
+msgid "Fast onboarding and training"
+msgstr "Onboarding rapido e formazione professionale"
+
+msgid "Consistent ride flow and bookings"
+msgstr "Flusso costante di corse e prenotazioni"
+
+msgid "Average drivers earn £1000/week"
+msgstr "Gli autisti guadagnano in media £1000 a settimana"
+
+msgid "Apply to Drive"
+msgstr "Candidati come Autista"
+
+msgid "Serious drivers only"
+msgstr "Solo autisti professionisti"
+
+msgid "Upgrade the Way You Travel."
+msgstr "Eleva il Suo Modo di Viaggiare."
+
+msgid "London Transfers"
+msgstr "Transfer Londra"
+
+msgid "UK Regional"
+msgstr "Regioni UK"
+
+msgid "Turkey Transfers"
+msgstr "Transfer Turchia"
+
+msgid "Corporate"
+msgstr "Aziendale"
+
+msgid "Quick Links"
+msgstr "Link Rapidi"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Service Rates"
+msgstr "Tariffe"
+
+msgid "Our Fleet"
+msgstr "La Nostra Flotta"
+
+msgid "Testimonials"
+msgstr "Recensioni"
+
+msgid "Questions & Answers"
+msgstr "Domande Frequenti"
+
+msgid "Photo Gallery"
+msgstr "Galleria Fotografica"
+
+msgid "Video Gallery"
+msgstr "Galleria Video"
+
+msgid "News"
+msgstr "Notizie"
+
+msgid "Contact — United Kingdom"
+msgstr "Contatto — Regno Unito"
+
+msgid "Contact — Türkiye"
+msgstr "Contatto — Turchia"
+
+msgid "Career"
+msgstr "Carriera"
+
+msgid "Driver Job Application"
+msgstr "Candidatura Autista"
+
+msgid "Legal &amp; Policy"
+msgstr "Legale & Policy"
+
+msgid "Terms &amp; Conditions"
+msgstr "Termini e Condizioni"
+
+msgid "Refund &amp; Cancellation"
+msgstr "Rimborso e Cancellazione"
+
+msgid "Publishing Principles"
+msgstr "Principi Editoriali"
+
+msgid "Ethics Policy"
+msgstr "Politica Etica"
+
+msgid "Diversity Policy"
+msgstr "Politica sulla Diversità"
+
+msgid "Diversity Staffing Report"
+msgstr "Report Diversità del Personale"
+
+msgid "Ownership &amp; Funding"
+msgstr "Proprietà e Finanziamento"
+
+msgid "Corrections Policy"
+msgstr "Politica delle Correzioni"
+
+msgid "Actionable Feedback Policy"
+msgstr "Politica dei Feedback"
+
+msgid "TfL Licensed"
+msgstr "Licenza TfL"
+
+msgid "5-Star Rated"
+msgstr "Valutazione 5 Stelle"
+
+msgid "Secure Payments"
+msgstr "Pagamento Sicuro"
+
+msgid "Need a Custom Solution?"
+msgstr "Ha Bisogno di una Soluzione su Misura?"
+
+msgid "By"
+msgstr "Di"
+
+msgid "Continue Reading"
+msgstr "Continua a Leggere"
+
+msgid "24/7 Service Available"
+msgstr "Servizio Disponibile 24/7"
+
+msgid "Book a Transfer"
+msgstr "Prenota un Transfer"
+
+msgid "Read Guide"
+msgstr "Leggi la Guida"
+
+msgid "Service Locations"
+msgstr "Aree di Servizio"
+
+msgid "Two Continents."
+msgstr "Due Continenti."
+
+msgid "One Standard."
+msgstr "Un Solo Standard."
+
+msgid "Airport transfers across the UK and Turkey — professional drivers, fixed rates, real-time flight tracking."
+msgstr "Transfer aeroportuali in UK e Turchia — autisti professionisti, tariffe fisse, monitoraggio voli in tempo reale."
+
+msgid "View All Cities"
+msgstr "Visualizza Tutte le Città"
+
+msgid "Verify"
+msgstr "Verifica"
+
+msgid "Leave blank if you don't have one"
+msgstr "Lasci vuoto se non ne ha uno"
+
+msgid "Selected Vehicle"
+msgstr "Veicolo Selezionato"
+
+msgid "Agency Verified"
+msgstr "Agenzia Verificata"
+
+msgid "Agency Name"
+msgstr "Nome dell'Agenzia"
+
+msgid "Commission %"
+msgstr "Commissione %"
+
+msgid "Your Savings"
+msgstr "Il Suo Risparmio"
+
+msgid "Commission has been applied to your booking"
+msgstr "La commissione è stata applicata alla sua prenotazione"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Invalid Agency Code"
+msgstr "Codice Agenzia Non Valido"
+
+msgid "Try Again"
+msgstr "Riprova"
+
+msgid "Ready to Experience Premium Travel?"
+msgstr "Pronto a Vivere un'Esperienza di Viaggio Premium?"
+
+msgid "Book your service today and discover the Airlinel difference."
+msgstr "Prenoti oggi e scopra la differenza Airlinel."
+
+msgid "Learn More"
+msgstr "Scopri di Più"
+
+msgid "Why Choose Our Fleet?"
+msgstr "Perché Scegliere la Nostra Flotta?"
+
+msgid "View Full Details"
+msgstr "Visualizza Tutti i Dettagli"
+
+msgid "Book This Vehicle"
+msgstr "Prenota Questo Veicolo"
+
+msgid "Experience Premium Transportation"
+msgstr "Vivi il Trasporto Premium"
+
+msgid "Book one of our premium vehicles today and discover the Airlinel difference."
+msgstr "Prenoti uno dei nostri veicoli premium oggi e scopra la differenza Airlinel."
+
+msgid "Book Your Ride Now"
+msgstr "Prenota Ora"
+
+msgid "Premium Transfer Service"
+msgstr "Servizio di Transfer Premium"
+
+msgid "Where to"
+msgstr "Dove"
+
+msgid "Next?"
+msgstr "si va?"
+
+msgid "Experience luxury and punctuality. Book your private chauffeur in just a few clicks."
+msgstr "Vivi lusso e puntualità. Prenota il tuo autista privato in pochi semplici clic."
+
+msgid "Total Distance"
+msgstr "Distanza Totale"
+
+msgid "Est. Duration"
+msgstr "Durata Stimata"
+
+msgid "About Airlinel"
+msgstr "Chi è Airlinel"
+
+msgid "Get in Touch"
+msgstr "Contattaci"
+
+msgid "Our Mission"
+msgstr "La Nostra Missione"
+
+msgid "Reliability"
+msgstr "Affidabilità"
+
+msgid "On-time arrivals and dependable service you can trust."
+msgstr "Arrivi puntuali e un servizio affidabile di cui puoi fidarti."
+
+msgid "Excellence"
+msgstr "Eccellenza"
+
+msgid "Consistently delivering premium service standards."
+msgstr "Offrire costantemente standard di servizio premium."
+
+msgid "Customer Care"
+msgstr "Assistenza Clienti"
+
+msgid "Your satisfaction is our top priority."
+msgstr "La tua soddisfazione è la nostra massima priorità."
+
+msgid "By The Numbers"
+msgstr "In Numeri"
+
+msgid "Years in Business"
+msgstr "Anni di Attività"
+
+msgid "Happy Customers"
+msgstr "Clienti Soddisfatti"
+
+msgid "Vehicles in Fleet"
+msgstr "Veicoli nella Flotta"
+
+msgid "Daily Rides"
+msgstr "Corse Giornaliere"
+
+msgid "Our Story"
+msgstr "La Nostra Storia"
+
+msgid "Why Choose Airlinel?"
+msgstr "Perché Scegliere Airlinel?"
+
+msgid "Industry Certified"
+msgstr "Certificato del Settore"
+
+msgid "Licensed and fully insured for your peace of mind."
+msgstr "Autorizzato e completamente assicurato per la tua tranquillità."
+
+msgid "Safety First"
+msgstr "La Sicurezza Prima di Tutto"
+
+msgid "Professional drivers with extensive background checks."
+msgstr "Autisti professionisti con approfonditi controlli sui precedenti."
+
+msgid "24/7 Available"
+msgstr "Disponibile 24/7"
+
+msgid "Round-the-clock service for all your transfer needs."
+msgstr "Servizio 24 ore su 24 per tutte le tue esigenze di trasferimento."
+
+msgid "Consistently praised by our satisfied customers."
+msgstr "Costantemente apprezzato dai nostri clienti soddisfatti."
+
+msgid "Ready to Experience Premium Service?"
+msgstr "Pronto a Vivere il Servizio Premium?"
+
+msgid "Join thousands of satisfied customers who trust Airlinel for their airport transfers."
+msgstr "Unisciti a migliaia di clienti soddisfatti che si affidano ad Airlinel per i loro trasferimenti aeroportuali."
+
+msgid "Book Your Transfer Today"
+msgstr "Prenota il Tuo Trasferimento Oggi"
+msgid "Have questions? We're here to help. Contact us today for more information about our services."
+msgstr "Hai domande? Siamo qui per aiutarti. Contattaci oggi per ulteriori informazioni sui nostri servizi."
+
+msgid "Contact Information"
+msgstr "Informazioni di Contatto"
+
+msgid "Phone"
+msgstr "Telefono"
+
+msgid "Available 24/7"
+msgstr "Disponibile 24/7"
+
+msgid "Available during business hours"
+msgstr "Disponibile durante l'orario lavorativo"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "We'll respond within 2 hours"
+msgstr "Risponderemo entro 2 ore"
+
+msgid "Address"
+msgstr "Indirizzo"
+
+msgid "Business Hours"
+msgstr "Orario di Lavoro"
+
+msgid "We are currently open"
+msgstr "Siamo attualmente aperti"
+
+msgid "We are currently closed"
+msgstr "Siamo attualmente chiusi"
+
+msgid "Send us a Message"
+msgstr "Inviaci un Messaggio"
+
+msgid "Full Name *"
+msgstr "Nome Completo *"
+
+msgid "Email Address *"
+msgstr "Indirizzo E-mail *"
+
+msgid "Phone Number"
+msgstr "Numero di Telefono"
+
+msgid "Subject *"
+msgstr "Oggetto *"
+
+msgid "-- Select a subject --"
+msgstr "-- Seleziona un oggetto --"
+
+msgid "Booking Inquiry"
+msgstr "Richiesta di Prenotazione"
+
+msgid "General Question"
+msgstr "Domanda Generale"
+
+msgid "Complaint or Feedback"
+msgstr "Reclamo o Feedback"
+
+msgid "Partnership Opportunity"
+msgstr "Opportunità di Partnership"
+
+msgid "Other"
+msgstr "Altro"
+
+msgid "Message *"
+msgstr "Messaggio *"
+
+msgid "Please tell us how we can help..."
+msgstr "Dicci come possiamo aiutarti..."
+
+msgid "Your information is secure and will only be used to respond to your inquiry."
+msgstr "Le tue informazioni sono al sicuro e verranno utilizzate solo per rispondere alla tua richiesta."
+
+msgid "Send Message"
+msgstr "Invia Messaggio"
+
+msgid "Find Us"
+msgstr "Trovaci"
+
+msgid "Frequently Asked Questions"
+msgstr "Domande Frequenti"
+
+msgid "How far in advance should I book?"
+msgstr "Con quanto anticipo dovrei prenotare?"
+
+msgid "We recommend booking at least 24 hours in advance for best availability. However, we do accept same-day bookings depending on our current schedule. Contact us directly for urgent bookings."
+msgstr "Consigliamo di prenotare almeno 24 ore in anticipo per la migliore disponibilità. Tuttavia, accettiamo prenotazioni in giornata a seconda del programma. Contattaci direttamente per prenotazioni urgenti."
+
+msgid "What payment methods do you accept?"
+msgstr "Quali metodi di pagamento accettate?"
+
+msgid "We accept all major credit cards, debit cards, and bank transfers. Online payment is processed securely through our booking system. You can also pay directly to the driver if pre-arranged."
+msgstr "Accettiamo tutte le principali carte di credito, carte di debito e bonifici bancari. Il pagamento online viene elaborato in modo sicuro tramite il nostro sistema di prenotazione. Puoi anche pagare direttamente all'autista se concordato in anticipo."
+
+msgid "What if I need to cancel my booking?"
+msgstr "Cosa succede se devo cancellare la mia prenotazione?"
+
+msgid "Cancellations made 24 hours or more in advance receive a full refund. Cancellations within 24 hours may incur a cancellation fee. Please contact us immediately if you need to modify your booking."
+msgstr "Le cancellazioni effettuate 24 ore o più in anticipo ricevono un rimborso completo. Le cancellazioni entro 24 ore possono comportare una penale. Contattaci immediatamente se hai bisogno di modificare la prenotazione."
+
+msgid "Are your vehicles wheelchair accessible?"
+msgstr "I vostri veicoli sono accessibili ai disabili in carrozzina?"
+
+msgid "Yes, we have wheelchair accessible vehicles available. Please mention your accessibility requirements when booking so we can arrange the appropriate vehicle for your needs."
+msgstr "Sì, abbiamo veicoli accessibili per sedie a rotelle. Indica i tuoi requisiti di accessibilità durante la prenotazione in modo che possiamo preparare il veicolo appropriato."
+
+msgid "Can I bring luggage and how much is included?"
+msgstr "Posso portare bagagli e quanto è incluso?"
+
+msgid "Absolutely! All our vehicles have spacious boot space to accommodate standard luggage. Oversized baggage may require a larger vehicle. Our team will assist with luggage handling as part of our service."
+msgstr "Assolutamente! Tutti i nostri veicoli hanno ampio spazio nel bagagliaio per i bagagli standard. I bagagli di grandi dimensioni potrebbero richiedere un veicolo più grande. Il nostro team ti aiuterà con la gestione dei bagagli come parte del nostro servizio."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Pronto a Prenotare il Tuo Trasferimento?"
+
+msgid "Experience premium airport transfer service today."
+msgstr "Sperimenta oggi il servizio di trasferimento aeroportuale premium."
+msgid "Home"
+msgstr "Home"
+
+msgid "Partners"
+msgstr "Partner"
+
+msgid "Become Our Partner"
+msgstr "Diventa Nostro Partner"
+
+msgid "Join our network of agencies and unlock exclusive opportunities for your business"
+msgstr "Unisciti alla nostra rete di agenzie e sblocca opportunità esclusive per la tua attività"
+
+msgid "Apply for Partnership"
+msgstr "Richiedi Partnership"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Compila il modulo sottostante e esamineremo la tua candidatura"
+
+msgid "Phone Number *"
+msgstr "Numero di Telefono *"
+
+msgid "Current Job / Position *"
+msgstr "Lavoro / Posizione Attuale *"
+
+msgid "Select your position..."
+msgstr "Seleziona la tua posizione..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Proprietario / Direttore d'Hotel"
+
+msgid "Travel Agency"
+msgstr "Agenzia di Viaggi"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Agenzia di Viaggi Online (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Residenza Studentesca"
+
+msgid "Overseas Education Agency"
+msgstr "Agenzia di Studi all'Estero"
+
+msgid "Consulate / Embassy"
+msgstr "Consolato / Ambasciata"
+
+msgid "Company / Organization Name"
+msgstr "Nome Azienda / Organizzazione"
+
+msgid "I agree to the Terms & Conditions and understand that I will receive an agency code after verification."
+msgstr "Accetto i Termini e Condizioni e capisco che riceverò un codice agenzia dopo la verifica."
+
+msgid "Apply for Agency Partnership"
+msgstr "Candidati per Partnership Agenzia"
+
+msgid "Questions About Partnership?"
+msgstr "Domande sulla Partnership?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Contatta il nostro team di partnership e ti aiuteremo a iniziare"
+
+msgid "Book a Ride"
+msgstr "Prenota un Viaggio"
+
+msgid "Contact Support"
+msgstr "Contatta il Supporto"
+msgid "by"
+msgstr "per"
+
+msgid "City"
+msgstr "Città"
+
+msgid "Real-time flight tracking & guaranteed punctuality."
+msgstr "Tracciamento dei voli in tempo reale e puntualità garantita."
+
+msgid "Fully Licensed"
+msgstr "Completamente autorizzato"
+
+msgid "TfL licensed. All drivers professionally vetted & insured."
+msgstr "Autorizzato TfL. Tutti gli autisti sono professionalmente verificati e assicurati."
+
+msgid "Thousands of verified reviews from worldwide travellers."
+msgstr "Migliaia di recensioni verificate da viaggiatori di tutto il mondo."
+
+msgid "Around the clock support in English and Turkish."
+msgstr "Supporto 24 ore su 24 in inglese e turco."
+msgid "Total Price"
+msgstr "Prezzo totale"
+
+msgid "Passengers"
+msgstr "Passeggeri"
+
+msgid "Luggage"
+msgstr "Bagagli"
+
+msgid "Select"
+msgstr "Seleziona"
+
+msgid "UK &amp; Turkey &middot; 24 / 7 &middot; Fixed Rates &middot; Meet &amp; Greet"
+msgstr "UK &amp; Turchia &middot; 24 / 7 &middot; Tariffe fisse &middot; Servizio di accoglienza"
+
+msgid "+44 7911 123456"
+msgstr "+44 7911 123456"
+
+msgid "e.g. TK1234"
+msgstr "es. TK1234"
+
+msgid "Enter your agency code"
+msgstr "Inserisci il codice agenzia"
+
+msgid "The agency code you entered could not be verified."
+msgstr "Il codice agenzia inserito non ha potuto essere verificato."
+msgid "Services"
+msgstr "Servizi"
+
+msgid "PAY"
+msgstr "PAGA"
+
+msgid "Payment Details"
+msgstr "Dettagli di pagamento"
+
+msgid "Corporate"
+msgstr "Aziendale"
+
+msgid "Turkey Transfers"
+msgstr "Transfer Turchia"
+
+msgid "Extra Notes"
+msgstr "Note aggiuntive"
+
+msgid "NOW"
+msgstr "ORA"
+
+msgid "London Transfers"
+msgstr "Transfer Londra"
+
+msgid "Secured by Stripe"
+msgstr "Protetto da Stripe"
+
+msgid "UK Regional"
+msgstr "Regionale UK"
+
+
+msgid "Read More"
+msgstr "Leggi di più"
+
+msgid "Read Less"
+msgstr "Leggi meno"
+
+msgid "Premium airport transfers &amp; chauffeur services across the UK and Turkey. Professional drivers, fixed rates, 24/7."
+msgstr "Trasferimenti aeroportuali premium e servizi di autista nel Regno Unito e in Turchia. Autisti professionali, tariffe fisse, 24/7."

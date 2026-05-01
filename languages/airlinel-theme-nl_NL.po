@@ -1,0 +1,1193 @@
+# Dutch translation for Airlinel Theme
+# Copyright (C) 2026 Airlinel
+# This file is distributed under the same license as the Airlinel Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Airlinel Theme 1.0\n"
+"Report-Msgid-Bugs-To: support@airlinel.com\n"
+"POT-Creation-Date: 2026-04-25 16:30+0000\n"
+"PO-Revision-Date: 2026-04-29 12:00+0000\n"
+"Last-Translator: Airlinel Team\n"
+"Language: nl\n"
+"Language-Team: Airlinel <support@airlinel.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Book Now"
+msgstr "Nu Boeken"
+
+msgid "Instant Booking"
+msgstr "Direct Boeken"
+
+msgid "London Airport Transfer"
+msgstr "Luchthaventransfer Londen"
+
+msgid "& Chauffeur Service"
+msgstr "& Chauffeurservice"
+
+msgid "Pickup"
+msgstr "Ophaallocatie"
+
+msgid "Airport, hotel, or address"
+msgstr "Luchthaven, hotel of adres"
+
+msgid "Destination"
+msgstr "Bestemming"
+
+msgid "Where are you going?"
+msgstr "Waar gaat u naartoe?"
+
+msgid "Pickup Date"
+msgstr "Ophaaldatum"
+
+msgid "Pickup Time"
+msgstr "Ophaaltijd"
+
+msgid "Check Availability & Price"
+msgstr "Beschikbaarheid & Prijs Controleren"
+
+msgid "Distance"
+msgstr "Afstand"
+
+msgid "KM"
+msgstr "KM"
+
+msgid "Est. Time"
+msgstr "Geschatte Tijd"
+
+msgid "No hidden fees. No surge pricing. Just precision travel."
+msgstr "Geen verborgen kosten. Geen dynamische prijzen. Alleen betrouwbare, precieze service."
+
+msgid "Book Your Airport"
+msgstr "Boek Uw"
+
+msgid "Transfer in Advance."
+msgstr "Luchthaventransfer van Tevoren."
+
+msgid "Travel Without"
+msgstr "Reizen Zonder"
+
+msgid "Friction."
+msgstr "Zorgen."
+
+msgid "Pickup Location"
+msgstr "Ophaallocatie"
+
+msgid "Select Your Vehicle"
+msgstr "Kies Uw Voertuig"
+
+msgid "Booking Details"
+msgstr "Boekingsdetails"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Turkey"
+msgstr "Turkije"
+
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "GBP - British Pound"
+msgstr "GBP - Brits Pond"
+
+msgid "EUR - Euro"
+msgstr "EUR - Euro"
+
+msgid "TRY - Turkish Lira"
+msgstr "TRY - Turkse Lira"
+
+msgid "USD - US Dollar"
+msgstr "USD - Amerikaanse Dollar"
+
+msgid "Exchange rate: 1 GBP ="
+msgstr "Wisselkoers: 1 GBP ="
+
+msgid "Full Name"
+msgstr "Volledige Naam"
+
+msgid "Email Address"
+msgstr "E-mailadres"
+
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+msgid "Confirm Booking"
+msgstr "Boeking Bevestigen"
+
+msgid "Terms and Conditions"
+msgstr "Algemene Voorwaarden"
+
+msgid "I agree to the"
+msgstr "Ik ga akkoord met de"
+
+msgid "Cities"
+msgstr "Steden"
+
+msgid "Airport Transfers"
+msgstr "Luchthaventransfers"
+
+msgid "Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+msgstr "Boek luchthaventransfers in Londen, Manchester, Istanbul en Antalya. Vaste tarieven, professionele chauffeurs, real-time vluchtvolgservice — 24/7 beschikbaar."
+
+msgid "Available"
+msgstr "Beschikbaar"
+
+msgid "Rated"
+msgstr "Beoordeling"
+
+msgid "Mercedes-Benz Fleet"
+msgstr "Mercedes-Benz Wagenpark"
+
+msgid "Meet & Greet"
+msgstr "Ontvangstservice"
+
+msgid "Flight Tracking"
+msgstr "Vluchtvolging"
+
+msgid "Fixed Rates"
+msgstr "Vaste Tarieven"
+
+msgid "No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+msgstr "Geen steden gevonden. Voeg categorieën toe via WordPress Admin → Berichten → Categorieën."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Klaar om Uw Transfer te Boeken?"
+
+msgid "Select your city above or book directly — any destination, any time."
+msgstr "Kies uw stad hierboven of boek direct — elke bestemming, op elk moment."
+
+msgid "Fleet"
+msgstr "Ons Wagenpark"
+
+msgid "Our Premium Vehicles"
+msgstr "Onze Premium Voertuigen"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Available Now"
+msgstr "Nu Beschikbaar"
+
+msgid "No vehicles in fleet at this time."
+msgstr "Op dit moment geen voertuigen beschikbaar."
+
+msgid "Premium Selection"
+msgstr "Premium Selectie"
+
+msgid "Hand-curated vehicles maintained to the highest standards."
+msgstr "Zorgvuldig geselecteerde voertuigen, onderhouden volgens de hoogste normen."
+
+msgid "Fully Insured"
+msgstr "Volledig Verzekerd"
+
+msgid "Complete coverage on all vehicles with comprehensive insurance."
+msgstr "Volledige dekking op alle voertuigen met uitgebreide verzekering."
+
+msgid "Expert Chauffeurs"
+msgstr "Ervaren Chauffeurs"
+
+msgid "Professionally trained drivers with extensive experience."
+msgstr "Professioneel opgeleide chauffeurs met ruime ervaring."
+
+msgid "Always On Time"
+msgstr "Altijd Op Tijd"
+
+msgid "Punctuality guaranteed with real-time tracking."
+msgstr "Stiptheid gegarandeerd met real-time tracking."
+
+msgid "Eco-Conscious"
+msgstr "Milieubewust"
+
+msgid "Modern vehicles with reduced emissions."
+msgstr "Moderne voertuigen met verminderde uitstoot."
+
+msgid "Connected Travel"
+msgstr "Verbonden Reizen"
+
+msgid "WiFi and premium amenities in every vehicle."
+msgstr "Gratis WiFi en premium voorzieningen in elk voertuig."
+
+msgid "Services"
+msgstr "Onze Diensten"
+
+msgid "Reliable airport transportation with professional drivers and real-time tracking."
+msgstr "Betrouwbaar luchthavensvervoer met professionele chauffeurs en real-time tracking."
+
+msgid "Partners"
+msgstr "Partners"
+
+msgid "Apply for Partnership"
+msgstr "Partnerschap Aanvragen"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Vul het onderstaande formulier in en wij beoordelen uw aanvraag"
+
+msgid "Full Name *"
+msgstr "Volledige Naam *"
+
+msgid "Email Address *"
+msgstr "E-mailadres *"
+
+msgid "Phone Number *"
+msgstr "Telefoonnummer *"
+
+msgid "Current Job / Position *"
+msgstr "Huidige Functie *"
+
+msgid "Select your position..."
+msgstr "Selecteer uw functie..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Hoteleigenaar / Manager"
+
+msgid "Travel Agency"
+msgstr "Reisbureau"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Online Reisbureau (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Studentenaccommodatie"
+
+msgid "Overseas Education Agency"
+msgstr "Bureau voor Buitenlandse Studies"
+
+msgid "Consulate / Embassy"
+msgstr "Consulaat / Ambassade"
+
+msgid "Other"
+msgstr "Anders"
+
+msgid "Company / Organization Name"
+msgstr "Bedrijfs- / Organisatienaam"
+
+msgid "Questions About Partnership?"
+msgstr "Vragen over Partnerschap?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Neem contact op met ons partnerteam en we helpen u op weg"
+
+msgid "Book Your Airport Transfer"
+msgstr "Boek Uw Luchthaventransfer"
+
+msgid "Top Destinations"
+msgstr "Populaire Bestemmingen"
+
+msgid "Heathrow Transfers"
+msgstr "Heathrow Luchthaventransfer"
+
+msgid "Gatwick Chauffeur"
+msgstr "Gatwick Chauffeurservice"
+
+msgid "Stansted Airport Cars"
+msgstr "Stansted Luchthavenstransfer"
+
+msgid "Luton Transfers"
+msgstr "Luton Luchthaventransfer"
+
+msgid "London City Airport"
+msgstr "London City Luchthaven"
+
+msgid "Manchester Airport"
+msgstr "Manchester Luchthaven"
+
+msgid "Birmingham Transfers"
+msgstr "Birmingham Transfer"
+
+msgid "Edinburgh Airport"
+msgstr "Edinburgh Luchthaven"
+
+msgid "Bristol Transfers"
+msgstr "Bristol Transfer"
+
+msgid "Glasgow Chauffeur"
+msgstr "Glasgow Chauffeurservice"
+
+msgid "Istanbul Airport"
+msgstr "Istanbul Luchthaven"
+
+msgid "Antalya Luxury Transfer"
+msgstr "Antalya Luxe Transfer"
+
+msgid "Sabiha Gökçen Airport"
+msgstr "Sabiha Gökçen Luchthaven"
+
+msgid "Istanbul New Airport"
+msgstr "Nieuwe Luchthaven Istanbul"
+
+msgid "Bodrum Airport"
+msgstr "Bodrum Luchthaven"
+
+msgid "Corporate Chauffeur"
+msgstr "Zakelijke Chauffeur"
+
+msgid "VIP Chauffeur London"
+msgstr "VIP Chauffeur Londen"
+
+msgid "Executive Travel UK"
+msgstr "Executive Travel VK"
+
+msgid "Business Car Service"
+msgstr "Zakelijke Autovervoerservice"
+
+msgid "Corporate Account"
+msgstr "Zakelijk Account"
+
+msgid "All Services"
+msgstr "Alle Diensten"
+
+msgid "What Do We Do?"
+msgstr "Wat Bieden Wij?"
+
+msgid "Wedding Transport"
+msgstr "Bruiloftsvervoer"
+
+msgid "Cruise Port Transfers"
+msgstr "Cruisehaventransfers"
+
+msgid "Company"
+msgstr "Bedrijf"
+
+msgid "About Us"
+msgstr "Over Ons"
+
+msgid "Contact Us"
+msgstr "Contact"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Careers"
+msgstr "Carrière"
+
+msgid "Legal"
+msgstr "Juridisch"
+
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+msgid "Terms of Service"
+msgstr "Gebruiksvoorwaarden"
+
+msgid "Cookie Policy"
+msgstr "Cookiebeleid"
+
+msgid "Transfer Services"
+msgstr "Transferdiensten"
+
+msgid "Guide"
+msgstr "Gids"
+
+msgid "Guides"
+msgstr "Gidsen"
+
+msgid "Travel Guides"
+msgstr "Reisguides"
+
+msgid "No guides published for"
+msgstr "Nog geen gidsen gepubliceerd voor"
+
+msgid "yet."
+msgstr ""
+
+msgid "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+msgstr "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is niet geconfigureerd in wp-config.php"
+
+msgid "Trusted by travelers who don't compromise"
+msgstr "De keuze van reizigers die niet inleveren op kwaliteit"
+
+msgid "Why Choose Airlinel for London Airport Transfers"
+msgstr "Waarom Kiezen voor Airlinel bij Luchthavenstransfers in Londen?"
+
+msgid "Real-Time Flight Tracking"
+msgstr "Real-Time Vluchtvolging"
+
+msgid "We monitor your flight automatically and adjust pickup times accordingly."
+msgstr "We volgen uw vlucht automatisch en passen de ophaaltijd dienovereenkomstig aan."
+
+msgid "Executive-Level Chauffeurs"
+msgstr "Chauffeurs op Directieniveau"
+
+msgid "Professionally trained, impeccably presented, and multilingual."
+msgstr "Professioneel opgeleid, onberispelijk gekleed en meertalig."
+
+msgid "Fixed Transparent Pricing"
+msgstr "Vaste en Transparente Tarieven"
+
+msgid "No surge pricing. No hidden fees. The price you see is final."
+msgstr "Geen dynamische prijzen. Geen verborgen kosten. De weergegeven prijs is definitief."
+
+msgid "Meet & Greet Included"
+msgstr "Ontvangstservice Inbegrepen"
+
+msgid "Your chauffeur will meet you at arrivals with a name board."
+msgstr "Uw chauffeur verwelkomt u bij aankomst met een naambordje."
+
+msgid "24/7 Global Support"
+msgstr "Wereldwijde Ondersteuning 24/7"
+
+msgid "Round-the-clock assistance in multiple languages, wherever you are."
+msgstr "Dag en nacht bijstand in meerdere talen, waar u ook bent."
+
+msgid "Luxury Fleet Guarantee"
+msgstr "Garantie Luxe Wagenpark"
+
+msgid "Immaculate vehicles maintained to showroom standards daily."
+msgstr "Smetteloze voertuigen die dagelijks worden onderhouden naar showroomnormen."
+
+msgid "Instant Booking Confirmation"
+msgstr "Directe Boekingsbevestiging"
+
+msgid "Receive immediate confirmation with full journey details."
+msgstr "Ontvang onmiddellijke bevestiging met alle reisdetails."
+
+msgid "Multilingual Drivers"
+msgstr "Meertalige Chauffeurs"
+
+msgid "English, Turkish, and other languages spoken fluently."
+msgstr "Vloeiend Engels, Turks en andere talen."
+
+msgid "Corporate Billing Available"
+msgstr "Zakelijke Facturering Beschikbaar"
+
+msgid "Streamlined invoicing and account management for businesses."
+msgstr "Gestroomlijnde facturering en accountbeheer voor bedrijven."
+
+msgid "Airport Transfer Services Tailored for Every Journey"
+msgstr "Luchthavenstransfers Op Maat voor Elke Reis"
+
+msgid "Precision transport designed for how the world moves today."
+msgstr "Precisievervoer ontworpen voor het tempo van de moderne wereld."
+
+msgid "Seamless arrivals and departures with precision timing."
+msgstr "Naadloze aankomsten en vertrekken met precieze timing."
+
+msgid "Airport Transfer Services in London"
+msgstr "Luchthavenstransfersdiensten in Londen"
+
+msgid "Corporate Travel"
+msgstr "Zakelijke Reizen"
+
+msgid "Executive transport for professionals who value punctuality."
+msgstr "Executive vervoer voor professionals die stiptheid waarderen."
+
+msgid "Corporate Airport Travel Services"
+msgstr "Zakelijke Luchthavenstransferdiensten"
+
+msgid "Wedding Transport & Chauffeur Service"
+msgstr "Bruiloftsvervoer & Chauffeurservice"
+
+msgid "Your special day deserves seamless, elegant transportation."
+msgstr "Uw speciale dag verdient naadloos en elegant vervoer."
+
+msgid "VIP Chauffeur"
+msgstr "VIP Chauffeur"
+
+msgid "Full-day dedicated chauffeur for discerning clients."
+msgstr "Vaste chauffeur voor de hele dag voor veeleisende klanten."
+
+msgid "VIP Chauffeur Service Details"
+msgstr "Details VIP Chauffeurservice"
+
+msgid "Event Transport"
+msgstr "Evenementenvervoer"
+
+msgid "Coordinated group transport for conferences and galas."
+msgstr "Gecoördineerd groepsvervoer voor congressen en gala's."
+
+msgid "Event & Conference Transport"
+msgstr "Evenementen & Congresvervoer"
+
+msgid "Hotel Transfers"
+msgstr "Hoteltransfers"
+
+msgid "Direct transfer to your accommodation with luggage assistance."
+msgstr "Directe transfer naar uw accommodatie met bagagehulp."
+
+msgid "Hotel Airport Transfer Service"
+msgstr "Hotel Luchthavenstransferservice"
+
+msgid "Seamless transfer from port to airport or accommodation."
+msgstr "Naadloze transfer van haven naar luchthaven of accommodatie."
+
+msgid "Cruise Port Transfer Service"
+msgstr "Cruisehaven Transferservice"
+
+msgid "Private City Tours"
+msgstr "Privé Stadstours"
+
+msgid "Bespoke city tours with local insider knowledge."
+msgstr "Op maat gemaakte stadstours met lokale insiderkennis."
+
+msgid "Private City Tour Packages"
+msgstr "Privé Stadstourpakketten"
+
+msgid "Most Requested by Executives"
+msgstr "Meest Gevraagd door Directeuren"
+
+msgid "Business Class Mobility"
+msgstr "Business Class Mobiliteit"
+
+msgid "Elite-tier service combining chauffeur, executive assistant, and mobile office."
+msgstr "Eliteservice die chauffeur, executive assistent en mobiel kantoor combineert."
+
+msgid "Business Class Mobility Service"
+msgstr "Business Class Mobiliteitservice"
+
+msgid "Travel Intelligence"
+msgstr "Reisguides"
+
+msgid "Strategies, insights, and destination expertise for travelers who move differently."
+msgstr "Strategieën, inzichten en bestemmingsexpertise voor reizigers met hoge eisen."
+
+msgid "View All Articles"
+msgstr "Alle Artikelen Bekijken"
+
+msgid "Stop booking taxis."
+msgstr "Stop met het boeken van gewone taxi's."
+
+msgid "Start traveling properly."
+msgstr "Begin op de juiste manier te reizen."
+
+msgid "Experience the difference when every detail is engineered, every arrival is anticipated, and every journey feels effortless."
+msgstr "Ervaar het verschil wanneer elk detail doordacht is, elke aankomst verwacht wordt en elke rit moeiteloos aanvoelt."
+
+msgid "Book Your Ride"
+msgstr "Uw Rit Boeken"
+
+msgid "Instant Confirmation"
+msgstr "Directe Bevestiging"
+
+msgid "24/7 Support"
+msgstr "Ondersteuning 24/7"
+
+msgid "Free Cancellation"
+msgstr "Gratis Annulering"
+
+msgid "Earn With"
+msgstr "Verdien met"
+
+msgid "Join our global partner network and unlock preferred pricing, priority booking access, and immediate commission payouts."
+msgstr "Sluit u aan bij ons wereldwijde partnernetwerk en profiteer van voorkeurtarieven, prioritaire toegang tot boekingen en directe commissiebetalingen."
+
+msgid "Average partners earn £100/week"
+msgstr "Partners verdienen gemiddeld £100 per week"
+
+msgid "Discounted transfer rates for your guests"
+msgstr "Gereduceerde transfertarieven voor uw gasten"
+
+msgid "Earn commission on every booking"
+msgstr "Verdien commissie op elke boeking"
+
+msgid "Instant payouts with zero delays"
+msgstr "Directe uitbetalingen zonder vertraging"
+
+msgid "API access available"
+msgstr "API-toegang beschikbaar"
+
+msgid "Dedicated partner support team"
+msgstr "Toegewijd partnerondersteuningsteam"
+
+msgid "Zero operational hassle"
+msgstr "Nul operationele rompslomp"
+
+msgid "Become a Partner"
+msgstr "Word Partner"
+
+msgid "Trusted by hospitality professionals worldwide"
+msgstr "Het vertrouwen van hospitality-professionals wereldwijd"
+
+msgid "Drive With"
+msgstr "Rijd met"
+
+msgid "Turn your vehicle into a premium earning asset. Work on your terms while accessing high-value clients."
+msgstr "Maak van uw voertuig een premiuminkomensbron. Werk op uw eigen voorwaarden en bedien hoogwaardige klanten."
+
+msgid "High earning potential with"
+msgstr "Hoog verdienenpotentieel met"
+
+msgid "premium rates"
+msgstr "premiumtarieven"
+
+msgid "Access to premium passenger base"
+msgstr "Toegang tot premium passagiersbase"
+
+msgid "Flexible schedule—you decide when"
+msgstr "Flexibele werktijden — u beslist wanneer"
+
+msgid "Fast onboarding and training"
+msgstr "Snelle onboarding en professionele training"
+
+msgid "Consistent ride flow and bookings"
+msgstr "Constant rittenstroo en boekingen"
+
+msgid "Average drivers earn £1000/week"
+msgstr "Chauffeurs verdienen gemiddeld £1000 per week"
+
+msgid "Apply to Drive"
+msgstr "Solliciteer als Chauffeur"
+
+msgid "Serious drivers only"
+msgstr "Alleen voor professionele chauffeurs"
+
+msgid "Upgrade the Way You Travel."
+msgstr "Til Uw Reiservaringen Naar een Hoger Niveau."
+
+msgid "London Transfers"
+msgstr "Londen Transfers"
+
+msgid "UK Regional"
+msgstr "VK Regionaal"
+
+msgid "Turkey Transfers"
+msgstr "Turkije Transfers"
+
+msgid "Corporate"
+msgstr "Zakelijk"
+
+msgid "Quick Links"
+msgstr "Snelkoppelingen"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Service Rates"
+msgstr "Tarieven"
+
+msgid "Our Fleet"
+msgstr "Ons Wagenpark"
+
+msgid "Testimonials"
+msgstr "Klantbeoordelingen"
+
+msgid "Questions & Answers"
+msgstr "Veelgestelde Vragen"
+
+msgid "Photo Gallery"
+msgstr "Fotogalerij"
+
+msgid "Video Gallery"
+msgstr "Videogalerij"
+
+msgid "News"
+msgstr "Nieuws"
+
+msgid "Contact — United Kingdom"
+msgstr "Contact — Verenigd Koninkrijk"
+
+msgid "Contact — Türkiye"
+msgstr "Contact — Turkije"
+
+msgid "Career"
+msgstr "Carrière"
+
+msgid "Driver Job Application"
+msgstr "Sollicitatie Chauffeursfunctie"
+
+msgid "Legal &amp; Policy"
+msgstr "Juridisch & Beleid"
+
+msgid "Terms &amp; Conditions"
+msgstr "Algemene Voorwaarden"
+
+msgid "Refund &amp; Cancellation"
+msgstr "Terugbetaling & Annulering"
+
+msgid "Publishing Principles"
+msgstr "Redactionele Principes"
+
+msgid "Ethics Policy"
+msgstr "Ethisch Beleid"
+
+msgid "Diversity Policy"
+msgstr "Diversiteitsbeleid"
+
+msgid "Diversity Staffing Report"
+msgstr "Personeelsdiversiteitsrapport"
+
+msgid "Ownership &amp; Funding"
+msgstr "Eigendom & Financiering"
+
+msgid "Corrections Policy"
+msgstr "Correctiebeleid"
+
+msgid "Actionable Feedback Policy"
+msgstr "Feedbackbeleid"
+
+msgid "TfL Licensed"
+msgstr "TfL Gecertificeerd"
+
+msgid "5-Star Rated"
+msgstr "5-Sterren Beoordeling"
+
+msgid "Secure Payments"
+msgstr "Veilige Betaling"
+
+msgid "Need a Custom Solution?"
+msgstr "Heeft U een Oplossing Op Maat Nodig?"
+
+msgid "By"
+msgstr "Door"
+
+msgid "Continue Reading"
+msgstr "Doorgaan met Lezen"
+
+msgid "24/7 Service Available"
+msgstr "Service Beschikbaar 24/7"
+
+msgid "Book a Transfer"
+msgstr "Een Transfer Boeken"
+
+msgid "Read Guide"
+msgstr "Gids Lezen"
+
+msgid "Service Locations"
+msgstr "Servicegebieden"
+
+msgid "Two Continents."
+msgstr "Twee Continenten."
+
+msgid "One Standard."
+msgstr "Één Standaard."
+
+msgid "Airport transfers across the UK and Turkey — professional drivers, fixed rates, real-time flight tracking."
+msgstr "Luchthavenstransfers in het VK en Turkije — professionele chauffeurs, vaste tarieven, real-time vluchtvolging."
+
+msgid "View All Cities"
+msgstr "Alle Steden Bekijken"
+
+msgid "Verify"
+msgstr "Verifiëren"
+
+msgid "Leave blank if you don't have one"
+msgstr "Laat leeg als u er geen heeft"
+
+msgid "Selected Vehicle"
+msgstr "Geselecteerd Voertuig"
+
+msgid "Agency Verified"
+msgstr "Bureau Geverifieerd"
+
+msgid "Agency Name"
+msgstr "Bureaunaam"
+
+msgid "Commission %"
+msgstr "Commissie %"
+
+msgid "Your Savings"
+msgstr "Uw Besparing"
+
+msgid "Commission has been applied to your booking"
+msgstr "Commissiekorting is toegepast op uw boeking"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Invalid Agency Code"
+msgstr "Ongeldige Bureaucode"
+
+msgid "Try Again"
+msgstr "Opnieuw Proberen"
+
+msgid "Ready to Experience Premium Travel?"
+msgstr "Klaar om Premium Reizen te Ervaren?"
+
+msgid "Book your service today and discover the Airlinel difference."
+msgstr "Boek vandaag nog en ontdek het Airlinel-verschil."
+
+msgid "Learn More"
+msgstr "Meer Weten"
+
+msgid "Why Choose Our Fleet?"
+msgstr "Waarom Ons Wagenpark Kiezen?"
+
+msgid "View Full Details"
+msgstr "Alle Details Bekijken"
+
+msgid "Book This Vehicle"
+msgstr "Dit Voertuig Boeken"
+
+msgid "Experience Premium Transportation"
+msgstr "Ervaar Premium Vervoer"
+
+msgid "Book one of our premium vehicles today and discover the Airlinel difference."
+msgstr "Boek vandaag een van onze premium voertuigen en ontdek het Airlinel-verschil."
+
+msgid "Book Your Ride Now"
+msgstr "Boek Nu Uw Rit"
+
+msgid "Premium Transfer Service"
+msgstr "Premium Transferservice"
+
+msgid "Where to"
+msgstr "Waar"
+
+msgid "Next?"
+msgstr "naartoe?"
+
+msgid "Experience luxury and punctuality. Book your private chauffeur in just a few clicks."
+msgstr "Beleef luxe en stiptheid. Boek uw privéchauffeur in slechts enkele klikken."
+
+msgid "Total Distance"
+msgstr "Totale Afstand"
+
+msgid "Est. Duration"
+msgstr "Geschatte Reistijd"
+
+msgid "About Airlinel"
+msgstr "Over Airlinel"
+
+msgid "Get in Touch"
+msgstr "Neem Contact Op"
+
+msgid "Our Mission"
+msgstr "Onze Missie"
+
+msgid "Reliability"
+msgstr "Betrouwbaarheid"
+
+msgid "On-time arrivals and dependable service you can trust."
+msgstr "Stipte aankomsten en betrouwbare service waar u op kunt vertrouwen."
+
+msgid "Excellence"
+msgstr "Uitmuntendheid"
+
+msgid "Consistently delivering premium service standards."
+msgstr "Consistent premium servicenormen leveren."
+
+msgid "Customer Care"
+msgstr "Klantenservice"
+
+msgid "Your satisfaction is our top priority."
+msgstr "Uw tevredenheid is onze hoogste prioriteit."
+
+msgid "By The Numbers"
+msgstr "In Cijfers"
+
+msgid "Years in Business"
+msgstr "Jaar Ervaring"
+
+msgid "Happy Customers"
+msgstr "Tevreden Klanten"
+
+msgid "Vehicles in Fleet"
+msgstr "Voertuigen in de Vloot"
+
+msgid "Daily Rides"
+msgstr "Dagelijkse Ritten"
+
+msgid "Our Story"
+msgstr "Ons Verhaal"
+
+msgid "Why Choose Airlinel?"
+msgstr "Waarom Airlinel kiezen?"
+
+msgid "Industry Certified"
+msgstr "Branchecertificeerd"
+
+msgid "Licensed and fully insured for your peace of mind."
+msgstr "Gelicentieerd en volledig verzekerd voor uw gemoedsrust."
+
+msgid "Safety First"
+msgstr "Veiligheid Eerst"
+
+msgid "Professional drivers with extensive background checks."
+msgstr "Professionele chauffeurs met uitgebreide achtergrondcontroles."
+
+msgid "24/7 Available"
+msgstr "24/7 Beschikbaar"
+
+msgid "Round-the-clock service for all your transfer needs."
+msgstr "Dienst 24 uur per dag voor al uw transferbehoeften."
+
+msgid "Consistently praised by our satisfied customers."
+msgstr "Consistent geprezen door onze tevreden klanten."
+
+msgid "Ready to Experience Premium Service?"
+msgstr "Klaar voor een Premium Dienstverlening?"
+
+msgid "Join thousands of satisfied customers who trust Airlinel for their airport transfers."
+msgstr "Sluit u aan bij duizenden tevreden klanten die Airlinel vertrouwen voor hun luchthaventransfers."
+
+msgid "Book Your Transfer Today"
+msgstr "Boek Uw Transfer Vandaag"
+msgid "Have questions? We're here to help. Contact us today for more information about our services."
+msgstr "Heeft u vragen? Wij staan voor u klaar. Neem vandaag contact op voor meer informatie over onze diensten."
+
+msgid "Contact Information"
+msgstr "Contactgegevens"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Available 24/7"
+msgstr "Beschikbaar 24/7"
+
+msgid "Available during business hours"
+msgstr "Beschikbaar tijdens kantooruren"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "We'll respond within 2 hours"
+msgstr "Wij reageren binnen 2 uur"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Business Hours"
+msgstr "Openingstijden"
+
+msgid "We are currently open"
+msgstr "We zijn momenteel open"
+
+msgid "We are currently closed"
+msgstr "We zijn momenteel gesloten"
+
+msgid "Send us a Message"
+msgstr "Stuur ons een Bericht"
+
+msgid "Full Name *"
+msgstr "Volledige Naam *"
+
+msgid "Email Address *"
+msgstr "E-mailadres *"
+
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+msgid "Subject *"
+msgstr "Onderwerp *"
+
+msgid "-- Select a subject --"
+msgstr "-- Selecteer een onderwerp --"
+
+msgid "Booking Inquiry"
+msgstr "Boekingsvraag"
+
+msgid "General Question"
+msgstr "Algemene Vraag"
+
+msgid "Complaint or Feedback"
+msgstr "Klacht of Feedback"
+
+msgid "Partnership Opportunity"
+msgstr "Partnerschapsmogelijkheid"
+
+msgid "Other"
+msgstr "Overig"
+
+msgid "Message *"
+msgstr "Bericht *"
+
+msgid "Please tell us how we can help..."
+msgstr "Vertel ons hoe we u kunnen helpen..."
+
+msgid "Your information is secure and will only be used to respond to your inquiry."
+msgstr "Uw informatie is veilig en wordt alleen gebruikt om uw vraag te beantwoorden."
+
+msgid "Send Message"
+msgstr "Stuur Bericht"
+
+msgid "Find Us"
+msgstr "Vind Ons"
+
+msgid "Frequently Asked Questions"
+msgstr "Veelgestelde Vragen"
+
+msgid "How far in advance should I book?"
+msgstr "Hoe ver van tevoren moet ik boeken?"
+
+msgid "We recommend booking at least 24 hours in advance for best availability. However, we do accept same-day bookings depending on our current schedule. Contact us directly for urgent bookings."
+msgstr "We raden aan minimaal 24 uur van tevoren te boeken voor de beste beschikbaarheid. We accepteren echter ook same-day boekingen afhankelijk van onze planning. Neem direct contact op voor dringende boekingen."
+
+msgid "What payment methods do you accept?"
+msgstr "Welke betaalmethoden accepteert u?"
+
+msgid "We accept all major credit cards, debit cards, and bank transfers. Online payment is processed securely through our booking system. You can also pay directly to the driver if pre-arranged."
+msgstr "We accepteren alle grote creditcards, betaalpassen en bankoverschrijvingen. Online betaling wordt veilig verwerkt via ons boekingssysteem. U kunt ook rechtstreeks aan de chauffeur betalen indien vooraf afgesproken."
+
+msgid "What if I need to cancel my booking?"
+msgstr "Wat als ik mijn boeking moet annuleren?"
+
+msgid "Cancellations made 24 hours or more in advance receive a full refund. Cancellations within 24 hours may incur a cancellation fee. Please contact us immediately if you need to modify your booking."
+msgstr "Annuleringen van 24 uur of meer van tevoren ontvangen een volledige terugbetaling. Annuleringen binnen 24 uur kunnen annuleringskosten met zich meebrengen. Neem onmiddellijk contact op als u uw boeking wilt wijzigen."
+
+msgid "Are your vehicles wheelchair accessible?"
+msgstr "Zijn uw voertuigen rolstoeltoegankelijk?"
+
+msgid "Yes, we have wheelchair accessible vehicles available. Please mention your accessibility requirements when booking so we can arrange the appropriate vehicle for your needs."
+msgstr "Ja, we hebben rolstoeltoegankelijke voertuigen beschikbaar. Vermeld uw toegankelijkheidsvereisten bij het boeken zodat we het juiste voertuig kunnen regelen."
+
+msgid "Can I bring luggage and how much is included?"
+msgstr "Kan ik bagage meenemen en hoeveel is inbegrepen?"
+
+msgid "Absolutely! All our vehicles have spacious boot space to accommodate standard luggage. Oversized baggage may require a larger vehicle. Our team will assist with luggage handling as part of our service."
+msgstr "Absoluut! Al onze voertuigen hebben ruime kofferruimte voor standaard bagage. Oversized bagage vereist mogelijk een groter voertuig. Ons team helpt met bagageafhandeling als onderdeel van onze service."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Klaar om uw Transfer te Boeken?"
+
+msgid "Experience premium airport transfer service today."
+msgstr "Ervaar vandaag de premium luchthavenstransferservice."
+msgid "Home"
+msgstr "Home"
+
+msgid "Partners"
+msgstr "Partners"
+
+msgid "Become Our Partner"
+msgstr "Word Onze Partner"
+
+msgid "Join our network of agencies and unlock exclusive opportunities for your business"
+msgstr "Sluit u aan bij ons netwerk van bureaus en ontgrendel exclusieve kansen voor uw bedrijf"
+
+msgid "Apply for Partnership"
+msgstr "Partnerschap Aanvragen"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Vul het onderstaande formulier in en wij zullen uw aanvraag beoordelen"
+
+msgid "Phone Number *"
+msgstr "Telefoonnummer *"
+
+msgid "Current Job / Position *"
+msgstr "Huidige Functie / Positie *"
+
+msgid "Select your position..."
+msgstr "Selecteer uw positie..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Hoteleigenaar / Manager"
+
+msgid "Travel Agency"
+msgstr "Reisbureau"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Online Reisbureau (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Studentenhuisvesting"
+
+msgid "Overseas Education Agency"
+msgstr "Studiebureau in het Buitenland"
+
+msgid "Consulate / Embassy"
+msgstr "Consulaat / Ambassade"
+
+msgid "Company / Organization Name"
+msgstr "Bedrijfs- / Organisatienaam"
+
+msgid "I agree to the Terms & Conditions and understand that I will receive an agency code after verification."
+msgstr "Ik ga akkoord met de Algemene Voorwaarden en begrijp dat ik na verificatie een bureacode ontvang."
+
+msgid "Apply for Agency Partnership"
+msgstr "Bureaupartnerschap Aanvragen"
+
+msgid "Questions About Partnership?"
+msgstr "Vragen over Partnerschap?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Neem contact op met ons partnerschapsteam en wij helpen u op weg"
+
+msgid "Book a Ride"
+msgstr "Rit Boeken"
+
+msgid "Contact Support"
+msgstr "Contact met Support"
+msgid "by"
+msgstr "per"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Real-time flight tracking & guaranteed punctuality."
+msgstr "Realtime vluchttracking & gegarandeerde stiptheid."
+
+msgid "Fully Licensed"
+msgstr "Volledig vergund"
+
+msgid "TfL licensed. All drivers professionally vetted & insured."
+msgstr "TfL gecertificeerd. Alle chauffeurs professioneel gescreend & verzekerd."
+
+msgid "Thousands of verified reviews from worldwide travellers."
+msgstr "Duizenden geverifieerde beoordelingen van reizigers wereldwijd."
+
+msgid "Around the clock support in English and Turkish."
+msgstr "Ondersteuning 24/7 in het Engels en Turks."
+msgid "Total Price"
+msgstr "Totaalprijs"
+
+msgid "Passengers"
+msgstr "Passagiers"
+
+msgid "Luggage"
+msgstr "Bagage"
+
+msgid "Select"
+msgstr "Selecteer"
+
+msgid "UK &amp; Turkey &middot; 24 / 7 &middot; Fixed Rates &middot; Meet &amp; Greet"
+msgstr "UK &amp; Turkije &middot; 24 / 7 &middot; Vaste tarieven &middot; Meet &amp; Greet"
+
+msgid "+44 7911 123456"
+msgstr "+44 7911 123456"
+
+msgid "e.g. TK1234"
+msgstr "bijv. TK1234"
+
+msgid "Enter your agency code"
+msgstr "Voer uw agentuurcode in"
+
+msgid "The agency code you entered could not be verified."
+msgstr "De ingevoerde agentuurcode kon niet worden geverifieerd."
+msgid "Services"
+msgstr "Diensten"
+
+msgid "PAY"
+msgstr "BETAAL"
+
+msgid "Payment Details"
+msgstr "Betalingsgegevens"
+
+msgid "Corporate"
+msgstr "Zakelijk"
+
+msgid "Turkey Transfers"
+msgstr "Turkije Transfers"
+
+msgid "Extra Notes"
+msgstr "Extra opmerkingen"
+
+msgid "NOW"
+msgstr "NU"
+
+msgid "London Transfers"
+msgstr "Londen Transfers"
+
+msgid "Secured by Stripe"
+msgstr "Beveiligd door Stripe"
+
+msgid "UK Regional"
+msgstr "UK Regionaal"
+
+
+msgid "Read More"
+msgstr "Lees meer"
+
+msgid "Read Less"
+msgstr "Lees minder"
+
+msgid "Premium airport transfers &amp; chauffeur services across the UK and Turkey. Professional drivers, fixed rates, 24/7."
+msgstr "Premium luchthaventransfers en chauffeursdiensten in het VK en Turkije. Professionele chauffeurs, vaste tarieven, 24/7."

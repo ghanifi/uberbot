@@ -1,0 +1,538 @@
+# Translation template file for Airlinel Theme
+# Copyright (C) 2026 Airlinel
+# This file is distributed under the same license as the Airlinel Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Airlinel Theme 1.0\n"
+"Report-Msgid-Bugs-To: support@airlinel.com\n"
+"POT-Creation-Date: 2026-04-25 16:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Airlinel <support@airlinel.com>\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+
+#: header.php:100, header.php:125
+msgid "Book Now"
+msgstr ""
+
+#: front-page.php:17
+msgid "Instant Booking"
+msgstr ""
+
+#: front-page.php:19
+msgid "London Airport Transfer"
+msgstr ""
+
+#: front-page.php:19
+msgid "& Chauffeur Service"
+msgstr ""
+
+#: front-page.php:26
+msgid "Pickup"
+msgstr ""
+
+#: front-page.php:27
+msgid "Airport, hotel, or address"
+msgstr ""
+
+#: front-page.php:30
+msgid "Destination"
+msgstr ""
+
+#: front-page.php:31
+msgid "Where are you going?"
+msgstr ""
+
+#: front-page.php:36
+msgid "Pickup Date"
+msgstr ""
+
+#: front-page.php:41
+msgid "Pickup Time"
+msgstr ""
+
+#: front-page.php:46
+msgid "Check Availability & Price"
+msgstr ""
+
+#: front-page.php:51
+msgid "Distance"
+msgstr ""
+
+#: front-page.php:53
+msgid "KM"
+msgstr ""
+
+#: front-page.php:56
+msgid "Est. Time"
+msgstr ""
+
+#: front-page.php:67
+msgid "No hidden fees. No surge pricing. Just precision travel."
+msgstr ""
+
+#: front-page.php:79
+msgid "Book Your Airport"
+msgstr ""
+
+#: front-page.php:79
+msgid "Transfer in Advance."
+msgstr ""
+
+#: front-page.php:90
+msgid "Travel Without"
+msgstr ""
+
+#: front-page.php:90
+msgid "Friction."
+msgstr ""
+
+#: page-booking.php:20
+msgid "Pickup Location"
+msgstr ""
+
+#: page-booking.php:45
+msgid "Select Your Vehicle"
+msgstr ""
+
+#: page-booking.php:58
+msgid "Booking Details"
+msgstr ""
+
+#: page-booking.php:62
+msgid "Country"
+msgstr ""
+
+#: page-booking.php:67
+msgid "Turkey"
+msgstr ""
+
+#: page-booking.php:68
+msgid "United Kingdom"
+msgstr ""
+
+#: page-booking.php:72
+msgid "Currency"
+msgstr ""
+
+#: page-booking.php:77
+msgid "GBP - British Pound"
+msgstr ""
+
+#: page-booking.php:78
+msgid "EUR - Euro"
+msgstr ""
+
+#: page-booking.php:79
+msgid "TRY - Turkish Lira"
+msgstr ""
+
+#: page-booking.php:80
+msgid "USD - US Dollar"
+msgstr ""
+
+#: page-booking.php:85
+msgid "Exchange rate: 1 GBP ="
+msgstr ""
+
+#: page-booking.php:103
+msgid "Full Name"
+msgstr ""
+
+#: page-booking.php:111
+msgid "Email Address"
+msgstr ""
+
+#: page-booking.php:119
+msgid "Phone Number"
+msgstr ""
+
+#: page-booking.php:177
+msgid "Confirm Booking"
+msgstr ""
+
+#: page-booking.php:180
+msgid "Terms and Conditions"
+msgstr ""
+
+#: page-booking.php:181
+msgid "I agree to the"
+msgstr ""
+
+#: page-cities.php:5
+msgid "Cities"
+msgstr ""
+
+#: page-cities.php:15
+msgid "Airport Transfers"
+msgstr ""
+
+#: page-cities.php:18
+msgid "Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+msgstr ""
+
+#: page-cities.php:25
+msgid "Available"
+msgstr ""
+
+#: page-cities.php:26
+msgid "Rated"
+msgstr ""
+
+#: page-cities.php:32
+msgid "Mercedes-Benz Fleet"
+msgstr ""
+
+#: page-cities.php:33
+msgid "Meet & Greet"
+msgstr ""
+
+#: page-cities.php:33
+msgid "Flight Tracking"
+msgstr ""
+
+#: page-cities.php:33
+msgid "Fixed Rates"
+msgstr ""
+
+#: page-cities.php:48
+msgid "No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+msgstr ""
+
+#: page-cities.php:60
+msgid "Ready to Book Your Transfer?"
+msgstr ""
+
+#: page-cities.php:61
+msgid "Select your city above or book directly — any destination, any time."
+msgstr ""
+
+#: page-fleet.php:5
+msgid "Fleet"
+msgstr ""
+
+#: page-fleet.php:15
+msgid "Our Premium Vehicles"
+msgstr ""
+
+#: page-fleet.php:16
+msgid "Premium"
+msgstr ""
+
+#: page-fleet.php:17
+msgid "Available Now"
+msgstr ""
+
+#: page-fleet.php:30
+msgid "No vehicles in fleet at this time."
+msgstr ""
+
+#: page-fleet.php:35
+msgid "Premium Selection"
+msgstr ""
+
+#: page-fleet.php:36
+msgid "Hand-curated vehicles maintained to the highest standards."
+msgstr ""
+
+#: page-fleet.php:40
+msgid "Fully Insured"
+msgstr ""
+
+#: page-fleet.php:41
+msgid "Complete coverage on all vehicles with comprehensive insurance."
+msgstr ""
+
+#: page-fleet.php:45
+msgid "Expert Chauffeurs"
+msgstr ""
+
+#: page-fleet.php:46
+msgid "Professionally trained drivers with extensive experience."
+msgstr ""
+
+#: page-fleet.php:50
+msgid "Always On Time"
+msgstr ""
+
+#: page-fleet.php:51
+msgid "Punctuality guaranteed with real-time tracking."
+msgstr ""
+
+#: page-fleet.php:55
+msgid "Eco-Conscious"
+msgstr ""
+
+#: page-fleet.php:56
+msgid "Modern vehicles with reduced emissions."
+msgstr ""
+
+#: page-fleet.php:60
+msgid "Connected Travel"
+msgstr ""
+
+#: page-fleet.php:61
+msgid "WiFi and premium amenities in every vehicle."
+msgstr ""
+
+#: page-services.php:5
+msgid "Services"
+msgstr ""
+
+#: page-services.php:15
+msgid "Airport Transfers"
+msgstr ""
+
+#: page-services.php:18
+msgid "Reliable airport transportation with professional drivers and real-time tracking."
+msgstr ""
+
+#: page-partners.php:5
+msgid "Partners"
+msgstr ""
+
+#: page-partners.php:15
+msgid "Apply for Partnership"
+msgstr ""
+
+#: page-partners.php:16
+msgid "Fill out the form below and we'll review your application"
+msgstr ""
+
+#: page-partners.php:20
+msgid "Full Name *"
+msgstr ""
+
+#: page-partners.php:28
+msgid "Email Address *"
+msgstr ""
+
+#: page-partners.php:36
+msgid "Phone Number *"
+msgstr ""
+
+#: page-partners.php:44
+msgid "Current Job / Position *"
+msgstr ""
+
+#: page-partners.php:45
+msgid "Select your position..."
+msgstr ""
+
+#: page-partners.php:46
+msgid "Receptionist"
+msgstr ""
+
+#: page-partners.php:47
+msgid "Hotel Owner / Manager"
+msgstr ""
+
+#: page-partners.php:48
+msgid "Travel Agency"
+msgstr ""
+
+#: page-partners.php:49
+msgid "Online Travel Agency (OTA)"
+msgstr ""
+
+#: page-partners.php:50
+msgid "Student Accommodation Facility"
+msgstr ""
+
+#: page-partners.php:51
+msgid "Overseas Education Agency"
+msgstr ""
+
+#: page-partners.php:52
+msgid "Consulate / Embassy"
+msgstr ""
+
+#: page-partners.php:53
+msgid "Other"
+msgstr ""
+
+#: page-partners.php:56
+msgid "Company / Organization Name"
+msgstr ""
+
+#: page-partners.php:70
+msgid "Questions About Partnership?"
+msgstr ""
+
+#: page-partners.php:71
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr ""
+
+#: footer.php:10
+msgid "Book Your Airport Transfer"
+msgstr ""
+
+#: footer.php:18
+msgid "Top Destinations"
+msgstr ""
+
+#: footer.php:20
+msgid "Heathrow Transfers"
+msgstr ""
+
+#: footer.php:21
+msgid "Gatwick Chauffeur"
+msgstr ""
+
+#: footer.php:22
+msgid "Stansted Airport Cars"
+msgstr ""
+
+#: footer.php:23
+msgid "Luton Transfers"
+msgstr ""
+
+#: footer.php:24
+msgid "London City Airport"
+msgstr ""
+
+#: footer.php:25
+msgid "Manchester Airport"
+msgstr ""
+
+#: footer.php:26
+msgid "Birmingham Transfers"
+msgstr ""
+
+#: footer.php:27
+msgid "Edinburgh Airport"
+msgstr ""
+
+#: footer.php:28
+msgid "Bristol Transfers"
+msgstr ""
+
+#: footer.php:29
+msgid "Glasgow Chauffeur"
+msgstr ""
+
+#: footer.php:30
+msgid "Istanbul Airport"
+msgstr ""
+
+#: footer.php:31
+msgid "Antalya Luxury Transfer"
+msgstr ""
+
+#: footer.php:32
+msgid "Sabiha Gökçen Airport"
+msgstr ""
+
+#: footer.php:33
+msgid "Istanbul New Airport"
+msgstr ""
+
+#: footer.php:34
+msgid "Bodrum Airport"
+msgstr ""
+
+#: footer.php:41
+msgid "Services"
+msgstr ""
+
+#: footer.php:43
+msgid "Corporate Chauffeur"
+msgstr ""
+
+#: footer.php:44
+msgid "VIP Chauffeur London"
+msgstr ""
+
+#: footer.php:45
+msgid "Executive Travel UK"
+msgstr ""
+
+#: footer.php:46
+msgid "Business Car Service"
+msgstr ""
+
+#: footer.php:47
+msgid "Corporate Account"
+msgstr ""
+
+#: footer.php:48
+msgid "All Services"
+msgstr ""
+
+#: footer.php:49
+msgid "What Do We Do?"
+msgstr ""
+
+#: footer.php:50
+msgid "Wedding Transport"
+msgstr ""
+
+#: footer.php:51
+msgid "Cruise Port Transfers"
+msgstr ""
+
+#: footer.php:56
+msgid "Company"
+msgstr ""
+
+#: footer.php:58
+msgid "About Us"
+msgstr ""
+
+#: footer.php:59
+msgid "Contact Us"
+msgstr ""
+
+#: footer.php:60
+msgid "Blog"
+msgstr ""
+
+#: footer.php:61
+msgid "Careers"
+msgstr ""
+
+#: footer.php:66
+msgid "Legal"
+msgstr ""
+
+#: footer.php:68
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php:69
+msgid "Terms of Service"
+msgstr ""
+
+#: footer.php:70
+msgid "Cookie Policy"
+msgstr ""
+
+#: category.php:22
+msgid "Transfer Services"
+msgstr ""
+
+#: category.php:44
+msgid "Guide"
+msgstr ""
+
+#: category.php:44
+msgid "Guides"
+msgstr ""
+
+#: category.php:57
+msgid "Travel Guides"
+msgstr ""
+
+#: category.php:72
+msgid "No guides published for"
+msgstr ""
+
+#: category.php:72
+msgid "yet."
+msgstr ""
+
+#: functions.php:15
+msgid "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+msgstr ""

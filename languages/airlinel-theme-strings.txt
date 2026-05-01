@@ -1,0 +1,176 @@
+# Airlinel Theme Translatable Strings
+# Complete list of all strings that need translation support
+# Format: [context] "string"
+
+# ===== HEADER / NAVIGATION =====
+"Book Now"
+"Logo"
+
+# ===== HOMEPAGE - BOOKING SECTION =====
+"Instant Booking"
+"London Airport Transfer"
+"& Chauffeur Service"
+"Pickup"
+"Airport, hotel, or address"
+"Destination"
+"Where are you going?"
+"Pickup Date"
+"Pickup Time"
+"Check Availability & Price"
+"Distance"
+"KM"
+"Est. Time"
+"No hidden fees. No surge pricing. Just precision travel."
+
+# ===== HOMEPAGE - VISUAL SECTION =====
+"Book Your Airport"
+"Transfer in Advance."
+"Travel Without"
+"Friction."
+
+# ===== HOMEPAGE - FEATURES =====
+"Start traveling properly."
+"Instant Confirmation"
+"Free Cancellation"
+"Airlinel."
+"Average partners earn £100/week"
+"Discounted transfer rates for your guests"
+"Earn commission on every booking"
+"Instant payouts with zero delays"
+"API access available"
+"Dedicated partner support team"
+"Zero operational hassle"
+
+# ===== BOOKING PAGE =====
+"Pickup Location"
+"Select Your Vehicle"
+"Booking Details"
+"Country"
+"Turkey"
+"United Kingdom"
+"Currency"
+"GBP - British Pound"
+"EUR - Euro"
+"TRY - Turkish Lira"
+"USD - US Dollar"
+"Exchange rate: 1 GBP ="
+"Full Name"
+"Email Address"
+"Phone Number"
+"Confirm Booking"
+"Terms and Conditions"
+"I agree to the"
+
+# ===== CITIES PAGE =====
+"Cities"
+"Airport Transfers"
+"Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+"Available"
+"Rated"
+"Mercedes-Benz Fleet"
+"Meet & Greet"
+"Flight Tracking"
+"Fixed Rates"
+"No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+"Ready to Book Your Transfer?"
+"Select your city above or book directly — any destination, any time."
+
+# ===== CITIES LISTING =====
+"Guide"
+"Guides"
+"Travel Guides"
+
+# ===== FLEET PAGE =====
+"Fleet"
+"Our Premium Vehicles"
+"Premium"
+"Available Now"
+"No vehicles in fleet at this time."
+"Premium Selection"
+"Hand-curated vehicles maintained to the highest standards."
+"Fully Insured"
+"Complete coverage on all vehicles with comprehensive insurance."
+"Expert Chauffeurs"
+"Professionally trained drivers with extensive experience."
+"Always On Time"
+"Punctuality guaranteed with real-time tracking."
+"Eco-Conscious"
+"Modern vehicles with reduced emissions."
+"Connected Travel"
+"WiFi and premium amenities in every vehicle."
+
+# ===== SERVICES PAGE =====
+"Services"
+"Reliable airport transportation with professional drivers and real-time tracking."
+
+# ===== PARTNERS PAGE =====
+"Partners"
+"Apply for Partnership"
+"Fill out the form below and we'll review your application"
+"Full Name *"
+"Email Address *"
+"Phone Number *"
+"Current Job / Position *"
+"Select your position..."
+"Receptionist"
+"Hotel Owner / Manager"
+"Travel Agency"
+"Online Travel Agency (OTA)"
+"Student Accommodation Facility"
+"Overseas Education Agency"
+"Consulate / Embassy"
+"Other"
+"Company / Organization Name"
+"Questions About Partnership?"
+"Get in touch with our partnership team and we'll help you get started"
+
+# ===== FOOTER =====
+"Book Your Airport Transfer"
+"Top Destinations"
+"Heathrow Transfers"
+"Gatwick Chauffeur"
+"Stansted Airport Cars"
+"Luton Transfers"
+"London City Airport"
+"Manchester Airport"
+"Birmingham Transfers"
+"Edinburgh Airport"
+"Bristol Transfers"
+"Glasgow Chauffeur"
+"Istanbul Airport"
+"Antalya Luxury Transfer"
+"Sabiha Gökçen Airport"
+"Istanbul New Airport"
+"Bodrum Airport"
+"Corporate Chauffeur"
+"VIP Chauffeur London"
+"Executive Travel UK"
+"Business Car Service"
+"Corporate Account"
+"All Services"
+"What Do We Do?"
+"Wedding Transport"
+"Cruise Port Transfers"
+"Company"
+"About Us"
+"Contact Us"
+"Blog"
+"Careers"
+"Legal"
+"Privacy Policy"
+"Terms of Service"
+"Cookie Policy"
+
+# ===== CATEGORY/ARCHIVE PAGES =====
+"Transfer Services"
+"No guides published for"
+"yet."
+
+# ===== ERROR MESSAGES & ADMIN =====
+"Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+
+# ===== TOTAL STRINGS: 150+ =====
+# All strings should use:
+# - __('string', 'airlinel-theme') for return
+# - _e('string', 'airlinel-theme') for echo
+# - esc_html__('string', 'airlinel-theme') for escaped output

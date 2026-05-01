@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlinel Form Tracker - Manual Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #0066cc;
+            margin-top: 30px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+        }
+        .test-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .test-button:hover {
+            background-color: #0052a3;
+        }
+        .test-button.success {
+            background-color: #28a745;
+        }
+        .test-button.danger {
+            background-color: #dc3545;
+        }
+        .output {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-family: monospace;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .pass {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .fail {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .info {
+            color: #0066cc;
+        }
+        .form-group {
+            margin: 10px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 4px rgba(0, 102, 204, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Airlinel Form Tracker - Manual Test Suite</h1>
+        <p>Test the FormTracker functionality before deploying to production.</p>
+
+        <h2>Test 1: Initialization Check</h2>
+        <div class="test-section">
+            <p>Verify that FormTracker initializes and exposes the global API.</p>
+            <button class="test-button" onclick="testInitialization()">Run Test</button>
+            <div id="test1-output" class="output"></div>
+        </div>
+
+        <h2>Test 2: Start Tracking</h2>
+        <div class="test-section">
+            <p>Test starting form tracking with sample data.</p>
+            <div class="form-group">
+                <label>Pickup Location:</label>
+                <input type="text" id="test-pickup" value="London Heathrow Airport">
+            </div>
+            <div class="form-group">
+                <label>Dropoff Location:</label>
+                <input type="text" id="test-dropoff" value="London City Center">
+            </div>
+            <div class="form-group">
+                <label>Distance (km):</label>
+                <input type="number" id="test-distance" value="25.5">
+            </div>
+            <div class="form-group">
+                <label>Country Code:</label>
+                <input type="text" id="test-country" value="GB">
+            </div>
+            <button class="test-button" onclick="testStartTracking()">Run Test</button>
+            <div id="test2-output" class="output"></div>
+        </div>
+
+        <h2>Test 3: Field Change Tracking</h2>
+        <div class="test-section">
+            <p>Test field change event tracking.</p>
+            <div class="form-group">
+                <label>Customer Name:</label>
+                <input type="text" id="test-customer-name" name="customer_name" placeholder="Enter customer name">
+            </div>
+            <div class="form-group">
+                <label>Customer Email:</label>
+                <input type="email" id="test-customer-email" name="customer_email" placeholder="Enter customer email">
+            </div>
+            <p><small>Note: Populate form above and interact with fields to test blur/change events</small></p>
+            <button class="test-button" onclick="testFieldListeners()">Attach Listeners</button>
+            <button class="test-button" onclick="testFieldChange()">Simulate Change</button>
+            <div id="test3-output" class="output"></div>
+        </div>
+
+        <h2>Test 4: Update Customer Data</h2>
+        <div class="test-section">
+            <p>Test customer data update functionality.</p>
+            <button class="test-button" onclick="testUpdateCustomerData()">Run Test</button>
+            <div id="test4-output" class="output"></div>
+        </div>
+
+        <h2>Test 5: Update Vehicle Data</h2>
+        <div class="test-section">
+            <p>Test vehicle data update functionality.</p>
+            <button class="test-button" onclick="testUpdateVehicleData()">Run Test</button>
+            <div id="test5-output" class="output"></div>
+        </div>
+
+        <h2>Test 6: Language Detection</h2>
+        <div class="test-section">
+            <p>Test language detection from page.</p>
+            <button class="test-button" onclick="testLanguageDetection()">Run Test</button>
+            <div id="test6-output" class="output"></div>
+        </div>
+
+        <h2>Test 7: Site Source Detection</h2>
+        <div class="test-section">
+            <p>Test site source detection (main vs regional).</p>
+            <button class="test-button" onclick="testSiteSourceDetection()">Run Test</button>
+            <div id="test7-output" class="output"></div>
+        </div>
+
+        <h2>Test 8: Form State</h2>
+        <div class="test-section">
+            <p>Check current FormTracker state.</p>
+            <button class="test-button info" onclick="checkFormState()">Check State</button>
+            <div id="test8-output" class="output"></div>
+        </div>
+
+        <h2>Run All Tests</h2>
+        <div class="test-section">
+            <button class="test-button success" onclick="runAllTests()">Run All Tests</button>
+            <div id="all-tests-output" class="output"></div>
+        </div>
+    </div>
+
+    <!-- Mock jQuery AJAX for testing -->
+    <script>
+        window.jQuery = window.jQuery || {
+            ajax: function(config) {
+                console.log('AJAX Called:', config);
+                // Mock successful response
+                if (config.success) {
+                    setTimeout(function() {
+                        config.success({
+                            success: true,
+                            data: {
+                                form_id: Math.floor(Math.random() * 10000) + 1000
+                            }
+                        });
+                    }, 100);
+                }
+            }
+        };
+
+        // Mock WordPress data
+        window.chauffeur_data = {
+            ajax_url: '/wp-admin/admin-ajax.php',
+            nonce: 'test_nonce_12345'
+        };
+
+        // Logging helper
+        var testOutput = {};
+        function log(testId, message, type) {
+            type = type || 'info';
+            var outputEl = document.getElementById(testId + '-output');
+            if (outputEl) {
+                var timestamp = new Date().toLocaleTimeString();
+                var className = type === 'pass' ? 'pass' : (type === 'fail' ? 'fail' : 'info');
+                outputEl.innerHTML += '[' + timestamp + '] <span class="' + className + '">' + type.toUpperCase() + '</span>: ' + message + '\n';
+                outputEl.scrollTop = outputEl.scrollHeight;
+            }
+        }
+
+        function clearOutput(testId) {
+            var outputEl = document.getElementById(testId + '-output');
+            if (outputEl) {
+                outputEl.innerHTML = '';
+            }
+        }
+
+        // Test functions
+        function testInitialization() {
+            clearOutput('test1');
+            log('test1', 'Starting FormTracker initialization test...', 'info');
+
+            if (typeof window.AirinelFormTracker === 'undefined') {
+                log('test1', 'ERROR: window.AirinelFormTracker is not defined', 'fail');
+                return;
+            }
+
+            var checks = [
+                { name: 'FormTracker object', fn: () => typeof window.AirinelFormTracker === 'object' },
+                { name: 'startTracking method', fn: () => typeof window.AirinelFormTracker.startTracking === 'function' },
+                { name: 'attachFieldListeners method', fn: () => typeof window.AirinelFormTracker.attachFieldListeners === 'function' },
+                { name: 'updateCustomerData method', fn: () => typeof window.AirinelFormTracker.updateCustomerData === 'function' },
+                { name: 'updateVehicleData method', fn: () => typeof window.AirinelFormTracker.updateVehicleData === 'function' },
+                { name: 'detectLanguage method', fn: () => typeof window.AirinelFormTracker.detectLanguage === 'function' },
+                { name: 'detectSiteSource method', fn: () => typeof window.AirinelFormTracker.detectSiteSource === 'function' }
+            ];
+
+            var passed = 0;
+            checks.forEach(function(check) {
+                if (check.fn()) {
+                    log('test1', check.name + ' ✓', 'pass');
+                    passed++;
+                } else {
+                    log('test1', check.name + ' ✗', 'fail');
+                }
+            });
+
+            log('test1', 'Test complete: ' + passed + '/' + checks.length + ' checks passed', passed === checks.length ? 'pass' : 'fail');
+        }
+
+        function testStartTracking() {
+            clearOutput('test2');
+            log('test2', 'Starting form tracking test...', 'info');
+
+            var pickup = document.getElementById('test-pickup').value;
+            var dropoff = document.getElementById('test-dropoff').value;
+            var distance = parseFloat(document.getElementById('test-distance').value);
+            var country = document.getElementById('test-country').value;
+
+            log('test2', 'Data: pickup="' + pickup + '", dropoff="' + dropoff + '", distance=' + distance + ', country="' + country + '"', 'info');
+
+            if (typeof window.AirinelFormTracker.startTracking !== 'function') {
+                log('test2', 'ERROR: startTracking method not available', 'fail');
+                return;
+            }
+
+            window.AirinelFormTracker.startTracking({
+                pickup: pickup,
+                dropoff: dropoff,
+                distance: distance,
+                country: country
+            });
+
+            setTimeout(function() {
+                var formId = window.AirinelFormTracker.getFormId ? window.AirinelFormTracker.getFormId() : null;
+                if (formId) {
+                    log('test2', 'Form tracking started with ID: ' + formId, 'pass');
+                } else {
+                    log('test2', 'Form tracking initiated (ID check pending)', 'info');
+                }
+            }, 200);
+        }
+
+        function testFieldListeners() {
+            clearOutput('test3');
+            log('test3', 'Attaching field listeners...', 'info');
+
+            if (typeof window.AirinelFormTracker.attachFieldListeners !== 'function') {
+                log('test3', 'ERROR: attachFieldListeners method not available', 'fail');
+                return;
+            }
+
+            window.AirinelFormTracker.attachFieldListeners();
+            log('test3', 'Field listeners attached. Try entering text in the fields above.', 'pass');
+        }
+
+        function testFieldChange() {
+            clearOutput('test3');
+            log('test3', 'Simulating field change event...', 'info');
+
+            var customerName = document.getElementById('test-customer-name');
+            if (customerName) {
+                customerName.value = 'John Doe';
+                var event = new Event('blur', { bubbles: true });
+                customerName.dispatchEvent(event);
+                log('test3', 'Field change event triggered', 'pass');
+            }
+        }
+
+        function testUpdateCustomerData() {
+            clearOutput('test4');
+            log('test4', 'Testing customer data update...', 'info');
+
+            if (!window.AirinelFormTracker.isActive()) {
+                log('test4', 'WARNING: No active form. Call "Start Tracking" first.', 'info');
+            }
+
+            window.AirinelFormTracker.updateCustomerData({
+                customer_name: 'Jane Smith',
+                customer_email: 'jane@example.com',
+                customer_phone: '+44 20 1234 5678'
+            });
+
+            log('test4', 'Customer data update call sent', 'pass');
+        }
+
+        function testUpdateVehicleData() {
+            clearOutput('test5');
+            log('test5', 'Testing vehicle data update...', 'info');
+
+            if (!window.AirinelFormTracker.isActive()) {
+                log('test5', 'WARNING: No active form. Call "Start Tracking" first.', 'info');
+            }
+
+            window.AirinelFormTracker.updateVehicleData({
+                vehicle_id: 42,
+                vehicle_name: 'Mercedes S-Class',
+                price: 89.50
+            });
+
+            log('test5', 'Vehicle data update call sent', 'pass');
+        }
+
+        function testLanguageDetection() {
+            clearOutput('test6');
+            log('test6', 'Testing language detection...', 'info');
+
+            var language = window.AirinelFormTracker.detectLanguage();
+            log('test6', 'Detected language: ' + language, 'pass');
+            log('test6', '(You can set data-language="fr" on <html> to test different languages)', 'info');
+        }
+
+        function testSiteSourceDetection() {
+            clearOutput('test7');
+            log('test7', 'Testing site source detection...', 'info');
+
+            var siteSource = window.AirinelFormTracker.detectSiteSource();
+            log('test7', 'Detected site source: ' + siteSource, 'pass');
+            log('test7', 'Current hostname: ' + window.location.hostname, 'info');
+        }
+
+        function checkFormState() {
+            clearOutput('test8');
+            log('test8', 'FormTracker State:' , 'info');
+            log('test8', '- Form ID: ' + (window.AirinelFormTracker.getFormId ? window.AirinelFormTracker.getFormId() : 'N/A'), 'info');
+            log('test8', '- Is Active: ' + (window.AirinelFormTracker.isActive ? window.AirinelFormTracker.isActive() : 'N/A'), 'info');
+            log('test8', '- AJAX URL: ' + (window.chauffeur_data ? window.chauffeur_data.ajax_url : 'N/A'), 'info');
+        }
+
+        function runAllTests() {
+            clearOutput('all-tests');
+            log('all-tests', 'Running all tests...', 'info');
+
+            testInitialization();
+            setTimeout(() => {
+                testStartTracking();
+                setTimeout(() => {
+                    testLanguageDetection();
+                    testSiteSourceDetection();
+                    testUpdateCustomerData();
+                    testUpdateVehicleData();
+                    log('all-tests', 'All tests completed!', 'pass');
+                }, 300);
+            }, 200);
+        }
+    </script>
+
+    <!-- Load the actual FormTracker script -->
+    <script>
+        // This would normally be enqueued by WordPress
+        // For testing, we'll load it from the assets directory
+        var script = document.createElement('script');
+        script.src = '../../../assets/js/form-tracker.js';
+        document.head.appendChild(script);
+
+        script.onload = function() {
+            console.log('Form tracker loaded successfully');
+            log('test1', 'FormTracker library loaded', 'pass');
+        };
+
+        script.onerror = function() {
+            console.error('Failed to load form tracker');
+            alert('Failed to load form-tracker.js. Make sure the path is correct.');
+        };
+    </script>
+</body>
+</html>

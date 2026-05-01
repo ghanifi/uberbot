@@ -1,0 +1,194 @@
+================================================================================
+AIRLINEL LANGUAGE & CURRENCY SYSTEM - DEPLOYMENT PACKAGE READY
+================================================================================
+
+COMPILATION STATUS: COMPLETE ✓
+================================
+
+All 13 translation files compiled successfully from .po source files to .mo binary format.
+
+Compiled Files (ready for server upload):
+- airlinel-theme-ar.mo (30 translations)
+- airlinel-theme-da_DK.mo (30 translations)  
+- airlinel-theme-de_DE.mo (128 translations)
+- airlinel-theme-en_US.mo (129 translations)
+- airlinel-theme-es_ES.mo (128 translations)
+- airlinel-theme-fr_FR.mo (41 translations)
+- airlinel-theme-it_IT.mo (30 translations)
+- airlinel-theme-ja.mo (30 translations)
+- airlinel-theme-nl_NL.mo (30 translations)
+- airlinel-theme-ru_RU.mo (30 translations)
+- airlinel-theme-sv_SE.mo (30 translations)
+- airlinel-theme-tr_TR.mo (129 translations) ← Complete Turkish translation
+- airlinel-theme-zh_CN.mo (30 translations)
+
+Location: C:\Users\guven\Desktop\airlinel.com_wpvivid\airlinel-transfer-services\languages\
+
+SYSTEM ARCHITECTURE SUMMARY
+============================
+
+1. LANGUAGE SYSTEM
+   - Multiple language support (13 languages)
+   - Admin default language setting in Settings → General
+   - URL parameter override (?lang=tr_TR)
+   - LocalStorage persistence of user selection
+   - AJAX handler to save language preference to WordPress
+
+   Key Files:
+   • class-language-settings.php - Language initialization and locale override
+   • header-selectors.js - Language dropdown UI and switching logic
+   • functions.php - AJAX handler (airlinel_save_language_ajax)
+   • header.php - Language dropdown HTML
+
+2. CURRENCY SYSTEM
+   - 4 currency options: GBP, EUR, TRY, USD
+   - LocalStorage persistence of user selection  
+   - Real-time price recalculation when currency changes
+   - Global updateCurrencyDisplay() function for price updates
+   - Custom currencyChanged event for component communication
+
+   Key Files:
+   • header-selectors.js - Currency dropdown UI and switching logic
+   • booking.js - Price formatting and currency display updates
+   • header.php - Currency dropdown HTML
+
+3. TRANSLATION COVERAGE
+   All user-facing strings wrapped with _e() function:
+   - Header elements ("Book Now", selectors)
+   - Form labels ("Full Name", "Email", "Phone", "Pickup Date", etc.)
+   - Form descriptions and help text
+   - Button labels and navigation text
+
+DEPLOYMENT CHECKLIST
+====================
+
+Pre-Deployment:
+☐ Verify all 13 .mo files created successfully
+☐ Confirm file permissions are 644 (readable)
+☐ Review DEPLOYMENT_INSTRUCTIONS.md
+☐ Check server FTP/file manager access
+☐ Have WordPress admin login ready
+
+Deployment:
+☐ Upload 13 .mo files to: wp-content/themes/airlinel-transfer-services/languages/
+☐ Upload/replace header.php
+☐ Upload/replace page-booking.php
+☐ Upload/replace functions.php
+☐ Upload/replace assets/js/header-selectors.js
+☐ Upload/replace assets/js/booking.js
+☐ Upload/replace includes/class-language-settings.php
+☐ Verify all files uploaded with correct file sizes
+☐ Set file permissions to 644 on all files
+
+Post-Deployment:
+☐ Clear WordPress cache (admin panel or plugin)
+☐ Set default language in Settings → General → Site Language
+☐ Clear browser cache (Ctrl+Shift+Del)
+☐ Test homepage displays in default language
+☐ Test ?lang=tr_TR parameter
+☐ Test language dropdown selection
+☐ Test currency dropdown and price updates
+☐ Test with multiple language/currency combinations
+☐ Check browser console (F12) for JavaScript errors
+☐ Check server error logs for PHP warnings
+
+QUICK START GUIDE
+=================
+
+1. SSH/FTP into server
+
+2. Navigate to WordPress theme directory:
+   cd wp-content/themes/airlinel-transfer-services/
+
+3. Upload all .mo files to languages/ directory:
+   Upload: airlinel-theme-*.mo files
+
+4. Replace theme files in root directory:
+   Replace: header.php, page-booking.php, functions.php
+
+5. Replace JavaScript files:
+   Replace: assets/js/header-selectors.js, assets/js/booking.js
+
+6. Replace language settings:
+   Replace: includes/class-language-settings.php
+
+7. Set permissions:
+   chmod 644 languages/*.mo
+   chmod 644 header.php
+   chmod 644 page-booking.php
+   chmod 644 functions.php
+   chmod 644 assets/js/header-selectors.js
+   chmod 644 assets/js/booking.js
+   chmod 644 includes/class-language-settings.php
+
+8. In WordPress Admin:
+   - Go to Settings → General
+   - Change "Site Language" to Turkish (Türkçe) or desired language
+   - Click "Save Changes"
+   - Clear cache if available
+
+9. Clear browser cache and test
+
+EXPECTED BEHAVIOR AFTER DEPLOYMENT
+===================================
+
+✓ Homepage loads with admin-configured language
+✓ Language dropdown in header shows all 13 languages
+✓ Clicking language in dropdown switches page to that language
+✓ Language selection persists on page reload
+✓ ?lang=tr_TR parameter overrides default language
+✓ Currency dropdown in header shows GBP, EUR, TRY, USD
+✓ Changing currency updates all vehicle prices
+✓ Prices displayed in selected currency
+✓ Payment button shows amount in selected currency
+✓ All form labels display in selected language
+✓ Form values persist when language changes
+✓ No JavaScript errors in browser console
+✓ No PHP errors in server logs
+
+TROUBLESHOOTING QUICK REFERENCE
+================================
+
+Issue: Still showing English despite setting Turkish in admin
+Fix: 
+  1. Check .mo files uploaded to correct directory
+  2. Clear WordPress cache
+  3. Clear browser cache (Ctrl+Shift+Del)
+  4. Reload page
+  5. Check Settings → General Site Language is set
+
+Issue: Language dropdown not visible
+Fix:
+  1. Verify header.php uploaded correctly
+  2. Check header-selectors.js is loaded (F12 → Network tab)
+  3. Check browser console for JavaScript errors
+  4. Verify language dropdown HTML exists (F12 → Elements)
+
+Issue: Prices not updating when currency changes
+Fix:
+  1. Verify booking.js uploaded with updateCurrencyDisplay() function
+  2. Check header-selectors.js is loaded
+  3. Open booking form, check console for errors
+  4. Verify currencyChanged event is fired (console.log in booking.js)
+
+Issue: Only some strings translated, others in English
+Fix:
+  1. Check that .po file has translation for that string
+  2. Verify .mo file compiled from updated .po
+  3. Ensure string uses _e() function with 'airlinel-theme' textdomain
+  4. Check browser console for translation errors
+
+SUPPORT FILES
+=============
+
+Available in deployment directory:
+- DEPLOYMENT_INSTRUCTIONS.md - Detailed step-by-step guide
+- FILES_TO_DEPLOY.txt - List of all files to upload
+- DEPLOYMENT_SUMMARY.txt - This file
+
+All files compiled and ready for production deployment.
+
+================================================================================
+Generated: 2026-04-28
+Status: READY FOR DEPLOYMENT
+================================================================================

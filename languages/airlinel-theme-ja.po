@@ -1,0 +1,1193 @@
+# Japanese translation for Airlinel Theme
+# Copyright (C) 2026 Airlinel
+# This file is distributed under the same license as the Airlinel Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Airlinel Theme 1.0\n"
+"Report-Msgid-Bugs-To: support@airlinel.com\n"
+"POT-Creation-Date: 2026-04-25 16:30+0000\n"
+"PO-Revision-Date: 2026-04-29 12:00+0000\n"
+"Last-Translator: Airlinel Team\n"
+"Language: ja\n"
+"Language-Team: Airlinel <support@airlinel.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Book Now"
+msgstr "今すぐ予約"
+
+msgid "Instant Booking"
+msgstr "即時予約"
+
+msgid "London Airport Transfer"
+msgstr "ロンドン空港送迎"
+
+msgid "& Chauffeur Service"
+msgstr "& プロドライバーサービス"
+
+msgid "Pickup"
+msgstr "乗車場所"
+
+msgid "Airport, hotel, or address"
+msgstr "空港・ホテル・住所"
+
+msgid "Destination"
+msgstr "目的地"
+
+msgid "Where are you going?"
+msgstr "どちらへ行かれますか？"
+
+msgid "Pickup Date"
+msgstr "乗車日"
+
+msgid "Pickup Time"
+msgstr "乗車時刻"
+
+msgid "Check Availability & Price"
+msgstr "空き状況・料金を確認"
+
+msgid "Distance"
+msgstr "距離"
+
+msgid "KM"
+msgstr "km"
+
+msgid "Est. Time"
+msgstr "所要時間（目安）"
+
+msgid "No hidden fees. No surge pricing. Just precision travel."
+msgstr "隠れた費用一切なし。料金の急変動なし。確かな品質と時間厳守のサービス。"
+
+msgid "Book Your Airport"
+msgstr "空港送迎を"
+
+msgid "Transfer in Advance."
+msgstr "事前にご予約ください。"
+
+msgid "Travel Without"
+msgstr "ストレスのない"
+
+msgid "Friction."
+msgstr "快適な旅へ。"
+
+msgid "Pickup Location"
+msgstr "乗車地点"
+
+msgid "Select Your Vehicle"
+msgstr "車両をお選びください"
+
+msgid "Booking Details"
+msgstr "予約内容"
+
+msgid "Country"
+msgstr "国"
+
+msgid "Turkey"
+msgstr "トルコ"
+
+msgid "United Kingdom"
+msgstr "英国"
+
+msgid "Currency"
+msgstr "通貨"
+
+msgid "GBP - British Pound"
+msgstr "GBP - 英ポンド"
+
+msgid "EUR - Euro"
+msgstr "EUR - ユーロ"
+
+msgid "TRY - Turkish Lira"
+msgstr "TRY - トルコリラ"
+
+msgid "USD - US Dollar"
+msgstr "USD - 米ドル"
+
+msgid "Exchange rate: 1 GBP ="
+msgstr "為替レート：1 GBP ="
+
+msgid "Full Name"
+msgstr "氏名"
+
+msgid "Email Address"
+msgstr "メールアドレス"
+
+msgid "Phone Number"
+msgstr "電話番号"
+
+msgid "Confirm Booking"
+msgstr "予約を確定する"
+
+msgid "Terms and Conditions"
+msgstr "利用規約"
+
+msgid "I agree to the"
+msgstr "同意します："
+
+msgid "Cities"
+msgstr "都市"
+
+msgid "Airport Transfers"
+msgstr "空港送迎"
+
+msgid "Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+msgstr "ロンドン・マンチェスター・イスタンブール・アンタルヤで空港送迎をご予約ください。固定料金・プロドライバー・リアルタイムフライト追跡 — 24時間対応。"
+
+msgid "Available"
+msgstr "空きあり"
+
+msgid "Rated"
+msgstr "評価"
+
+msgid "Mercedes-Benz Fleet"
+msgstr "メルセデス・ベンツ車両"
+
+msgid "Meet & Greet"
+msgstr "お出迎えサービス"
+
+msgid "Flight Tracking"
+msgstr "フライト追跡"
+
+msgid "Fixed Rates"
+msgstr "固定料金"
+
+msgid "No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+msgstr "都市が見つかりません。WordPress管理画面 → 投稿 → カテゴリーから追加してください。"
+
+msgid "Ready to Book Your Transfer?"
+msgstr "送迎をご予約の準備はできていますか？"
+
+msgid "Select your city above or book directly — any destination, any time."
+msgstr "上から都市を選択するか、直接ご予約ください — どの目的地にも、いつでも。"
+
+msgid "Fleet"
+msgstr "当社の車両ラインナップ"
+
+msgid "Our Premium Vehicles"
+msgstr "プレミアム車両"
+
+msgid "Premium"
+msgstr "プレミアム"
+
+msgid "Available Now"
+msgstr "ただいま利用可能"
+
+msgid "No vehicles in fleet at this time."
+msgstr "現在利用可能な車両はありません。"
+
+msgid "Premium Selection"
+msgstr "厳選プレミアム車両"
+
+msgid "Hand-curated vehicles maintained to the highest standards."
+msgstr "最高水準で管理された、厳選プレミアム車両。"
+
+msgid "Fully Insured"
+msgstr "完全保険加入済"
+
+msgid "Complete coverage on all vehicles with comprehensive insurance."
+msgstr "全車両に包括的な保険を完備。"
+
+msgid "Expert Chauffeurs"
+msgstr "熟練ドライバー"
+
+msgid "Professionally trained drivers with extensive experience."
+msgstr "豊富な経験を持つ、プロ訓練済みドライバー。"
+
+msgid "Always On Time"
+msgstr "常に時間厳守"
+
+msgid "Punctuality guaranteed with real-time tracking."
+msgstr "リアルタイム追跡により、時間厳守をお約束します。"
+
+msgid "Eco-Conscious"
+msgstr "環境への配慮"
+
+msgid "Modern vehicles with reduced emissions."
+msgstr "低排出ガスを実現した最新車両。"
+
+msgid "Connected Travel"
+msgstr "つながる移動"
+
+msgid "WiFi and premium amenities in every vehicle."
+msgstr "全車両に無料WiFiとプレミアムアメニティを完備。"
+
+msgid "Services"
+msgstr "サービス内容"
+
+msgid "Reliable airport transportation with professional drivers and real-time tracking."
+msgstr "プロドライバーとリアルタイム追跡による、信頼の空港送迎サービス。"
+
+msgid "Partners"
+msgstr "パートナー"
+
+msgid "Apply for Partnership"
+msgstr "パートナーシップを申請する"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "下記フォームにご記入ください。申請内容を確認いたします。"
+
+msgid "Full Name *"
+msgstr "氏名 *"
+
+msgid "Email Address *"
+msgstr "メールアドレス *"
+
+msgid "Phone Number *"
+msgstr "電話番号 *"
+
+msgid "Current Job / Position *"
+msgstr "現在の職種・役職 *"
+
+msgid "Select your position..."
+msgstr "役職をお選びください..."
+
+msgid "Receptionist"
+msgstr "フロントスタッフ"
+
+msgid "Hotel Owner / Manager"
+msgstr "ホテルオーナー / マネージャー"
+
+msgid "Travel Agency"
+msgstr "旅行代理店"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "オンライン旅行代理店（OTA）"
+
+msgid "Student Accommodation Facility"
+msgstr "学生寮・学生住宅"
+
+msgid "Overseas Education Agency"
+msgstr "海外留学エージェント"
+
+msgid "Consulate / Embassy"
+msgstr "領事館 / 大使館"
+
+msgid "Other"
+msgstr "その他"
+
+msgid "Company / Organization Name"
+msgstr "会社・組織名"
+
+msgid "Questions About Partnership?"
+msgstr "パートナーシップについてご質問がありますか？"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "パートナーチームにお問い合わせください。開始のサポートをいたします。"
+
+msgid "Book Your Airport Transfer"
+msgstr "空港送迎を予約する"
+
+msgid "Top Destinations"
+msgstr "人気の路線"
+
+msgid "Heathrow Transfers"
+msgstr "ヒースロー空港送迎"
+
+msgid "Gatwick Chauffeur"
+msgstr "ガトウィック空港ドライバー"
+
+msgid "Stansted Airport Cars"
+msgstr "スタンステッド空港送迎"
+
+msgid "Luton Transfers"
+msgstr "ルートン空港送迎"
+
+msgid "London City Airport"
+msgstr "ロンドン・シティ空港"
+
+msgid "Manchester Airport"
+msgstr "マンチェスター空港"
+
+msgid "Birmingham Transfers"
+msgstr "バーミンガム送迎"
+
+msgid "Edinburgh Airport"
+msgstr "エディンバラ空港"
+
+msgid "Bristol Transfers"
+msgstr "ブリストル送迎"
+
+msgid "Glasgow Chauffeur"
+msgstr "グラスゴー専属ドライバー"
+
+msgid "Istanbul Airport"
+msgstr "イスタンブール空港"
+
+msgid "Antalya Luxury Transfer"
+msgstr "アンタルヤ高級送迎"
+
+msgid "Sabiha Gökçen Airport"
+msgstr "サビハ・ギョクチェン空港"
+
+msgid "Istanbul New Airport"
+msgstr "イスタンブール新空港"
+
+msgid "Bodrum Airport"
+msgstr "ボドルム空港"
+
+msgid "Corporate Chauffeur"
+msgstr "法人専用ドライバー"
+
+msgid "VIP Chauffeur London"
+msgstr "ロンドン VIP専属ドライバー"
+
+msgid "Executive Travel UK"
+msgstr "英国エグゼクティブ移動サービス"
+
+msgid "Business Car Service"
+msgstr "ビジネス車両サービス"
+
+msgid "Corporate Account"
+msgstr "法人アカウント"
+
+msgid "All Services"
+msgstr "全サービス"
+
+msgid "What Do We Do?"
+msgstr "私たちのサービスとは？"
+
+msgid "Wedding Transport"
+msgstr "ウェディング送迎"
+
+msgid "Cruise Port Transfers"
+msgstr "クルーズ港送迎"
+
+msgid "Company"
+msgstr "会社情報"
+
+msgid "About Us"
+msgstr "私たちについて"
+
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+msgid "Blog"
+msgstr "ブログ"
+
+msgid "Careers"
+msgstr "採用情報"
+
+msgid "Legal"
+msgstr "法的情報"
+
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+msgid "Terms of Service"
+msgstr "利用規約"
+
+msgid "Cookie Policy"
+msgstr "Cookieポリシー"
+
+msgid "Transfer Services"
+msgstr "送迎サービス"
+
+msgid "Guide"
+msgstr "ガイド"
+
+msgid "Guides"
+msgstr "旅行ガイド"
+
+msgid "Travel Guides"
+msgstr "旅行ガイド"
+
+msgid "No guides published for"
+msgstr "まだガイドが公開されていません："
+
+msgid "yet."
+msgstr ""
+
+msgid "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+msgstr "Airlinel：wp-config.php に AIRLINEL_MAIN_SITE_API_KEY が設定されていません"
+
+msgid "Trusted by travelers who don't compromise"
+msgstr "妥協しない旅人が選ぶサービス"
+
+msgid "Why Choose Airlinel for London Airport Transfers"
+msgstr "なぜロンドン空港送迎に Airlinel を選ぶのか？"
+
+msgid "Real-Time Flight Tracking"
+msgstr "リアルタイムフライト追跡"
+
+msgid "We monitor your flight automatically and adjust pickup times accordingly."
+msgstr "フライトを自動監視し、乗車時刻を適宜調整します。"
+
+msgid "Executive-Level Chauffeurs"
+msgstr "エグゼクティブレベルのドライバー"
+
+msgid "Professionally trained, impeccably presented, and multilingual."
+msgstr "プロとして訓練された、身だしなみ完璧の多言語対応ドライバー。"
+
+msgid "Fixed Transparent Pricing"
+msgstr "明確な固定料金"
+
+msgid "No surge pricing. No hidden fees. The price you see is final."
+msgstr "料金の急変動なし。隠れた費用なし。表示価格が最終価格です。"
+
+msgid "Meet & Greet Included"
+msgstr "お出迎えサービス込み"
+
+msgid "Your chauffeur will meet you at arrivals with a name board."
+msgstr "ドライバーが到着ロビーにてネームボードを持ってお出迎えします。"
+
+msgid "24/7 Global Support"
+msgstr "24時間グローバルサポート"
+
+msgid "Round-the-clock assistance in multiple languages, wherever you are."
+msgstr "世界中どこにいても、複数言語で24時間サポート。"
+
+msgid "Luxury Fleet Guarantee"
+msgstr "高級車両保証"
+
+msgid "Immaculate vehicles maintained to showroom standards daily."
+msgstr "毎日ショールーム水準で整備された、清潔感溢れる車両。"
+
+msgid "Instant Booking Confirmation"
+msgstr "即時予約確認"
+
+msgid "Receive immediate confirmation with full journey details."
+msgstr "全行程の詳細を含む確認を即時受信。"
+
+msgid "Multilingual Drivers"
+msgstr "多言語対応ドライバー"
+
+msgid "English, Turkish, and other languages spoken fluently."
+msgstr "英語・トルコ語・その他の言語を流暢に話します。"
+
+msgid "Corporate Billing Available"
+msgstr "法人請求対応"
+
+msgid "Streamlined invoicing and account management for businesses."
+msgstr "法人向けに最適化された請求書発行・アカウント管理。"
+
+msgid "Airport Transfer Services Tailored for Every Journey"
+msgstr "すべての旅に最適化された空港送迎サービス"
+
+msgid "Precision transport designed for how the world moves today."
+msgstr "現代のビジネス速度に対応した、精密な移動サービス。"
+
+msgid "Seamless arrivals and departures with precision timing."
+msgstr "精確なタイミング管理による、スムーズな到着・出発。"
+
+msgid "Airport Transfer Services in London"
+msgstr "ロンドンの空港送迎サービス"
+
+msgid "Corporate Travel"
+msgstr "ビジネス出張"
+
+msgid "Executive transport for professionals who value punctuality."
+msgstr "時間を重視するビジネスプロフェッショナル向けエグゼクティブ移動。"
+
+msgid "Corporate Airport Travel Services"
+msgstr "法人向け空港移動サービス"
+
+msgid "Wedding Transport & Chauffeur Service"
+msgstr "ウェディング送迎 & ドライバーサービス"
+
+msgid "Your special day deserves seamless, elegant transportation."
+msgstr "特別な一日には、完璧でエレガントな移動をお届けします。"
+
+msgid "VIP Chauffeur"
+msgstr "VIP専属ドライバー"
+
+msgid "Full-day dedicated chauffeur for discerning clients."
+msgstr "こだわりをお持ちのお客様向け、一日専属ドライバー。"
+
+msgid "VIP Chauffeur Service Details"
+msgstr "VIP専属ドライバーサービス詳細"
+
+msgid "Event Transport"
+msgstr "イベント送迎"
+
+msgid "Coordinated group transport for conferences and galas."
+msgstr "会議・ガライベント向けの統括グループ移動サービス。"
+
+msgid "Event & Conference Transport"
+msgstr "イベント & コンファレンス送迎"
+
+msgid "Hotel Transfers"
+msgstr "ホテル送迎"
+
+msgid "Direct transfer to your accommodation with luggage assistance."
+msgstr "荷物補助付きで宿泊先への直接送迎。"
+
+msgid "Hotel Airport Transfer Service"
+msgstr "ホテル空港送迎サービス"
+
+msgid "Seamless transfer from port to airport or accommodation."
+msgstr "クルーズ港から空港・宿泊先へスムーズに移動。"
+
+msgid "Cruise Port Transfer Service"
+msgstr "クルーズ港送迎サービス"
+
+msgid "Private City Tours"
+msgstr "プライベート市内観光"
+
+msgid "Bespoke city tours with local insider knowledge."
+msgstr "地元の専門知識を活かしたオーダーメイド市内観光。"
+
+msgid "Private City Tour Packages"
+msgstr "プライベート市内観光パッケージ"
+
+msgid "Most Requested by Executives"
+msgstr "経営幹部に最も選ばれるサービス"
+
+msgid "Business Class Mobility"
+msgstr "ビジネスクラスの移動"
+
+msgid "Elite-tier service combining chauffeur, executive assistant, and mobile office."
+msgstr "ドライバー・エグゼクティブアシスタント・モバイルオフィスを融合したエリートサービス。"
+
+msgid "Business Class Mobility Service"
+msgstr "ビジネスクラス移動サービス"
+
+msgid "Travel Intelligence"
+msgstr "旅行ガイド"
+
+msgid "Strategies, insights, and destination expertise for travelers who move differently."
+msgstr "こだわりの旅人向けの戦略・洞察・目的地専門知識。"
+
+msgid "View All Articles"
+msgstr "すべての記事を見る"
+
+msgid "Stop booking taxis."
+msgstr "普通のタクシーを卒業しましょう。"
+
+msgid "Start traveling properly."
+msgstr "本来あるべき旅を、今すぐ始めましょう。"
+
+msgid "Experience the difference when every detail is engineered, every arrival is anticipated, and every journey feels effortless."
+msgstr "すべての細部が設計され、すべての到着が先読みされ、すべての旅が自然に感じられる違いを体験してください。"
+
+msgid "Book Your Ride"
+msgstr "乗車を予約"
+
+msgid "Instant Confirmation"
+msgstr "即時確認"
+
+msgid "24/7 Support"
+msgstr "24時間サポート"
+
+msgid "Free Cancellation"
+msgstr "無料キャンセル"
+
+msgid "Earn With"
+msgstr "稼ぎましょう："
+
+msgid "Join our global partner network and unlock preferred pricing, priority booking access, and immediate commission payouts."
+msgstr "グローバルパートナーネットワークに参加して、優遇価格・優先予約アクセス・即時コミッション支払いを得ましょう。"
+
+msgid "Average partners earn £100/week"
+msgstr "パートナーの平均収入は週£100"
+
+msgid "Discounted transfer rates for your guests"
+msgstr "ゲストに割引送迎料金を提供"
+
+msgid "Earn commission on every booking"
+msgstr "すべての予約でコミッションを獲得"
+
+msgid "Instant payouts with zero delays"
+msgstr "遅延ゼロの即時支払い"
+
+msgid "API access available"
+msgstr "APIアクセス対応"
+
+msgid "Dedicated partner support team"
+msgstr "専任パートナーサポートチーム"
+
+msgid "Zero operational hassle"
+msgstr "運営の手間ゼロ"
+
+msgid "Become a Partner"
+msgstr "パートナーになる"
+
+msgid "Trusted by hospitality professionals worldwide"
+msgstr "世界中のホスピタリティ専門家に信頼されるブランド"
+
+msgid "Drive With"
+msgstr "一緒に走りましょう："
+
+msgid "Turn your vehicle into a premium earning asset. Work on your terms while accessing high-value clients."
+msgstr "あなたの車をプレミアム収入源に変えましょう。自分のスケジュールで働きながら、高価値のお客様にサービスを提供できます。"
+
+msgid "High earning potential with"
+msgstr "高い収入ポテンシャル —"
+
+msgid "premium rates"
+msgstr "プレミアム料金体系"
+
+msgid "Access to premium passenger base"
+msgstr "プレミアム乗客層へのアクセス"
+
+msgid "Flexible schedule—you decide when"
+msgstr "フレキシブルなスケジュール — いつ働くかはあなた次第"
+
+msgid "Fast onboarding and training"
+msgstr "スピーディーな登録とプロ研修"
+
+msgid "Consistent ride flow and bookings"
+msgstr "安定した配車フローと予約"
+
+msgid "Average drivers earn £1000/week"
+msgstr "ドライバーの平均収入は週£1000"
+
+msgid "Apply to Drive"
+msgstr "ドライバーとして応募"
+
+msgid "Serious drivers only"
+msgstr "プロドライバーのみ対象"
+
+msgid "Upgrade the Way You Travel."
+msgstr "移動のスタイルを格上げしましょう。"
+
+msgid "London Transfers"
+msgstr "ロンドン送迎"
+
+msgid "UK Regional"
+msgstr "英国各地域"
+
+msgid "Turkey Transfers"
+msgstr "トルコ送迎"
+
+msgid "Corporate"
+msgstr "法人サービス"
+
+msgid "Quick Links"
+msgstr "クイックリンク"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Service Rates"
+msgstr "料金一覧"
+
+msgid "Our Fleet"
+msgstr "車両ラインナップ"
+
+msgid "Testimonials"
+msgstr "お客様の声"
+
+msgid "Questions & Answers"
+msgstr "よくある質問"
+
+msgid "Photo Gallery"
+msgstr "フォトギャラリー"
+
+msgid "Video Gallery"
+msgstr "ビデオギャラリー"
+
+msgid "News"
+msgstr "ニュース"
+
+msgid "Contact — United Kingdom"
+msgstr "お問い合わせ — 英国"
+
+msgid "Contact — Türkiye"
+msgstr "お問い合わせ — トルコ"
+
+msgid "Career"
+msgstr "採用"
+
+msgid "Driver Job Application"
+msgstr "ドライバー求人申込"
+
+msgid "Legal &amp; Policy"
+msgstr "法的情報 & ポリシー"
+
+msgid "Terms &amp; Conditions"
+msgstr "利用規約"
+
+msgid "Refund &amp; Cancellation"
+msgstr "返金 & キャンセル"
+
+msgid "Publishing Principles"
+msgstr "編集方針"
+
+msgid "Ethics Policy"
+msgstr "倫理方針"
+
+msgid "Diversity Policy"
+msgstr "ダイバーシティ方針"
+
+msgid "Diversity Staffing Report"
+msgstr "多様性人材レポート"
+
+msgid "Ownership &amp; Funding"
+msgstr "所有権 & 資金調達"
+
+msgid "Corrections Policy"
+msgstr "訂正方針"
+
+msgid "Actionable Feedback Policy"
+msgstr "フィードバック方針"
+
+msgid "TfL Licensed"
+msgstr "TfL 認定済み"
+
+msgid "5-Star Rated"
+msgstr "5つ星評価"
+
+msgid "Secure Payments"
+msgstr "安全なお支払い"
+
+msgid "Need a Custom Solution?"
+msgstr "カスタムソリューションが必要ですか？"
+
+msgid "By"
+msgstr "著者："
+
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+msgid "24/7 Service Available"
+msgstr "24時間サービス対応"
+
+msgid "Book a Transfer"
+msgstr "送迎を予約する"
+
+msgid "Read Guide"
+msgstr "ガイドを読む"
+
+msgid "Service Locations"
+msgstr "サービスエリア"
+
+msgid "Two Continents."
+msgstr "2つの大陸。"
+
+msgid "One Standard."
+msgstr "ひとつの基準。"
+
+msgid "Airport transfers across the UK and Turkey — professional drivers, fixed rates, real-time flight tracking."
+msgstr "英国・トルコ全域の空港送迎 — プロドライバー、固定料金、リアルタイムフライト追跡。"
+
+msgid "View All Cities"
+msgstr "全都市を見る"
+
+msgid "Verify"
+msgstr "確認する"
+
+msgid "Leave blank if you don't have one"
+msgstr "お持ちでない場合は空白のままにしてください"
+
+msgid "Selected Vehicle"
+msgstr "選択した車両"
+
+msgid "Agency Verified"
+msgstr "代理店確認済み"
+
+msgid "Agency Name"
+msgstr "代理店名"
+
+msgid "Commission %"
+msgstr "コミッション %"
+
+msgid "Your Savings"
+msgstr "割引額"
+
+msgid "Commission has been applied to your booking"
+msgstr "コミッション割引が予約に適用されました"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Invalid Agency Code"
+msgstr "無効な代理店コード"
+
+msgid "Try Again"
+msgstr "もう一度試す"
+
+msgid "Ready to Experience Premium Travel?"
+msgstr "プレミアム移動を体験する準備はできていますか？"
+
+msgid "Book your service today and discover the Airlinel difference."
+msgstr "今日ご予約いただき、Airlinel の違いをご体験ください。"
+
+msgid "Learn More"
+msgstr "詳細を見る"
+
+msgid "Why Choose Our Fleet?"
+msgstr "なぜ当社の車両を選ぶのか？"
+
+msgid "View Full Details"
+msgstr "詳細をすべて見る"
+
+msgid "Book This Vehicle"
+msgstr "この車両を予約"
+
+msgid "Experience Premium Transportation"
+msgstr "プレミアム移動を体験する"
+
+msgid "Book one of our premium vehicles today and discover the Airlinel difference."
+msgstr "本日プレミアム車両をご予約いただき、Airlinel の違いをご体験ください。"
+
+msgid "Book Your Ride Now"
+msgstr "今すぐ予約する"
+
+msgid "Premium Transfer Service"
+msgstr "プレミアム送迎サービス"
+
+msgid "Where to"
+msgstr "どちらへ"
+
+msgid "Next?"
+msgstr "参りますか？"
+
+msgid "Experience luxury and punctuality. Book your private chauffeur in just a few clicks."
+msgstr "贅沢さと時間厳守を体験してください。数クリックでプライベートチョーファーをご予約いただけます。"
+
+msgid "Total Distance"
+msgstr "総距離"
+
+msgid "Est. Duration"
+msgstr "予想所要時間"
+
+msgid "About Airlinel"
+msgstr "Airlinelについて"
+
+msgid "Get in Touch"
+msgstr "お問い合わせ"
+
+msgid "Our Mission"
+msgstr "私たちのミッション"
+
+msgid "Reliability"
+msgstr "信頼性"
+
+msgid "On-time arrivals and dependable service you can trust."
+msgstr "時間通りの到着と信頼できる確実なサービス。"
+
+msgid "Excellence"
+msgstr "卓越性"
+
+msgid "Consistently delivering premium service standards."
+msgstr "一貫してプレミアムサービス基準を提供します。"
+
+msgid "Customer Care"
+msgstr "カスタマーケア"
+
+msgid "Your satisfaction is our top priority."
+msgstr "お客様の満足が私たちの最優先事項です。"
+
+msgid "By The Numbers"
+msgstr "数字で見る"
+
+msgid "Years in Business"
+msgstr "年の実績"
+
+msgid "Happy Customers"
+msgstr "満足したお客様"
+
+msgid "Vehicles in Fleet"
+msgstr "保有車両数"
+
+msgid "Daily Rides"
+msgstr "1日あたりの乗車数"
+
+msgid "Our Story"
+msgstr "私たちのストーリー"
+
+msgid "Why Choose Airlinel?"
+msgstr "なぜAirlinelを選ぶのか？"
+
+msgid "Industry Certified"
+msgstr "業界認定"
+
+msgid "Licensed and fully insured for your peace of mind."
+msgstr "ご安心のために、ライセンス取得済みかつ完全保険加入済み。"
+
+msgid "Safety First"
+msgstr "安全第一"
+
+msgid "Professional drivers with extensive background checks."
+msgstr "徹底した身元調査を受けたプロのドライバー。"
+
+msgid "24/7 Available"
+msgstr "24時間365日対応"
+
+msgid "Round-the-clock service for all your transfer needs."
+msgstr "すべての送迎ニーズに対応する24時間サービス。"
+
+msgid "Consistently praised by our satisfied customers."
+msgstr "満足したお客様から常に高い評価をいただいています。"
+
+msgid "Ready to Experience Premium Service?"
+msgstr "プレミアムサービスを体験する準備はできましたか？"
+
+msgid "Join thousands of satisfied customers who trust Airlinel for their airport transfers."
+msgstr "空港送迎にAirlinelを信頼する何千もの満足したお客様にご参加ください。"
+
+msgid "Book Your Transfer Today"
+msgstr "今日の送迎を予約する"
+msgid "Have questions? We're here to help. Contact us today for more information about our services."
+msgstr "ご質問はありますか？私たちがお手伝いします。サービスの詳細については、今すぐお問い合わせください。"
+
+msgid "Contact Information"
+msgstr "連絡先情報"
+
+msgid "Phone"
+msgstr "電話"
+
+msgid "Available 24/7"
+msgstr "24時間365日対応"
+
+msgid "Available during business hours"
+msgstr "営業時間内に対応"
+
+msgid "Email"
+msgstr "メール"
+
+msgid "We'll respond within 2 hours"
+msgstr "2時間以内に返信いたします"
+
+msgid "Address"
+msgstr "住所"
+
+msgid "Business Hours"
+msgstr "営業時間"
+
+msgid "We are currently open"
+msgstr "現在営業中です"
+
+msgid "We are currently closed"
+msgstr "現在閉店しています"
+
+msgid "Send us a Message"
+msgstr "メッセージを送る"
+
+msgid "Full Name *"
+msgstr "フルネーム *"
+
+msgid "Email Address *"
+msgstr "メールアドレス *"
+
+msgid "Phone Number"
+msgstr "電話番号"
+
+msgid "Subject *"
+msgstr "件名 *"
+
+msgid "-- Select a subject --"
+msgstr "-- 件名を選択 --"
+
+msgid "Booking Inquiry"
+msgstr "予約に関するお問い合わせ"
+
+msgid "General Question"
+msgstr "一般的な質問"
+
+msgid "Complaint or Feedback"
+msgstr "苦情またはフィードバック"
+
+msgid "Partnership Opportunity"
+msgstr "パートナーシップの機会"
+
+msgid "Other"
+msgstr "その他"
+
+msgid "Message *"
+msgstr "メッセージ *"
+
+msgid "Please tell us how we can help..."
+msgstr "どのようにお手伝いできるかお知らせください..."
+
+msgid "Your information is secure and will only be used to respond to your inquiry."
+msgstr "お客様の情報は安全に保護され、お問い合わせへの返答にのみ使用されます。"
+
+msgid "Send Message"
+msgstr "メッセージを送信"
+
+msgid "Find Us"
+msgstr "アクセス"
+
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"
+
+msgid "How far in advance should I book?"
+msgstr "どのくらい前に予約すべきですか？"
+
+msgid "We recommend booking at least 24 hours in advance for best availability. However, we do accept same-day bookings depending on our current schedule. Contact us directly for urgent bookings."
+msgstr "最良の空き状況のため、少なくとも24時間前の予約をお勧めします。ただし、現在のスケジュールに応じて当日予約も承っております。緊急の予約は直接お問い合わせください。"
+
+msgid "What payment methods do you accept?"
+msgstr "どのような支払い方法を受け付けていますか？"
+
+msgid "We accept all major credit cards, debit cards, and bank transfers. Online payment is processed securely through our booking system. You can also pay directly to the driver if pre-arranged."
+msgstr "すべての主要クレジットカード、デビットカード、銀行振込を受け付けています。オンライン支払いは予約システムを通じて安全に処理されます。事前に手配すれば直接ドライバーへの支払いも可能です。"
+
+msgid "What if I need to cancel my booking?"
+msgstr "予約をキャンセルする必要がある場合はどうなりますか？"
+
+msgid "Cancellations made 24 hours or more in advance receive a full refund. Cancellations within 24 hours may incur a cancellation fee. Please contact us immediately if you need to modify your booking."
+msgstr "24時間以上前のキャンセルは全額返金されます。24時間以内のキャンセルにはキャンセル料が発生する場合があります。予約を変更する必要がある場合は、すぐにご連絡ください。"
+
+msgid "Are your vehicles wheelchair accessible?"
+msgstr "車両は車椅子対応ですか？"
+
+msgid "Yes, we have wheelchair accessible vehicles available. Please mention your accessibility requirements when booking so we can arrange the appropriate vehicle for your needs."
+msgstr "はい、車椅子対応の車両を用意しています。適切な車両を手配できるよう、予約時にアクセシビリティの要件をお知らせください。"
+
+msgid "Can I bring luggage and how much is included?"
+msgstr "荷物は持参できますか？どのくらい含まれていますか？"
+
+msgid "Absolutely! All our vehicles have spacious boot space to accommodate standard luggage. Oversized baggage may require a larger vehicle. Our team will assist with luggage handling as part of our service."
+msgstr "もちろんです！すべての車両には標準的な荷物を収容できる広いトランクがあります。大型荷物は大きな車両が必要になる場合があります。サービスの一部として荷物の取り扱いをお手伝いします。"
+
+msgid "Ready to Book Your Transfer?"
+msgstr "送迎の予約はお決まりですか？"
+
+msgid "Experience premium airport transfer service today."
+msgstr "今日のうちにプレミアム空港送迎サービスをご体験ください。"
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Partners"
+msgstr "パートナー"
+
+msgid "Become Our Partner"
+msgstr "パートナーになる"
+
+msgid "Join our network of agencies and unlock exclusive opportunities for your business"
+msgstr "エージェントネットワークに参加し、ビジネスの独占的な機会を解き放ちましょう"
+
+msgid "Apply for Partnership"
+msgstr "パートナーシップを申請"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "以下のフォームに記入していただき、申請を審査いたします"
+
+msgid "Phone Number *"
+msgstr "電話番号 *"
+
+msgid "Current Job / Position *"
+msgstr "現在の職業 / 役職 *"
+
+msgid "Select your position..."
+msgstr "役職を選択してください..."
+
+msgid "Receptionist"
+msgstr "受付"
+
+msgid "Hotel Owner / Manager"
+msgstr "ホテルオーナー / マネージャー"
+
+msgid "Travel Agency"
+msgstr "旅行代理店"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "オンライン旅行代理店 (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "学生寮・宿泊施設"
+
+msgid "Overseas Education Agency"
+msgstr "海外留学エージェント"
+
+msgid "Consulate / Embassy"
+msgstr "領事館 / 大使館"
+
+msgid "Company / Organization Name"
+msgstr "会社名 / 組織名"
+
+msgid "I agree to the Terms & Conditions and understand that I will receive an agency code after verification."
+msgstr "利用規約に同意し、確認後にエージェントコードを受け取ることを理解しています。"
+
+msgid "Apply for Agency Partnership"
+msgstr "エージェントパートナーシップを申請"
+
+msgid "Questions About Partnership?"
+msgstr "パートナーシップについてご質問は？"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "パートナーシップチームにご連絡いただければ、開始をお手伝いします"
+
+msgid "Book a Ride"
+msgstr "乗車を予約"
+
+msgid "Contact Support"
+msgstr "サポートに連絡"
+msgid "by"
+msgstr "別"
+
+msgid "City"
+msgstr "都市"
+
+msgid "Real-time flight tracking & guaranteed punctuality."
+msgstr "リアルタイムフライト追跡と定時性の保証。"
+
+msgid "Fully Licensed"
+msgstr "完全認可済み"
+
+msgid "TfL licensed. All drivers professionally vetted & insured."
+msgstr "TfLライセンス取得済み。全ドライバーは専門的に審査・保険加入済みです。"
+
+msgid "Thousands of verified reviews from worldwide travellers."
+msgstr "世界中の旅行者からの数千の認証済みレビュー。"
+
+msgid "Around the clock support in English and Turkish."
+msgstr "英語とトルコ語での24時間サポート。"
+msgid "Total Price"
+msgstr "合計金額"
+
+msgid "Passengers"
+msgstr "乗客"
+
+msgid "Luggage"
+msgstr "荷物"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "UK &amp; Turkey &middot; 24 / 7 &middot; Fixed Rates &middot; Meet &amp; Greet"
+msgstr "イギリス &amp; トルコ &middot; 24 / 7 &middot; 固定料金 &middot; お出迎えサービス"
+
+msgid "+44 7911 123456"
+msgstr "+44 7911 123456"
+
+msgid "e.g. TK1234"
+msgstr "例: TK1234"
+
+msgid "Enter your agency code"
+msgstr "代理店コードを入力してください"
+
+msgid "The agency code you entered could not be verified."
+msgstr "入力された代理店コードを確認できませんでした。"
+msgid "Services"
+msgstr "サービス"
+
+msgid "PAY"
+msgstr "支払う"
+
+msgid "Payment Details"
+msgstr "お支払い詳細"
+
+msgid "Corporate"
+msgstr "法人向け"
+
+msgid "Turkey Transfers"
+msgstr "トルコ送迎"
+
+msgid "Extra Notes"
+msgstr "追加メモ"
+
+msgid "NOW"
+msgstr "今すぐ"
+
+msgid "London Transfers"
+msgstr "ロンドン送迎"
+
+msgid "Secured by Stripe"
+msgstr "Stripeで保護"
+
+msgid "UK Regional"
+msgstr "英国地域"
+
+
+msgid "Read More"
+msgstr "続きを読む"
+
+msgid "Read Less"
+msgstr "少なく読む"
+
+msgid "Premium airport transfers &amp; chauffeur services across the UK and Turkey. Professional drivers, fixed rates, 24/7."
+msgstr "英国とトルコ全域のプレミアム空港送迎・ショーファーサービス。プロドライバー、定額料金、24時間対応。"

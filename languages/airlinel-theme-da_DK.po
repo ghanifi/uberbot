@@ -1,0 +1,1193 @@
+# Danish translation for Airlinel Theme
+# Copyright (C) 2026 Airlinel
+# This file is distributed under the same license as the Airlinel Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Airlinel Theme 1.0\n"
+"Report-Msgid-Bugs-To: support@airlinel.com\n"
+"POT-Creation-Date: 2026-04-25 16:30+0000\n"
+"PO-Revision-Date: 2026-04-29 12:00+0000\n"
+"Last-Translator: Airlinel Team\n"
+"Language: da\n"
+"Language-Team: Airlinel <support@airlinel.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Book Now"
+msgstr "Book Nu"
+
+msgid "Instant Booking"
+msgstr "Øjeblikkelig Booking"
+
+msgid "London Airport Transfer"
+msgstr "Lufthavnstransfer London"
+
+msgid "& Chauffeur Service"
+msgstr "& Chaufførtjeneste"
+
+msgid "Pickup"
+msgstr "Afhentningssted"
+
+msgid "Airport, hotel, or address"
+msgstr "Lufthavn, hotel eller adresse"
+
+msgid "Destination"
+msgstr "Destination"
+
+msgid "Where are you going?"
+msgstr "Hvor skal du hen?"
+
+msgid "Pickup Date"
+msgstr "Afhentningsdato"
+
+msgid "Pickup Time"
+msgstr "Afhentingstid"
+
+msgid "Check Availability & Price"
+msgstr "Tjek Tilgængelighed & Pris"
+
+msgid "Distance"
+msgstr "Afstand"
+
+msgid "KM"
+msgstr "KM"
+
+msgid "Est. Time"
+msgstr "Estimeret Tid"
+
+msgid "No hidden fees. No surge pricing. Just precision travel."
+msgstr "Ingen skjulte gebyrer. Ingen dynamiske priser. Kun pålidelig og præcis service."
+
+msgid "Book Your Airport"
+msgstr "Book Din"
+
+msgid "Transfer in Advance."
+msgstr "Lufthavnstransfer på Forhånd."
+
+msgid "Travel Without"
+msgstr "Rejs Uden"
+
+msgid "Friction."
+msgstr "Besvær."
+
+msgid "Pickup Location"
+msgstr "Afhentningssted"
+
+msgid "Select Your Vehicle"
+msgstr "Vælg Dit Køretøj"
+
+msgid "Booking Details"
+msgstr "Bookingoplysninger"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Turkey"
+msgstr "Tyrkiet"
+
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "GBP - British Pound"
+msgstr "GBP - Britisk Pund"
+
+msgid "EUR - Euro"
+msgstr "EUR - Euro"
+
+msgid "TRY - Turkish Lira"
+msgstr "TRY - Tyrkisk Lira"
+
+msgid "USD - US Dollar"
+msgstr "USD - Amerikansk Dollar"
+
+msgid "Exchange rate: 1 GBP ="
+msgstr "Valutakurs: 1 GBP ="
+
+msgid "Full Name"
+msgstr "Fulde Navn"
+
+msgid "Email Address"
+msgstr "E-mailadresse"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Confirm Booking"
+msgstr "Bekræft Booking"
+
+msgid "Terms and Conditions"
+msgstr "Vilkår og Betingelser"
+
+msgid "I agree to the"
+msgstr "Jeg accepterer"
+
+msgid "Cities"
+msgstr "Byer"
+
+msgid "Airport Transfers"
+msgstr "Lufthavnstransfer"
+
+msgid "Book airport transfers in London, Manchester, Istanbul and Antalya. Fixed rates, professional drivers, real-time flight tracking — available 24/7."
+msgstr "Book lufthavnstransfer i London, Manchester, Istanbul og Antalya. Faste priser, professionelle chauffører, realtidsflygtsporning — tilgængelig 24/7."
+
+msgid "Available"
+msgstr "Tilgængelig"
+
+msgid "Rated"
+msgstr "Bedømmelse"
+
+msgid "Mercedes-Benz Fleet"
+msgstr "Mercedes-Benz Flåde"
+
+msgid "Meet & Greet"
+msgstr "Modtagelsesservice"
+
+msgid "Flight Tracking"
+msgstr "Flysporning"
+
+msgid "Fixed Rates"
+msgstr "Faste Priser"
+
+msgid "No cities found. Add blog categories via WordPress Admin → Posts → Categories."
+msgstr "Ingen byer fundet. Tilføj kategorier via WordPress Admin → Indlæg → Kategorier."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Klar til at Booke Din Transfer?"
+
+msgid "Select your city above or book directly — any destination, any time."
+msgstr "Vælg din by ovenfor eller book direkte — enhver destination, til enhver tid."
+
+msgid "Fleet"
+msgstr "Vores Flåde"
+
+msgid "Our Premium Vehicles"
+msgstr "Vores Premiumkøretøjer"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Available Now"
+msgstr "Tilgængelig Nu"
+
+msgid "No vehicles in fleet at this time."
+msgstr "Ingen køretøjer tilgængelige på nuværende tidspunkt."
+
+msgid "Premium Selection"
+msgstr "Premium Udvalg"
+
+msgid "Hand-curated vehicles maintained to the highest standards."
+msgstr "Håndplukkede køretøjer vedligeholdt efter de højeste standarder."
+
+msgid "Fully Insured"
+msgstr "Fuldt Forsikret"
+
+msgid "Complete coverage on all vehicles with comprehensive insurance."
+msgstr "Fuld dækning på alle køretøjer med komplet forsikring."
+
+msgid "Expert Chauffeurs"
+msgstr "Erfarne Chauffører"
+
+msgid "Professionally trained drivers with extensive experience."
+msgstr "Professionelt uddannede chauffører med stor erfaring."
+
+msgid "Always On Time"
+msgstr "Altid Til Tiden"
+
+msgid "Punctuality guaranteed with real-time tracking."
+msgstr "Punktlighed garanteret med realtidssporing."
+
+msgid "Eco-Conscious"
+msgstr "Miljøbevidst"
+
+msgid "Modern vehicles with reduced emissions."
+msgstr "Moderne køretøjer med reducerede emissioner."
+
+msgid "Connected Travel"
+msgstr "Forbundet Rejse"
+
+msgid "WiFi and premium amenities in every vehicle."
+msgstr "Gratis WiFi og premium faciliteter i hvert køretøj."
+
+msgid "Services"
+msgstr "Vores Tjenester"
+
+msgid "Reliable airport transportation with professional drivers and real-time tracking."
+msgstr "Pålidelig lufthavnstransport med professionelle chauffører og realtidssporing."
+
+msgid "Partners"
+msgstr "Partnere"
+
+msgid "Apply for Partnership"
+msgstr "Ansøg om Partnerskab"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Udfyld formularen nedenfor, og vi gennemgår din ansøgning"
+
+msgid "Full Name *"
+msgstr "Fulde Navn *"
+
+msgid "Email Address *"
+msgstr "E-mailadresse *"
+
+msgid "Phone Number *"
+msgstr "Telefonnummer *"
+
+msgid "Current Job / Position *"
+msgstr "Nuværende Job / Stilling *"
+
+msgid "Select your position..."
+msgstr "Vælg din stilling..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Hotelejer / Manager"
+
+msgid "Travel Agency"
+msgstr "Rejsebureau"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Online Rejsebureau (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Studenterbolig"
+
+msgid "Overseas Education Agency"
+msgstr "Udlandsudannelsesbureau"
+
+msgid "Consulate / Embassy"
+msgstr "Konsulat / Ambassade"
+
+msgid "Other"
+msgstr "Andet"
+
+msgid "Company / Organization Name"
+msgstr "Virksomheds- / Organisationsnavn"
+
+msgid "Questions About Partnership?"
+msgstr "Spørgsmål om Partnerskab?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Kontakt vores partnerteam, og vi hjælper dig i gang"
+
+msgid "Book Your Airport Transfer"
+msgstr "Book Din Lufthavnstransfer"
+
+msgid "Top Destinations"
+msgstr "Populære Destinationer"
+
+msgid "Heathrow Transfers"
+msgstr "Heathrow Lufthavnstransfer"
+
+msgid "Gatwick Chauffeur"
+msgstr "Gatwick Chaufførtjeneste"
+
+msgid "Stansted Airport Cars"
+msgstr "Stansted Lufthavnstransfer"
+
+msgid "Luton Transfers"
+msgstr "Luton Lufthavnstransfer"
+
+msgid "London City Airport"
+msgstr "London City Lufthavn"
+
+msgid "Manchester Airport"
+msgstr "Manchester Lufthavn"
+
+msgid "Birmingham Transfers"
+msgstr "Birmingham Transfer"
+
+msgid "Edinburgh Airport"
+msgstr "Edinburgh Lufthavn"
+
+msgid "Bristol Transfers"
+msgstr "Bristol Transfer"
+
+msgid "Glasgow Chauffeur"
+msgstr "Glasgow Chaufførtjeneste"
+
+msgid "Istanbul Airport"
+msgstr "Istanbul Lufthavn"
+
+msgid "Antalya Luxury Transfer"
+msgstr "Antalya Luksuriøs Transfer"
+
+msgid "Sabiha Gökçen Airport"
+msgstr "Sabiha Gökçen Lufthavn"
+
+msgid "Istanbul New Airport"
+msgstr "Istanbuls Nye Lufthavn"
+
+msgid "Bodrum Airport"
+msgstr "Bodrum Lufthavn"
+
+msgid "Corporate Chauffeur"
+msgstr "Erhvervschauffør"
+
+msgid "VIP Chauffeur London"
+msgstr "VIP Chauffør London"
+
+msgid "Executive Travel UK"
+msgstr "Executive Rejser UK"
+
+msgid "Business Car Service"
+msgstr "Erhvervsbilservice"
+
+msgid "Corporate Account"
+msgstr "Erhvervskonto"
+
+msgid "All Services"
+msgstr "Alle Tjenester"
+
+msgid "What Do We Do?"
+msgstr "Hvad Tilbyder Vi?"
+
+msgid "Wedding Transport"
+msgstr "Bryllupstransport"
+
+msgid "Cruise Port Transfers"
+msgstr "Krydstogtshavntransfer"
+
+msgid "Company"
+msgstr "Virksomhed"
+
+msgid "About Us"
+msgstr "Om Os"
+
+msgid "Contact Us"
+msgstr "Kontakt Os"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Careers"
+msgstr "Karriere"
+
+msgid "Legal"
+msgstr "Juridisk"
+
+msgid "Privacy Policy"
+msgstr "Fortrolighedspolitik"
+
+msgid "Terms of Service"
+msgstr "Servicevilkår"
+
+msgid "Cookie Policy"
+msgstr "Cookiepolitik"
+
+msgid "Transfer Services"
+msgstr "Transfertjenester"
+
+msgid "Guide"
+msgstr "Guide"
+
+msgid "Guides"
+msgstr "Guider"
+
+msgid "Travel Guides"
+msgstr "Rejseguider"
+
+msgid "No guides published for"
+msgstr "Ingen guider publiceret for"
+
+msgid "yet."
+msgstr ""
+
+msgid "Airlinel: AIRLINEL_MAIN_SITE_API_KEY is not configured in wp-config.php"
+msgstr "Airlinel: AIRLINEL_MAIN_SITE_API_KEY er ikke konfigureret i wp-config.php"
+
+msgid "Trusted by travelers who don't compromise"
+msgstr "Valget for rejsende, der ikke går på kompromis"
+
+msgid "Why Choose Airlinel for London Airport Transfers"
+msgstr "Hvorfor Vælge Airlinel til Lufthavnstransfer i London?"
+
+msgid "Real-Time Flight Tracking"
+msgstr "Realtidsflysporning"
+
+msgid "We monitor your flight automatically and adjust pickup times accordingly."
+msgstr "Vi overvåger din flyvning automatisk og tilpasser afhentingstiden derefter."
+
+msgid "Executive-Level Chauffeurs"
+msgstr "Chauffører på Direktørniveau"
+
+msgid "Professionally trained, impeccably presented, and multilingual."
+msgstr "Professionelt uddannede, upåklageligt præsenterede og flersprogede."
+
+msgid "Fixed Transparent Pricing"
+msgstr "Faste og Transparente Priser"
+
+msgid "No surge pricing. No hidden fees. The price you see is final."
+msgstr "Ingen dynamiske priser. Ingen skjulte gebyrer. Den viste pris er den endelige."
+
+msgid "Meet & Greet Included"
+msgstr "Modtagelsesservice Inkluderet"
+
+msgid "Your chauffeur will meet you at arrivals with a name board."
+msgstr "Din chauffør møder dig i ankomsthal med en navneskilt."
+
+msgid "24/7 Global Support"
+msgstr "Global Support 24/7"
+
+msgid "Round-the-clock assistance in multiple languages, wherever you are."
+msgstr "Rundt-om-uret assistance på flere sprog, uanset hvor du er."
+
+msgid "Luxury Fleet Guarantee"
+msgstr "Garanti for Luksuriøs Flåde"
+
+msgid "Immaculate vehicles maintained to showroom standards daily."
+msgstr "Upletfrie køretøjer, vedligeholdt dagligt efter showroomstandarder."
+
+msgid "Instant Booking Confirmation"
+msgstr "Øjeblikkelig Bookingbekræftelse"
+
+msgid "Receive immediate confirmation with full journey details."
+msgstr "Modtag øjeblikkelig bekræftelse med alle rejsedetaljer."
+
+msgid "Multilingual Drivers"
+msgstr "Flersprogede Chauffører"
+
+msgid "English, Turkish, and other languages spoken fluently."
+msgstr "Flydende engelsk, tyrkisk og andre sprog."
+
+msgid "Corporate Billing Available"
+msgstr "Erhvervsfakturering Tilgængelig"
+
+msgid "Streamlined invoicing and account management for businesses."
+msgstr "Strømlinet fakturering og kontoadministration for virksomheder."
+
+msgid "Airport Transfer Services Tailored for Every Journey"
+msgstr "Lufthavnstransfer Skræddersyet til Enhver Rejse"
+
+msgid "Precision transport designed for how the world moves today."
+msgstr "Præcis transport designet til verdens tempo i dag."
+
+msgid "Seamless arrivals and departures with precision timing."
+msgstr "Problemfrie ankomster og afgange med præcis timing."
+
+msgid "Airport Transfer Services in London"
+msgstr "Lufthavnstransfertjenester i London"
+
+msgid "Corporate Travel"
+msgstr "Erhvervsrejser"
+
+msgid "Executive transport for professionals who value punctuality."
+msgstr "Executive transport for fagfolk, der sætter pris på punktlighed."
+
+msgid "Corporate Airport Travel Services"
+msgstr "Erhvervsmæssige Lufthavnstransfertjenester"
+
+msgid "Wedding Transport & Chauffeur Service"
+msgstr "Bryllupstransport & Chaufførtjeneste"
+
+msgid "Your special day deserves seamless, elegant transportation."
+msgstr "Din særlige dag fortjener problemfri og elegant transport."
+
+msgid "VIP Chauffeur"
+msgstr "VIP Chauffør"
+
+msgid "Full-day dedicated chauffeur for discerning clients."
+msgstr "Dedikeret chauffør hele dagen for kræsne kunder."
+
+msgid "VIP Chauffeur Service Details"
+msgstr "Detaljer om VIP Chaufførtjeneste"
+
+msgid "Event Transport"
+msgstr "Eventtransport"
+
+msgid "Coordinated group transport for conferences and galas."
+msgstr "Koordineret gruppetransport til konferencer og galaer."
+
+msgid "Event & Conference Transport"
+msgstr "Event & Konferencetransport"
+
+msgid "Hotel Transfers"
+msgstr "Hoteltransfer"
+
+msgid "Direct transfer to your accommodation with luggage assistance."
+msgstr "Direkte transfer til din overnatning med bagageassistance."
+
+msgid "Hotel Airport Transfer Service"
+msgstr "Hotel Lufthavnstransfertjeneste"
+
+msgid "Seamless transfer from port to airport or accommodation."
+msgstr "Problemfri transfer fra havn til lufthavn eller overnatning."
+
+msgid "Cruise Port Transfer Service"
+msgstr "Krydstogtshavntransfertjeneste"
+
+msgid "Private City Tours"
+msgstr "Private Byture"
+
+msgid "Bespoke city tours with local insider knowledge."
+msgstr "Skræddersyede byture med lokal insiderviden."
+
+msgid "Private City Tour Packages"
+msgstr "Private Byturspakker"
+
+msgid "Most Requested by Executives"
+msgstr "Mest Efterspurgt af Direktører"
+
+msgid "Business Class Mobility"
+msgstr "Business Class Mobilitet"
+
+msgid "Elite-tier service combining chauffeur, executive assistant, and mobile office."
+msgstr "Elite-service der kombinerer chauffør, executive assistent og mobilt kontor."
+
+msgid "Business Class Mobility Service"
+msgstr "Business Class Mobilitetstjeneste"
+
+msgid "Travel Intelligence"
+msgstr "Rejseguider"
+
+msgid "Strategies, insights, and destination expertise for travelers who move differently."
+msgstr "Strategier, indsigter og destinationsekspertise for rejsende med høje krav."
+
+msgid "View All Articles"
+msgstr "Se Alle Artikler"
+
+msgid "Stop booking taxis."
+msgstr "Stop med at bestille almindelige taxier."
+
+msgid "Start traveling properly."
+msgstr "Begynd at rejse som du fortjener."
+
+msgid "Experience the difference when every detail is engineered, every arrival is anticipated, and every journey feels effortless."
+msgstr "Oplev forskellen, når hvert eneste detalje er gennemtænkt, hvert ankomst er forudset, og enhver rejse føles ubesværet."
+
+msgid "Book Your Ride"
+msgstr "Book Din Tur"
+
+msgid "Instant Confirmation"
+msgstr "Øjeblikkelig Bekræftelse"
+
+msgid "24/7 Support"
+msgstr "Support 24/7"
+
+msgid "Free Cancellation"
+msgstr "Gratis Aflysning"
+
+msgid "Earn With"
+msgstr "Tjen med"
+
+msgid "Join our global partner network and unlock preferred pricing, priority booking access, and immediate commission payouts."
+msgstr "Tilmeld dig vores globale partnernetværk og få fortrinsret til priser, prioriteret adgang til bookinger og øjeblikkelige provisionsudbetaleinger."
+
+msgid "Average partners earn £100/week"
+msgstr "Partnere tjener i gennemsnit £100 om ugen"
+
+msgid "Discounted transfer rates for your guests"
+msgstr "Rabatterede transferpriser til dine gæster"
+
+msgid "Earn commission on every booking"
+msgstr "Tjen provision på hver booking"
+
+msgid "Instant payouts with zero delays"
+msgstr "Øjeblikkelige udbetalinger uden forsinkelse"
+
+msgid "API access available"
+msgstr "API-adgang tilgængelig"
+
+msgid "Dedicated partner support team"
+msgstr "Dedikeret partnersupportteam"
+
+msgid "Zero operational hassle"
+msgstr "Nul operationelt besvær"
+
+msgid "Become a Partner"
+msgstr "Bliv Partner"
+
+msgid "Trusted by hospitality professionals worldwide"
+msgstr "Betroet af hospitalitetsprofessionelle verden over"
+
+msgid "Drive With"
+msgstr "Kør med"
+
+msgid "Turn your vehicle into a premium earning asset. Work on your terms while accessing high-value clients."
+msgstr "Gør din bil til en premiumindkomstkilde. Arbejd på dine egne vilkår og betjen højværdikunder."
+
+msgid "High earning potential with"
+msgstr "Højt indkomstpotentiale med"
+
+msgid "premium rates"
+msgstr "premiumtakster"
+
+msgid "Access to premium passenger base"
+msgstr "Adgang til premiumpassagerbase"
+
+msgid "Flexible schedule—you decide when"
+msgstr "Fleksibel arbejdstid — du bestemmer hvornår"
+
+msgid "Fast onboarding and training"
+msgstr "Hurtig onboarding og professionel træning"
+
+msgid "Consistent ride flow and bookings"
+msgstr "Konstant flow af ture og bookinger"
+
+msgid "Average drivers earn £1000/week"
+msgstr "Chauffører tjener i gennemsnit £1000 om ugen"
+
+msgid "Apply to Drive"
+msgstr "Ansøg om at Køre"
+
+msgid "Serious drivers only"
+msgstr "Kun professionelle chauffører"
+
+msgid "Upgrade the Way You Travel."
+msgstr "Løft Din Måde at Rejse på."
+
+msgid "London Transfers"
+msgstr "London Transfers"
+
+msgid "UK Regional"
+msgstr "UK Regioner"
+
+msgid "Turkey Transfers"
+msgstr "Tyrkiet Transfers"
+
+msgid "Corporate"
+msgstr "Erhverv"
+
+msgid "Quick Links"
+msgstr "Hurtige Links"
+
+msgid "Home"
+msgstr "Hjem"
+
+msgid "Service Rates"
+msgstr "Takster"
+
+msgid "Our Fleet"
+msgstr "Vores Flåde"
+
+msgid "Testimonials"
+msgstr "Kundeanmeldelser"
+
+msgid "Questions & Answers"
+msgstr "Ofte Stillede Spørgsmål"
+
+msgid "Photo Gallery"
+msgstr "Fotogalleri"
+
+msgid "Video Gallery"
+msgstr "Videogalleri"
+
+msgid "News"
+msgstr "Nyheder"
+
+msgid "Contact — United Kingdom"
+msgstr "Kontakt — Storbritannien"
+
+msgid "Contact — Türkiye"
+msgstr "Kontakt — Tyrkiet"
+
+msgid "Career"
+msgstr "Karriere"
+
+msgid "Driver Job Application"
+msgstr "Ansøgning om Chaufførstilling"
+
+msgid "Legal &amp; Policy"
+msgstr "Juridisk & Politik"
+
+msgid "Terms &amp; Conditions"
+msgstr "Vilkår & Betingelser"
+
+msgid "Refund &amp; Cancellation"
+msgstr "Refusion & Aflysning"
+
+msgid "Publishing Principles"
+msgstr "Redaktionelle Principper"
+
+msgid "Ethics Policy"
+msgstr "Etikpolitik"
+
+msgid "Diversity Policy"
+msgstr "Diversitetspolitik"
+
+msgid "Diversity Staffing Report"
+msgstr "Personalediversitetsrapport"
+
+msgid "Ownership &amp; Funding"
+msgstr "Ejerskab & Finansiering"
+
+msgid "Corrections Policy"
+msgstr "Korrektionspolitik"
+
+msgid "Actionable Feedback Policy"
+msgstr "Feedbackpolitik"
+
+msgid "TfL Licensed"
+msgstr "TfL Godkendt"
+
+msgid "5-Star Rated"
+msgstr "5-Stjernet Bedømmelse"
+
+msgid "Secure Payments"
+msgstr "Sikker Betaling"
+
+msgid "Need a Custom Solution?"
+msgstr "Har Du Brug for en Skræddersyet Løsning?"
+
+msgid "By"
+msgstr "Af"
+
+msgid "Continue Reading"
+msgstr "Fortsæt Læsning"
+
+msgid "24/7 Service Available"
+msgstr "Service Tilgængelig 24/7"
+
+msgid "Book a Transfer"
+msgstr "Book en Transfer"
+
+msgid "Read Guide"
+msgstr "Læs Guiden"
+
+msgid "Service Locations"
+msgstr "Serviceområder"
+
+msgid "Two Continents."
+msgstr "To Kontinenter."
+
+msgid "One Standard."
+msgstr "Én Standard."
+
+msgid "Airport transfers across the UK and Turkey — professional drivers, fixed rates, real-time flight tracking."
+msgstr "Lufthavnstransfer i UK og Tyrkiet — professionelle chauffører, faste priser, realtidsflysporning."
+
+msgid "View All Cities"
+msgstr "Se Alle Byer"
+
+msgid "Verify"
+msgstr "Bekræft"
+
+msgid "Leave blank if you don't have one"
+msgstr "Lad være blank, hvis du ikke har ét"
+
+msgid "Selected Vehicle"
+msgstr "Valgt Køretøj"
+
+msgid "Agency Verified"
+msgstr "Bureau Verificeret"
+
+msgid "Agency Name"
+msgstr "Bureaunavn"
+
+msgid "Commission %"
+msgstr "Provision %"
+
+msgid "Your Savings"
+msgstr "Dine Besparelser"
+
+msgid "Commission has been applied to your booking"
+msgstr "Provision er blevet anvendt på din booking"
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Invalid Agency Code"
+msgstr "Ugyldig Bureaukode"
+
+msgid "Try Again"
+msgstr "Prøv Igen"
+
+msgid "Ready to Experience Premium Travel?"
+msgstr "Klar til at Opleve Premium Rejse?"
+
+msgid "Book your service today and discover the Airlinel difference."
+msgstr "Book din service i dag og oplev Airlinel-forskellen."
+
+msgid "Learn More"
+msgstr "Lær Mere"
+
+msgid "Why Choose Our Fleet?"
+msgstr "Hvorfor Vælge Vores Flåde?"
+
+msgid "View Full Details"
+msgstr "Se Alle Detaljer"
+
+msgid "Book This Vehicle"
+msgstr "Book Dette Køretøj"
+
+msgid "Experience Premium Transportation"
+msgstr "Oplev Premium Transport"
+
+msgid "Book one of our premium vehicles today and discover the Airlinel difference."
+msgstr "Book et af vores premiumkøretøjer i dag og oplev Airlinel-forskellen."
+
+msgid "Book Your Ride Now"
+msgstr "Book Din Tur Nu"
+
+msgid "Premium Transfer Service"
+msgstr "Premium Transferservice"
+
+msgid "Where to"
+msgstr "Hvor"
+
+msgid "Next?"
+msgstr "skal vi hen?"
+
+msgid "Experience luxury and punctuality. Book your private chauffeur in just a few clicks."
+msgstr "Oplev luksus og præcision. Book din private chauffør med blot få klik."
+
+msgid "Total Distance"
+msgstr "Samlet Distance"
+
+msgid "Est. Duration"
+msgstr "Anslået Varighed"
+
+msgid "About Airlinel"
+msgstr "Om Airlinel"
+
+msgid "Get in Touch"
+msgstr "Kontakt os"
+
+msgid "Our Mission"
+msgstr "Vores Mission"
+
+msgid "Reliability"
+msgstr "Pålidelighed"
+
+msgid "On-time arrivals and dependable service you can trust."
+msgstr "Rettidige ankomster og pålidelig service, du kan stole på."
+
+msgid "Excellence"
+msgstr "Ekspertise"
+
+msgid "Consistently delivering premium service standards."
+msgstr "Konsekvent levering af premium servicestandarder."
+
+msgid "Customer Care"
+msgstr "Kundeservice"
+
+msgid "Your satisfaction is our top priority."
+msgstr "Din tilfredshed er vores højeste prioritet."
+
+msgid "By The Numbers"
+msgstr "I Tal"
+
+msgid "Years in Business"
+msgstr "Års Erfaring"
+
+msgid "Happy Customers"
+msgstr "Glade Kunder"
+
+msgid "Vehicles in Fleet"
+msgstr "Køretøjer i Flåden"
+
+msgid "Daily Rides"
+msgstr "Daglige Rejser"
+
+msgid "Our Story"
+msgstr "Vores Historie"
+
+msgid "Why Choose Airlinel?"
+msgstr "Hvorfor vælge Airlinel?"
+
+msgid "Industry Certified"
+msgstr "Branchecertificeret"
+
+msgid "Licensed and fully insured for your peace of mind."
+msgstr "Licenseret og fuldt forsikret for din ro i sindet."
+
+msgid "Safety First"
+msgstr "Sikkerhed Først"
+
+msgid "Professional drivers with extensive background checks."
+msgstr "Professionelle chauffører med grundige baggrundstjek."
+
+msgid "24/7 Available"
+msgstr "Tilgængelig 24/7"
+
+msgid "Round-the-clock service for all your transfer needs."
+msgstr "Døgndrift til alle dine transportbehov."
+
+msgid "Consistently praised by our satisfied customers."
+msgstr "Konsekvent rost af vores tilfredse kunder."
+
+msgid "Ready to Experience Premium Service?"
+msgstr "Klar til at Opleve Premium Service?"
+
+msgid "Join thousands of satisfied customers who trust Airlinel for their airport transfers."
+msgstr "Slut dig til tusindvis af tilfredse kunder, der stoler på Airlinel til deres lufthavnstransfer."
+
+msgid "Book Your Transfer Today"
+msgstr "Book din Transfer i Dag"
+msgid "Have questions? We're here to help. Contact us today for more information about our services."
+msgstr "Har du spørgsmål? Vi er her for at hjælpe. Kontakt os i dag for mere information om vores tjenester."
+
+msgid "Contact Information"
+msgstr "Kontaktoplysninger"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Available 24/7"
+msgstr "Tilgængelig 24/7"
+
+msgid "Available during business hours"
+msgstr "Tilgængelig i åbningstiden"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "We'll respond within 2 hours"
+msgstr "Vi svarer inden for 2 timer"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Business Hours"
+msgstr "Åbningstider"
+
+msgid "We are currently open"
+msgstr "Vi er i øjeblikket åbne"
+
+msgid "We are currently closed"
+msgstr "Vi er i øjeblikket lukket"
+
+msgid "Send us a Message"
+msgstr "Send os en Besked"
+
+msgid "Full Name *"
+msgstr "Fulde Navn *"
+
+msgid "Email Address *"
+msgstr "E-mailadresse *"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Subject *"
+msgstr "Emne *"
+
+msgid "-- Select a subject --"
+msgstr "-- Vælg et emne --"
+
+msgid "Booking Inquiry"
+msgstr "Bookingforespørgsel"
+
+msgid "General Question"
+msgstr "Generelt Spørgsmål"
+
+msgid "Complaint or Feedback"
+msgstr "Klage eller Feedback"
+
+msgid "Partnership Opportunity"
+msgstr "Partnerskabsmulighed"
+
+msgid "Other"
+msgstr "Andet"
+
+msgid "Message *"
+msgstr "Besked *"
+
+msgid "Please tell us how we can help..."
+msgstr "Fortæl os venligst, hvordan vi kan hjælpe..."
+
+msgid "Your information is secure and will only be used to respond to your inquiry."
+msgstr "Dine oplysninger er sikre og vil kun blive brugt til at besvare din forespørgsel."
+
+msgid "Send Message"
+msgstr "Send Besked"
+
+msgid "Find Us"
+msgstr "Find Os"
+
+msgid "Frequently Asked Questions"
+msgstr "Ofte Stillede Spørgsmål"
+
+msgid "How far in advance should I book?"
+msgstr "Hvor lang tid i forvejen bør jeg booke?"
+
+msgid "We recommend booking at least 24 hours in advance for best availability. However, we do accept same-day bookings depending on our current schedule. Contact us directly for urgent bookings."
+msgstr "Vi anbefaler at booke mindst 24 timer i forvejen. Vi accepterer dog dagsbestillinger afhængigt af vores aktuelle skema. Kontakt os direkte for akutte bestillinger."
+
+msgid "What payment methods do you accept?"
+msgstr "Hvilke betalingsmetoder accepterer I?"
+
+msgid "We accept all major credit cards, debit cards, and bank transfers. Online payment is processed securely through our booking system. You can also pay directly to the driver if pre-arranged."
+msgstr "Vi accepterer alle større kredit- og debetkort samt bankoverførsler. Online betaling behandles sikkert via vores bookingsystem. Du kan også betale direkte til chauffør, hvis det er aftalt på forhånd."
+
+msgid "What if I need to cancel my booking?"
+msgstr "Hvad sker der, hvis jeg skal afbestille?"
+
+msgid "Cancellations made 24 hours or more in advance receive a full refund. Cancellations within 24 hours may incur a cancellation fee. Please contact us immediately if you need to modify your booking."
+msgstr "Afbestillinger foretaget 24 timer eller mere i forvejen modtager fuld refusion. Afbestillinger inden for 24 timer kan medføre et afbestillingsgebyr. Kontakt os straks, hvis du skal ændre din bestilling."
+
+msgid "Are your vehicles wheelchair accessible?"
+msgstr "Er jeres køretøjer tilgængelige for kørestolsbrugere?"
+
+msgid "Yes, we have wheelchair accessible vehicles available. Please mention your accessibility requirements when booking so we can arrange the appropriate vehicle for your needs."
+msgstr "Ja, vi har kørestolsvenlige køretøjer. Angiv venligst dine tilgængelighedskrav ved booking, så vi kan arrangere det rette køretøj."
+
+msgid "Can I bring luggage and how much is included?"
+msgstr "Kan jeg medbringe bagage og hvor meget er inkluderet?"
+
+msgid "Absolutely! All our vehicles have spacious boot space to accommodate standard luggage. Oversized baggage may require a larger vehicle. Our team will assist with luggage handling as part of our service."
+msgstr "Absolut! Alle vores køretøjer har rummelig bagageplads til standardbagage. Oversized bagage kan kræve et større køretøj. Vores team hjælper med bagagehåndtering som en del af vores service."
+
+msgid "Ready to Book Your Transfer?"
+msgstr "Klar til at Booke din Transfer?"
+
+msgid "Experience premium airport transfer service today."
+msgstr "Oplev premium lufthavnstransfer service i dag."
+msgid "Home"
+msgstr "Hjem"
+
+msgid "Partners"
+msgstr "Partnere"
+
+msgid "Become Our Partner"
+msgstr "Bliv Vores Partner"
+
+msgid "Join our network of agencies and unlock exclusive opportunities for your business"
+msgstr "Tilslut dig vores netværk af bureauer og lås eksklusive muligheder op for din virksomhed"
+
+msgid "Apply for Partnership"
+msgstr "Ansøg om Partnerskab"
+
+msgid "Fill out the form below and we'll review your application"
+msgstr "Udfyld formularen nedenfor, og vi vil gennemgå din ansøgning"
+
+msgid "Phone Number *"
+msgstr "Telefonnummer *"
+
+msgid "Current Job / Position *"
+msgstr "Nuværende Job / Stilling *"
+
+msgid "Select your position..."
+msgstr "Vælg din stilling..."
+
+msgid "Receptionist"
+msgstr "Receptionist"
+
+msgid "Hotel Owner / Manager"
+msgstr "Hotelejer / Manager"
+
+msgid "Travel Agency"
+msgstr "Rejsebureau"
+
+msgid "Online Travel Agency (OTA)"
+msgstr "Online Rejsebureau (OTA)"
+
+msgid "Student Accommodation Facility"
+msgstr "Studenterbolig"
+
+msgid "Overseas Education Agency"
+msgstr "Udenlandsk Uddannelsesbureau"
+
+msgid "Consulate / Embassy"
+msgstr "Konsulat / Ambassade"
+
+msgid "Company / Organization Name"
+msgstr "Virksomheds- / Organisationsnavn"
+
+msgid "I agree to the Terms & Conditions and understand that I will receive an agency code after verification."
+msgstr "Jeg accepterer vilkår og betingelser og forstår, at jeg vil modtage en bureaukode efter verifikation."
+
+msgid "Apply for Agency Partnership"
+msgstr "Ansøg om Bureaupartnerskab"
+
+msgid "Questions About Partnership?"
+msgstr "Spørgsmål om Partnerskab?"
+
+msgid "Get in touch with our partnership team and we'll help you get started"
+msgstr "Kontakt vores partnerskabsteam, og vi hjælper dig i gang"
+
+msgid "Book a Ride"
+msgstr "Book en Tur"
+
+msgid "Contact Support"
+msgstr "Kontakt Support"
+msgid "by"
+msgstr "efter"
+
+msgid "City"
+msgstr "By"
+
+msgid "Real-time flight tracking & guaranteed punctuality."
+msgstr "Realtidsflysporingen & garanteret præcision."
+
+msgid "Fully Licensed"
+msgstr "Fuldt licenseret"
+
+msgid "TfL licensed. All drivers professionally vetted & insured."
+msgstr "TfL-licenseret. Alle chauffører professionelt screenet & forsikrede."
+
+msgid "Thousands of verified reviews from worldwide travellers."
+msgstr "Tusindvis af verificerede anmeldelser fra rejsende verden over."
+
+msgid "Around the clock support in English and Turkish."
+msgstr "Support døgnet rundt på engelsk og tyrkisk."
+msgid "Total Price"
+msgstr "Samlet pris"
+
+msgid "Passengers"
+msgstr "Passagerer"
+
+msgid "Luggage"
+msgstr "Bagage"
+
+msgid "Select"
+msgstr "Vælg"
+
+msgid "UK &amp; Turkey &middot; 24 / 7 &middot; Fixed Rates &middot; Meet &amp; Greet"
+msgstr "UK &amp; Tyrkiet &middot; 24 / 7 &middot; Faste priser &middot; Velkomstservice"
+
+msgid "+44 7911 123456"
+msgstr "+44 7911 123456"
+
+msgid "e.g. TK1234"
+msgstr "fx TK1234"
+
+msgid "Enter your agency code"
+msgstr "Indtast din bureaukode"
+
+msgid "The agency code you entered could not be verified."
+msgstr "Den indtastede bureaukode kunne ikke bekræftes."
+msgid "Services"
+msgstr "Tjenester"
+
+msgid "PAY"
+msgstr "BETAL"
+
+msgid "Payment Details"
+msgstr "Betalingsoplysninger"
+
+msgid "Corporate"
+msgstr "Erhverv"
+
+msgid "Turkey Transfers"
+msgstr "Tyrkiet Transfers"
+
+msgid "Extra Notes"
+msgstr "Ekstra noter"
+
+msgid "NOW"
+msgstr "NU"
+
+msgid "London Transfers"
+msgstr "London Transfers"
+
+msgid "Secured by Stripe"
+msgstr "Sikret af Stripe"
+
+msgid "UK Regional"
+msgstr "UK Regional"
+
+
+msgid "Read More"
+msgstr "Læs mere"
+
+msgid "Read Less"
+msgstr "Læs mindre"
+
+msgid "Premium airport transfers &amp; chauffeur services across the UK and Turkey. Professional drivers, fixed rates, 24/7."
+msgstr "Premium lufthavnstransfer og chaufførtjenester i Storbritannien og Tyrkiet. Professionelle chauffører, faste priser, 24/7."

@@ -1,0 +1,19 @@
+# Compiled translation files (regenerate on server via WP Admin)
+languages/*.mo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude internal
+.claude/
+
+# Node (if used locally)
+node_modules/
+
+# Logs
+*.log
