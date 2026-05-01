@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: uber-price-bot
+    ports:
+      - "3001:3001"
+    environment:
+      DB_HOST: postgres
+      DB_NAME: uber_prices
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      NODE_ENV: development
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    networks:
+      - bot-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: uber-price-bot-db
+    environment:
+      POSTGRES_DB: uber_prices
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
+
+volumes:
+  pgdata:
