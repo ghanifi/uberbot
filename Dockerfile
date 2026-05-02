@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN apk add --no-cache chromium firefox wqy-zenhei dumb-init
+RUN apk add --no-cache chromium firefox wqy-zenhei
 
 WORKDIR /app
 
@@ -16,5 +16,4 @@ RUN mkdir -p data logs
 
 EXPOSE 3001
 
-ENTRYPOINT ["/usr/sbin/dumb-init", "--"]
 CMD ["node", "src/index.js"]
