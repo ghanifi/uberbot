@@ -87,3 +87,8 @@ module.exports = {
   getAllAccountHealth,
   isBanned,
 };
+
+// Alias for backward compatibility
+const getAllAccountsHealth = getAllAccountHealth;
+
+module.exports.getAllAccountsHealth = getAllAccountsHealth;
