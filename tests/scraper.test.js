@@ -2,6 +2,7 @@ const { runMigrations } = require('../src/database/migrations');
 const db = require('../src/database/client');
 const queries = require('../src/database/queries');
 const AccountManager = require('../src/scraper/account-manager');
+const Parser = require('../src/scraper/parser');
 
 describe('Account Manager', () => {
   const mockAccounts = [
@@ -78,5 +79,58 @@ describe('Account Manager', () => {
     }
 
     await expect(accountManager.getNextAccount()).rejects.toThrow('No active accounts available');
+  });
+});
+
+describe('Parser', () => {
+  test('should parse price with dollar sign', () => {
+    expect(Parser.parsePrice('$25.50')).toBe(25.50);
+  });
+
+  test('should parse price with pound sign', () => {
+    expect(Parser.parsePrice('£25.50')).toBe(25.50);
+  });
+
+  test('should parse price with comma separator', () => {
+    expect(Parser.parsePrice('$1,250.99')).toBe(1250.99);
+  });
+
+  test('should parse price with multiple spaces', () => {
+    expect(Parser.parsePrice('$ 25 . 50')).toBe(25.50);
+  });
+
+  test('should return null for invalid price string', () => {
+    expect(Parser.parsePrice('invalid')).toBeNull();
+  });
+
+  test('should extract UberX vehicle type', () => {
+    expect(Parser.extractVehicleType('UberX - Economy')).toBe('UberX');
+  });
+
+  test('should extract UberXL vehicle type', () => {
+    expect(Parser.extractVehicleType('UberXL - Extra Large')).toBe('UberXL');
+  });
+
+  test('should extract Exec vehicle type', () => {
+    expect(Parser.extractVehicleType('Exec - Executive')).toBe('Exec');
+  });
+
+  test('should return null for unknown vehicle type', () => {
+    expect(Parser.extractVehicleType('Unknown Type')).toBeNull();
+  });
+
+  test('should parse valid price card', () => {
+    const cardText = 'UberX\n$25.50\nETA 12 min';
+    const result = Parser.parsePriceCard(cardText);
+    expect(result).toEqual({ vehicleType: 'UberX', price: 25.50 });
+  });
+
+  test('should return null for invalid price card', () => {
+    const cardText = 'No price here\nNo type either';
+    expect(Parser.parsePriceCard(cardText)).toBeNull();
+  });
+
+  test('should handle empty price card', () => {
+    expect(Parser.parsePriceCard('')).toBeNull();
   });
 });
