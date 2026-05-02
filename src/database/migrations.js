@@ -1,44 +1,32 @@
-const { query, pool } = require('./client');
+const { query } = require('./client');
 
 const runMigrations = async () => {
   try {
     console.log('Starting database migrations...');
 
-    // Create routes table
-    await query(`
-      CREATE TABLE IF NOT EXISTS routes (
-        id SERIAL PRIMARY KEY,
-        city VARCHAR(255) NOT NULL,
-        pickup_address TEXT NOT NULL,
-        dropoff_address TEXT NOT NULL,
-        is_active BOOLEAN DEFAULT true,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        UNIQUE(city, pickup_address, dropoff_address)
-      )
-    `);
-    console.log('Routes table created');
-
-    // Create prices table
+    // Create prices table (address-based, no routes FK)
     await query(`
       CREATE TABLE IF NOT EXISTS prices (
-        id SERIAL PRIMARY KEY,
-        route_id INTEGER NOT NULL REFERENCES routes(id) ON DELETE CASCADE,
-        vehicle_type VARCHAR(50) NOT NULL,
-        uber_price DECIMAL(10, 2) NOT NULL,
-        surge_factor DECIMAL(5, 2) DEFAULT 1.0,
-        used_account VARCHAR(255),
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        city TEXT NOT NULL,
+        pickup_address TEXT NOT NULL,
+        dropoff_address TEXT NOT NULL,
+        vehicle_type TEXT NOT NULL,
+        price REAL NOT NULL,
+        surge_factor REAL DEFAULT 1.0,
+        used_account TEXT,
         checked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `);
     console.log('Prices table created');
 
-    // Create indexes for prices table
+    // Create index for address + vehicle + time queries
     await query(`
-      CREATE INDEX IF NOT EXISTS idx_prices_route_vehicle_checked
-      ON prices(route_id, vehicle_type, checked_at DESC)
+      CREATE INDEX IF NOT EXISTS idx_prices_address_vehicle_time
+      ON prices(city, pickup_address, dropoff_address, vehicle_type, checked_at DESC)
     `);
 
+    // Create index for time-based queries (historical data)
     await query(`
       CREATE INDEX IF NOT EXISTS idx_prices_checked_at
       ON prices(checked_at DESC)
@@ -48,13 +36,13 @@ const runMigrations = async () => {
     // Create account_health table
     await query(`
       CREATE TABLE IF NOT EXISTS account_health (
-        id SERIAL PRIMARY KEY,
-        account_email VARCHAR(255) UNIQUE NOT NULL,
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        email TEXT UNIQUE NOT NULL,
         last_used TIMESTAMP,
         successful_queries INTEGER DEFAULT 0,
         failed_queries INTEGER DEFAULT 0,
-        is_banned BOOLEAN DEFAULT false,
-        ban_reason VARCHAR(500),
+        is_banned INTEGER DEFAULT 0,
+        ban_reason TEXT,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `);
@@ -68,7 +56,6 @@ const runMigrations = async () => {
   }
 };
 
-// Run migrations if this file is executed directly
 if (require.main === module) {
   runMigrations()
     .then(() => {
