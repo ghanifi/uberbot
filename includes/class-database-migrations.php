@@ -81,59 +81,88 @@ class Airlinel_Database_Migrations {
     }
 
     /**
+     * Execute a single SQL statement, treating benign "already exists"
+     * conditions as success rather than failure.
+     *
+     * Handles:
+     *  - Duplicate column  (MySQL 1060) — column was added in a previous partial run
+     *  - Duplicate key     (MySQL 1061) — index already exists
+     *  - Table exists      (MySQL 1050) — CREATE TABLE without IF NOT EXISTS
+     *  - dbDelta is used automatically for CREATE TABLE statements
+     *
+     * @throws Exception on real errors
+     */
+    private function execute_statement( string $sql ) {
+        global $wpdb;
+
+        $sql = trim( $sql );
+        if ( empty( $sql ) ) {
+            return;
+        }
+
+        // Use dbDelta for CREATE TABLE — handles upgrades + existing tables safely
+        if ( preg_match( '/^\s*CREATE\s+TABLE/i', $sql ) ) {
+            require_once ABSPATH . 'wp-admin/includes/upgrade.php';
+            dbDelta( $sql );
+            // dbDelta does not set $wpdb->last_error on benign already-exists
+            if ( $wpdb->last_error ) {
+                throw new Exception( $wpdb->last_error );
+            }
+            return;
+        }
+
+        $wpdb->query( $sql );
+
+        if ( ! $wpdb->last_error ) {
+            return; // success
+        }
+
+        $err = $wpdb->last_error;
+
+        // Benign conditions — schema already in desired state
+        $benign_patterns = array(
+            'Duplicate column name',          // 1060 – column already added
+            'Duplicate key name',             // 1061 – index already exists
+            "Table '",                        // 1050 – table already exists (varies)
+            'already exists',                 // generic catch-all
+            "Can't DROP",                     // 1091 – dropping non-existent column/key
+        );
+
+        foreach ( $benign_patterns as $pat ) {
+            if ( stripos( $err, $pat ) !== false ) {
+                error_log( '[Airlinel Migrations] Skipped (already applied): ' . $err );
+                return; // treat as success
+            }
+        }
+
+        throw new Exception( $err );
+    }
+
+    /**
      * Run all pending migrations
      *
      * @return array Array with 'success' and 'errors' keys
      */
     public function run_all_pending() {
-        global $wpdb;
-
         $pending = $this->get_pending_migrations();
         $results = array(
             'success' => array(),
-            'errors' => array(),
+            'errors'  => array(),
         );
 
-        foreach ($pending as $file => $data) {
-            try {
-                // Execute SQL
-                $sql = $data['sql'];
-
-                if (is_array($sql)) {
-                    foreach ($sql as $statement) {
-                        if (!empty(trim($statement))) {
-                            $wpdb->query($statement);
-                            if ($wpdb->last_error) {
-                                throw new Exception($wpdb->last_error);
-                            }
-                        }
-                    }
-                } else {
-                    if (!empty(trim($sql))) {
-                        $wpdb->query($sql);
-                        if ($wpdb->last_error) {
-                            throw new Exception($wpdb->last_error);
-                        }
-                    }
-                }
-
-                // Mark as completed
-                $this->mark_migration_completed($file, $data['name']);
-
+        foreach ( $pending as $file => $data ) {
+            $result = $this->run_migration( $file );
+            if ( $result['success'] ) {
                 $results['success'][] = array(
                     'file' => $file,
                     'name' => $data['name'],
                 );
-
-                error_log('[Airlinel Migrations] Successfully ran: ' . $file);
-            } catch (Exception $e) {
+            } else {
                 $results['errors'][] = array(
-                    'file' => $file,
-                    'name' => $data['name'],
-                    'error' => $e->getMessage(),
+                    'file'  => $file,
+                    'name'  => $data['name'],
+                    'error' => $result['error'] ?? '',
                 );
-
-                error_log('[Airlinel Migrations] Error running ' . $file . ': ' . $e->getMessage());
             }
         }
 
@@ -146,23 +175,21 @@ class Airlinel_Database_Migrations {
      * @param string $file Migration filename
      * @return array Result with status
      */
-    public function run_migration($file) {
-        global $wpdb;
-
-        $all = $this->get_all_migrations();
+    public function run_migration( $file ) {
+        $all       = $this->get_all_migrations();
         $completed = $this->get_completed_migrations();
 
-        if (!isset($all[$file])) {
+        if ( ! isset( $all[$file] ) ) {
             return array(
                 'success' => false,
-                'error' => 'Migration file not found: ' . $file,
+                'error'   => 'Migration file not found: ' . $file,
             );
         }
 
-        if (isset($completed[$file])) {
+        if ( isset( $completed[$file] ) ) {
             return array(
                 'success' => false,
-                'error' => 'Migration already completed: ' . $file,
+                'error'   => 'Migration already completed: ' . $file,
             );
         }
 
@@ -171,41 +198,30 @@ class Airlinel_Database_Migrations {
         try {
             $sql = $data['sql'];
 
-            if (is_array($sql)) {
-                foreach ($sql as $statement) {
-                    if (!empty(trim($statement))) {
-                        $wpdb->query($statement);
-                        if ($wpdb->last_error) {
-                            throw new Exception($wpdb->last_error);
-                        }
-                    }
+            if ( is_array( $sql ) ) {
+                foreach ( $sql as $statement ) {
+                    $this->execute_statement( $statement );
                 }
             } else {
-                if (!empty(trim($sql))) {
-                    $wpdb->query($sql);
-                    if ($wpdb->last_error) {
-                        throw new Exception($wpdb->last_error);
-                    }
-                }
+                $this->execute_statement( $sql );
             }
 
-            $this->mark_migration_completed($file, $data['name']);
-
-            error_log('[Airlinel Migrations] Successfully ran: ' . $file);
+            $this->mark_migration_completed( $file, $data['name'] );
+            error_log( '[Airlinel Migrations] Successfully ran: ' . $file );
 
             return array(
                 'success' => true,
-                'file' => $file,
-                'name' => $data['name'],
+                'file'    => $file,
+                'name'    => $data['name'],
             );
-        } catch (Exception $e) {
-            error_log('[Airlinel Migrations] Error running ' . $file . ': ' . $e->getMessage());
+        } catch ( Exception $e ) {
+            error_log( '[Airlinel Migrations] Error running ' . $file . ': ' . $e->getMessage() );
 
             return array(
                 'success' => false,
-                'file' => $file,
-                'name' => $data['name'],
-                'error' => $e->getMessage(),
+                'file'    => $file,
+                'name'    => $data['name'],
+                'error'   => $e->getMessage(),
             );
         }
     }

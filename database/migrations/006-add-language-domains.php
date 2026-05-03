@@ -1,57 +1,44 @@
 <?php
 /**
- * Migration: Add Language Domains Table
+ * Migration 006: Create language domains table
  *
- * Creates table for storing language-to-domain mappings
- * allowing redirection to different domains based on selected language
+ * Stores language-to-domain mappings for multi-language redirects.
+ * Also adds session_currency column to booking_analytics if absent.
+ *
+ * Safe on MySQL 5.7+: runner treats "already exists" as success.
  */
 
-if (!defined('ABSPATH')) {
+if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-global $wpdb;
-$charset_collate = $wpdb->get_charset_collate();
-$table_name = $wpdb->prefix . 'language_domains';
+return array(
+    'name' => 'Create language domains table and add session_currency to booking analytics',
+    'sql'  => array(
+        // Create language domains table (runner uses dbDelta for CREATE TABLE)
+        "CREATE TABLE IF NOT EXISTS wp_language_domains (
+            id BIGINT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            language_code VARCHAR(10) NOT NULL,
+            language_name VARCHAR(50) DEFAULT NULL,
+            domain_url VARCHAR(255) DEFAULT NULL,
+            flag CHAR(2) DEFAULT NULL,
+            is_active TINYINT(1) NOT NULL DEFAULT 1,
+            display_order INT NOT NULL DEFAULT 0,
+            created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+            UNIQUE KEY uq_language_code (language_code),
+            KEY idx_is_active (is_active),
+            KEY idx_display_order (display_order)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci",
 
-// Check if table already exists
-if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") !== $table_name) {
-    $sql = "CREATE TABLE $table_name (
-        id BIGINT(20) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        language_code VARCHAR(10) NOT NULL UNIQUE,
-        language_name VARCHAR(50),
-        domain_url VARCHAR(255),
-        flag CHAR(2),
-        is_active TINYINT DEFAULT 1,
-        display_order INT DEFAULT 0,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-        KEY idx_language_code (language_code),
-        KEY idx_is_active (is_active),
-        KEY idx_display_order (display_order)
-    ) $charset_collate;";
+        // Seed English as default language domain
+        "INSERT IGNORE INTO wp_language_domains
+            (language_code, language_name, domain_url, flag, is_active, display_order)
+         VALUES
+            ('en_US', 'English', 'airlinel.com', 'EN', 1, 1)",
 
-    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-    dbDelta($sql);
-
-    // Add initial data
-    $wpdb->insert($table_name, array(
-        'language_code' => 'en_US',
-        'language_name' => 'English',
-        'domain_url' => 'airlinel.com',
-        'flag' => 'EN',
-        'is_active' => 1,
-        'display_order' => 1
-    ));
-
-    error_log('Language Domains table created successfully');
-}
-
-// Add session_currency column to booking_analytics if it doesn't exist
-$analytics_table = $wpdb->prefix . 'booking_analytics';
-$column_exists = $wpdb->get_results("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '$analytics_table' AND COLUMN_NAME = 'session_currency'");
-
-if (empty($column_exists)) {
-    $wpdb->query("ALTER TABLE $analytics_table ADD COLUMN session_currency VARCHAR(3) DEFAULT 'GBP' AFTER currency");
-    error_log('session_currency column added to booking_analytics');
-}
+        // Add session_currency column to booking_analytics
+        "ALTER TABLE wp_booking_analytics ADD COLUMN session_currency VARCHAR(3) NOT NULL DEFAULT 'GBP' AFTER currency",
+    ),
+);
+?>

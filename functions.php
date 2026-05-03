@@ -271,6 +271,9 @@ require_once get_template_directory() . '/includes/class-booking-analytics-track
 // ===== CLASS INCLUDES (TASK 0) - DATABASE MIGRATIONS MANAGER =====
 require_once get_template_directory() . '/includes/class-database-migrations.php';
 
+// ===== PRICE TABLE =====
+require_once get_template_directory() . '/includes/class-price-table.php';
+
 // Create booking analytics table on theme activation and admin pages
 add_action('after_switch_theme', function() {
     $tracker = new Airlinel_Booking_Analytics_Tracker();
@@ -707,6 +710,16 @@ function airlinel_register_unified_menu() {
         'airlinel_database_migrations_page'
     );
 
+    // Price Table submenu
+    add_submenu_page(
+        'airlinel-dashboard',
+        __('Price Table', 'airlinel-theme'),
+        __('Price Table', 'airlinel-theme'),
+        'manage_options',
+        'airlinel-price-table',
+        'airlinel_price_table_page'
+    );
+
     // Regional/Sync specific submenus
     if (defined('AIRLINEL_MAIN_SITE_URL') && defined('AIRLINEL_IS_REGIONAL_SITE') && AIRLINEL_IS_REGIONAL_SITE) {
         // Regional site menus
@@ -792,6 +805,11 @@ function airlinel_ads_txt_page() {
 // Database Migrations page callback
 function airlinel_database_migrations_page() {
     require_once get_template_directory() . '/admin/database-migrations-page.php';
+}
+
+// Price Table page callback
+function airlinel_price_table_page() {
+    require_once get_template_directory() . '/admin/price-table-page.php';
 }
 
 // Regional Settings page callback (for regional sites)
