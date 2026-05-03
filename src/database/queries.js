@@ -1,153 +1,94 @@
 const { query } = require('./client');
 
-// Routes queries
-const getRoute = async (id) => {
-  const result = await query('SELECT * FROM routes WHERE id = $1', [id]);
-  return result.rows[0];
-};
-
-const getAllRoutes = async () => {
-  const result = await query(
-    'SELECT * FROM routes WHERE is_active = true ORDER BY city',
+// Prices queries (address-based)
+const insertPrice = (city, pickup, dropoff, vehicleType, price, surge, account) =>
+  query(
+    'INSERT INTO prices (city, pickup_address, dropoff_address, vehicle_type, price, surge_factor, used_account) VALUES (?, ?, ?, ?, ?, ?, ?)',
+    [city, pickup, dropoff, vehicleType, price, surge, account]
   );
-  return result.rows;
-};
 
-const createRoute = async (city, pickupAddress, dropoffAddress) => {
-  const result = await query(
-    `INSERT INTO routes (city, pickup_address, dropoff_address)
-     VALUES ($1, $2, $3)
-     RETURNING *`,
-    [city, pickupAddress, dropoffAddress],
+const getLatestPrice = (city, pickup, dropoff, vehicleType) =>
+  query(
+    'SELECT * FROM prices WHERE city = ? AND pickup_address = ? AND dropoff_address = ? AND vehicle_type = ? ORDER BY checked_at DESC LIMIT 1',
+    [city, pickup, dropoff, vehicleType]
   );
-  return result.rows[0];
-};
 
-// Prices queries
-const insertPrice = async (routeId, vehicleType, uberPrice, usedAccount) => {
-  const result = await query(
-    `INSERT INTO prices (route_id, vehicle_type, uber_price, used_account)
-     VALUES ($1, $2, $3, $4)
-     RETURNING *`,
-    [routeId, vehicleType, uberPrice, usedAccount],
+const getPriceHistory = (city, pickup, dropoff, vehicleType, days = 30) =>
+  query(
+    'SELECT vehicle_type, price, surge_factor, used_account, checked_at FROM prices WHERE city = ? AND pickup_address = ? AND dropoff_address = ? AND vehicle_type = ? AND checked_at > datetime("now", "-" || ? || " days") ORDER BY checked_at DESC',
+    [city, pickup, dropoff, vehicleType, days]
   );
-  return result.rows[0];
-};
 
-const getLatestPrice = async (routeId, vehicleType) => {
-  const result = await query(
-    `SELECT * FROM prices
-     WHERE route_id = $1 AND vehicle_type = $2
-     ORDER BY checked_at DESC
-     LIMIT 1`,
-    [routeId, vehicleType],
+const getAllPricesForRoute = (city, pickup, dropoff) =>
+  query(
+    'SELECT DISTINCT vehicle_type, (SELECT price FROM prices p2 WHERE p2.city = prices.city AND p2.pickup_address = prices.pickup_address AND p2.dropoff_address = prices.dropoff_address AND p2.vehicle_type = prices.vehicle_type ORDER BY p2.checked_at DESC LIMIT 1) as latest_price FROM prices WHERE city = ? AND pickup_address = ? AND dropoff_address = ? GROUP BY vehicle_type',
+    [city, pickup, dropoff]
   );
-  return result.rows[0];
-};
 
-const getPriceHistory = async (routeId, vehicleType, days = 30) => {
-  const result = await query(
-    `SELECT * FROM prices
-     WHERE route_id = $1 AND vehicle_type = $2
-     AND checked_at > NOW() - INTERVAL '${days} days'
-     ORDER BY checked_at DESC`,
-    [routeId, vehicleType],
+const findSimilarRoutes = (city, pickup, limit = 5) =>
+  query(
+    'SELECT DISTINCT pickup_address, dropoff_address FROM prices WHERE city = ? AND pickup_address LIKE ? GROUP BY pickup_address, dropoff_address LIMIT ?',
+    [city, `%${pickup}%`, limit]
   );
-  return result.rows;
-};
-
-const getPricesForRoute = async (routeId) => {
-  const result = await query(
-    `SELECT DISTINCT ON (vehicle_type)
-      id, route_id, vehicle_type, uber_price, surge_factor, used_account, checked_at
-     FROM prices
-     WHERE route_id = $1
-     ORDER BY vehicle_type, checked_at DESC`,
-    [routeId],
-  );
-  return result.rows;
-};
 
 // Account health queries
-const createAccount = async (email) => {
-  const result = await query(
-    `INSERT INTO account_health (account_email)
-     VALUES ($1)
-     ON CONFLICT (account_email) DO UPDATE SET updated_at = CURRENT_TIMESTAMP
-     RETURNING *`,
-    [email],
+const initializeAccount = (email) =>
+  query(
+    'INSERT OR IGNORE INTO account_health (email, successful_queries, failed_queries, is_banned) VALUES (?, 0, 0, 0)',
+    [email]
   );
-  return result.rows[0];
-};
 
-const updateAccountSuccess = async (email) => {
-  const result = await query(
-    `UPDATE account_health
-     SET successful_queries = successful_queries + 1,
-         last_used = CURRENT_TIMESTAMP,
-         updated_at = CURRENT_TIMESTAMP
-     WHERE account_email = $1
-     RETURNING *`,
-    [email],
+const recordSuccessfulQuery = (email) =>
+  query(
+    'UPDATE account_health SET successful_queries = successful_queries + 1, last_used = CURRENT_TIMESTAMP, failed_queries = 0 WHERE email = ?',
+    [email]
   );
-  return result.rows[0];
-};
 
-const updateAccountFailure = async (email) => {
-  const result = await query(
-    `UPDATE account_health
-     SET failed_queries = failed_queries + 1,
-         updated_at = CURRENT_TIMESTAMP
-     WHERE account_email = $1
-     RETURNING *`,
-    [email],
+const recordFailedQuery = (email) =>
+  query(
+    'UPDATE account_health SET failed_queries = failed_queries + 1, last_used = CURRENT_TIMESTAMP WHERE email = ?',
+    [email]
   );
-  return result.rows[0];
-};
 
-const banAccount = async (email, reason) => {
-  const result = await query(
-    `UPDATE account_health
-     SET is_banned = true,
-         ban_reason = $2,
-         updated_at = CURRENT_TIMESTAMP
-     WHERE account_email = $1
-     RETURNING *`,
-    [email, reason],
+const markAccountBanned = (email, reason) =>
+  query(
+    'UPDATE account_health SET is_banned = 1, ban_reason = ? WHERE email = ?',
+    [reason, email]
   );
-  return result.rows[0];
-};
 
-const getAccountHealth = async (email) => {
-  const result = await query(
-    'SELECT * FROM account_health WHERE account_email = $1',
-    [email],
+const getAccountHealth = (email) =>
+  query(
+    'SELECT * FROM account_health WHERE email = ?',
+    [email]
   );
-  return result.rows[0];
-};
 
-const getAllAccountsHealth = async () => {
-  const result = await query(
-    'SELECT * FROM account_health ORDER BY last_used DESC',
+const getAllAccountHealth = () =>
+  query('SELECT * FROM account_health');
+
+const isBanned = async (email) => {
+  const results = await query(
+    'SELECT is_banned FROM account_health WHERE email = ?',
+    [email]
   );
-  return result.rows;
+  return results.length > 0 && results[0].is_banned === 1;
 };
 
 module.exports = {
-  // Routes
-  getRoute,
-  getAllRoutes,
-  createRoute,
-  // Prices
   insertPrice,
   getLatestPrice,
   getPriceHistory,
-  getPricesForRoute,
-  // Account Health
-  createAccount,
-  updateAccountSuccess,
-  updateAccountFailure,
-  banAccount,
+  getAllPricesForRoute,
+  findSimilarRoutes,
+  initializeAccount,
+  recordSuccessfulQuery,
+  recordFailedQuery,
+  markAccountBanned,
   getAccountHealth,
-  getAllAccountsHealth,
+  getAllAccountHealth,
+  isBanned,
 };
+
+// Alias for backward compatibility
+const getAllAccountsHealth = getAllAccountHealth;
+
+module.exports.getAllAccountsHealth = getAllAccountsHealth;

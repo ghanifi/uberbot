@@ -1,27 +1,38 @@
-const { Pool } = require('pg');
+const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
 require('dotenv').config();
 
-// Create PostgreSQL connection pool
-const pool = new Pool({
-  host: process.env.DB_HOST || 'localhost',
-  port: process.env.DB_PORT || 5432,
-  database: process.env.DB_NAME || 'uber_price_bot',
-  user: process.env.DB_USER || 'postgres',
-  password: process.env.DB_PASSWORD || 'postgres',
-  max: 20,
-  idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
+const dbPath = path.join(__dirname, '../../data/database.db');
+
+const db = new sqlite3.Database(dbPath, (err) => {
+  if (err) {
+    console.error('Error opening database', err);
+  } else {
+    console.log('Connected to SQLite database:', dbPath);
+  }
 });
 
-// Handle pool errors
-pool.on('error', (err) => {
-  console.error('Unexpected error on idle client', err);
-});
+// Enable foreign keys
+db.run('PRAGMA foreign_keys = ON');
 
-// Query helper function
-const query = (text, params) => pool.query(text, params);
+// Promise wrapper for db.run and db.all
+const query = (sql, params = []) => {
+  return new Promise((resolve, reject) => {
+    if (sql.trim().toUpperCase().startsWith('SELECT')) {
+      db.all(sql, params, (err, rows) => {
+        if (err) reject(err);
+        else resolve(rows);
+      });
+    } else {
+      db.run(sql, params, function(err) {
+        if (err) reject(err);
+        else resolve({ changes: this.changes, lastID: this.lastID });
+      });
+    }
+  });
+};
 
 module.exports = {
   query,
-  pool,
+  db,
 };

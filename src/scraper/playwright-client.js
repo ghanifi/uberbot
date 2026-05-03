@@ -8,65 +8,87 @@ class PlaywrightClient {
   }
 
   async launch() {
-    this.browser = await chromium.launch({ headless: true });
+    const executablePath = '/usr/bin/chromium-browser';
+    
+    this.browser = await chromium.launch({
+      headless: true,
+      executablePath: executablePath,
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+
     this.context = await this.browser.newContext({
-      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1'
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15'
     });
     this.page = await this.context.newPage();
   }
 
   async login(email, password) {
-    await this.page.goto('https://www.uber.com', { waitUntil: 'networkidle' });
+    try {
+      await this.page.goto('https://www.uber.com', { waitUntil: 'networkidle', timeout: 30000 });
 
-    const emailInput = await this.page.$('input[type="email"]');
-    if (emailInput) {
-      await emailInput.fill(email);
-      await this.page.press('input[type="email"]', 'Enter');
+      const emailInput = await this.page.$('input[type="email"]');
+      if (emailInput) {
+        await emailInput.fill(email);
+        await this.page.press('input[type="email"]', 'Enter');
+      }
+
+      await this.page.waitForTimeout(2000);
+
+      const passwordInput = await this.page.$('input[type="password"]');
+      if (passwordInput) {
+        await passwordInput.fill(password);
+        await this.page.press('input[type="password"]', 'Enter');
+      }
+
+      await this.page.waitForNavigation({ waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
+    } catch (err) {
+      throw new Error(`Login failed: ${err.message}`);
     }
-
-    await this.page.waitForTimeout(1000);
-
-    const passwordInput = await this.page.$('input[type="password"]');
-    if (passwordInput) {
-      await passwordInput.fill(password);
-      await this.page.press('input[type="password"]', 'Enter');
-    }
-
-    await this.page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {});
   }
 
   async enterAddresses(pickup, dropoff) {
-    const pickupInput = await this.page.$('input[placeholder*="pickup"], input[placeholder*="Pickup"], input[placeholder*="Where to?"]');
-    if (pickupInput) {
-      await pickupInput.fill(pickup);
-      await this.page.press('input[placeholder*="pickup"], input[placeholder*="Pickup"], input[placeholder*="Where to?"]', 'ArrowDown');
-      await this.page.press('input[placeholder*="pickup"], input[placeholder*="Pickup"], input[placeholder*="Where to?"]', 'Enter');
+    try {
+      const pickupInput = await this.page.$('input[placeholder*="pickup"], input[placeholder*="Pickup"], input[placeholder*="Where"]');
+      if (pickupInput) {
+        await pickupInput.fill(pickup);
+        await this.page.waitForTimeout(500);
+        await this.page.press('input', 'ArrowDown');
+        await this.page.press('input', 'Enter');
+      }
+
+      await this.page.waitForTimeout(1500);
+
+      const dropoffInput = await this.page.$('input[placeholder*="dropoff"], input[placeholder*="destination"], input[placeholder*="Where"]');
+      if (dropoffInput) {
+        await dropoffInput.fill(dropoff);
+        await this.page.waitForTimeout(500);
+        await this.page.press('input', 'ArrowDown');
+        await this.page.press('input', 'Enter');
+      }
+
+      await this.page.waitForTimeout(3000);
+    } catch (err) {
+      throw new Error(`Address entry failed: ${err.message}`);
     }
-
-    await this.page.waitForTimeout(1000);
-
-    const dropoffInput = await this.page.$('input[placeholder*="dropoff"], input[placeholder*="destination"], input[placeholder*="Where to"]');
-    if (dropoffInput) {
-      await dropoffInput.fill(dropoff);
-      await this.page.press('input[placeholder*="dropoff"], input[placeholder*="destination"], input[placeholder*="Where to"]', 'ArrowDown');
-      await this.page.press('input[placeholder*="dropoff"], input[placeholder*="destination"], input[placeholder*="Where to"]', 'Enter');
-    }
-
-    await this.page.waitForTimeout(2000);
   }
 
   async extractPrices() {
-    const priceElements = await this.page.$$('[data-testid*="price"]');
-    const prices = {};
+    try {
+      const priceElements = await this.page.$$('[data-testid*="price"], .price, [class*="price"]');
+      const prices = {};
 
-    for (const element of priceElements) {
-      const text = await element.textContent();
-      if (text && text.trim()) {
-        prices[`price_${Object.keys(prices).length}`] = text.trim();
+      for (const element of priceElements) {
+        const text = await element.textContent();
+        if (text && text.includes('$')) {
+          const type = await element.getAttribute('data-testid') || 'UberX';
+          prices[type] = text.trim();
+        }
       }
-    }
 
-    return prices;
+      return prices.length > 0 ? prices : { UberX: null };
+    } catch (err) {
+      throw new Error(`Price extraction failed: ${err.message}`);
+    }
   }
 
   async close() {
